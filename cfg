@@ -1,0 +1,1710 @@
+port: 7890
+socks-port: 7891
+proxies:
+- name: "\U0001F1F3\U0001F1F1_NL_荷兰"
+  server: 172.67.140.112
+  port: 0
+  type: vmess
+  uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: _SG_新加坡 4
+  server: sg4.microsoft-orgwly.vip
+  port: 80
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 662be1c1-7f8b-4eac-a6fb-6c9080c8ea00
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _JP_日本 4
+  server: jp7.microsoft-orgwly.vip
+  port: 80
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 9229374b-8ed5-4e78-aba9-eb572c8a5f27
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 12
+  server: 198.2.206.39
+  port: 33012
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 10
+  server: 23.224.15.180
+  port: 50002
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+  server: ca.moop.wiki
+  port: 80
+  type: vmess
+  uuid: 73ac19a7-6676-448b-b435-e998c4d6171f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /catre2
+    headers:
+      Host: ca.moop.wiki
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1EF\U0001F1F5_日本(nodefree.org+免费节点每日更新)"
+  server: ty2-7.nigirocloud.com
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ruWkGdbUKT4RN7kZ8t
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1EF\U0001F1F5_JP_日本_3"
+  server: jp.tcpbbr.net
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _SG_新加坡
+  server: sg2.cnamazon.sbs
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: fe455c1d-33ab-439d-acdb-449bba167fb1
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _JP_日本
+  server: jp5.cnamazon.sbs
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 8
+  server: vus4.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vus4.0bad.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _JP_日本 5
+  server: jp1.cnamazon.sbs
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _TW_台湾 3
+  server: tw4.microsoft-orgwly.vip
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 9229374b-8ed5-4e78-aba9-eb572c8a5f27
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _AE_阿联酋
+  server: jp1117.ljydw.top
+  port: 80
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 691bb7fd-d1f0-43b5-9ac0-28e895eb900c
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1F8\U0001F1EC新加坡(nodefree.org 免费节点每日更新)_2"
+  server: v2-2.godlight.xyz
+  port: 0
+  type: vmess
+  uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /54f634fs
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FB\U0001F1F3越南(nodefree.org 免费节点每日更新)_2"
+  server: hcm4.aqvpn.me
+  port: 0
+  type: vmess
+  uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1F7\U0001F1FA俄罗斯(nodefree.org+免费节点每日更新)"
+  server: cn1.relay.iepl.pw
+  port: 50700
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 40825843-2e84-4433-a4c0-829948eb620b
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8_US_美国_2"
+  server: free.spcloud.us
+  port: 21010
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 118fc04e-fb8c-4154-9092-352cf1958fcd
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 11
+  server: 167.160.91.118
+  port: 40011
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: dongtaiwang.com
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1EF\U0001F1F5日本(nodefree.org+免费节点每日更新)"
+  server: cn1.relay.iepl.pw
+  port: 50300
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 40825843-2e84-4433-a4c0-829948eb620b
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1E8\U0001F1FF捷克(nodefree.org+免费节点每日更新)"
+  server: v2cross.com.01.v2ce.com
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: mMQ6qJB9xbhiRvgg
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 2
+  server: 142.4.126.72
+  port: 31002
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 3
+  server: 198.2.203.58
+  port: 44502
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _KR_韩国 3
+  server: kr3.microsoft-orgwly.vip
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 9229374b-8ed5-4e78-aba9-eb572c8a5f27
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国(nodefree.org+免费节点每日更新)
+  server: sg-sr-116.mitoption.com
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e5d46365e25e31d94279c2bcf93390a2
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国
+  server: 38.63.17.164
+  port: 50702
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 14
+  server: 137.175.54.211
+  port: 50502
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_1"
+  server: hk.aqvpn.me
+  port: 0
+  type: vmess
+  uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8美国(nodefree.org+免费节点每日更新)_2"
+  server: us2.tcpbbr.net
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _TW_台湾
+  server: storage.pshare.live
+  port: 34810
+  type: vmess
+  uuid: d1ac9bd2-8ae9-473d-b08b-78db9f53ebfb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /test
+    headers:
+      Host: storage.pshare.live
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _JP_日本 3
+  server: jp4.cnamazon.sbs
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1EF\U0001F1F5日本(nodefree.org 免费节点每日更新)"
+  server: v2-1.godlight.xyz
+  port: 0
+  type: vmess
+  uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /j75g1461x
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1EC\U0001F1E7_GB_英国"
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _SG_新加坡 2
+  server: awssg5-tg-data.amazonwebservicess.com
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 4aeda200-44c9-4168-8f2a-a00a72176d35
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "_SG_新加坡->\U0001F1F9\U0001F1FC_TW_台湾"
+  server: bgptw1.cnamazon.sbs
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: fe455c1d-33ab-439d-acdb-449bba167fb1
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1F8\U0001F1EC新加坡(nodefree.org+免费节点每日更新)"
+  server: cn1.relay.iepl.pw
+  port: 50500
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 40825843-2e84-4433-a4c0-829948eb620b
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1ED\U0001F1F0香港(nodefree.org+免费节点每日更新)"
+  server: ssl.tcpbbr.net
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _SG_新加坡 3
+  server: us1.cnamazon.sbs
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bc2a1eb1-a706-4ee5-95a6-732a6c324142
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 13
+  server: 137.175.1.7
+  port: 53403
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _JP_日本 7
+  server: 50.cnamazon.sbs
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 7cc0ac91-390a-47b5-aa9b-aac0b2949bdf
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_香港"
+  server: game.tcpbbr.net
+  port: 5228
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _KR_韩国
+  server: kr1.microsoft-orgwly.vip
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e8a49406-ac74-4b19-833b-04f736c03345
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1F8\U0001F1EC新加坡(nodefree.org 免费节点每日更新)_1"
+  server: 139.162.51.58
+  port: 0
+  type: vmess
+  uuid: cbd1868b-b142-4d03-cc67-01278d82cfa2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_4"
+  server: bai-piao-wang-zhe.98848.xyz
+  port: 0
+  type: vmess
+  uuid: f4a6a397-0007-4e45-800c-16d8a7a587ed
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /YouTube-bai-piao-wang-zhe_vws
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1ED\U0001F1F0香港(nodefree.org 免费节点每日更新)_2"
+  server: zzcm08.bdate.xyz
+  port: 0
+  type: vmess
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1EF\U0001F1F5_JP_日本_1"
+  server: ty2-1.nigirocloud.com
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ruWkGdbUKT4RN7kZ8t
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 日本(nodefree.org+免费节点每日更新)
+  server: ty2-6.nigirocloud.com
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ruWkGdbUKT4RN7kZ8t
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1EF\U0001F1F5_JP_日本_2"
+  server: ty2-5.nigirocloud.com
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ruWkGdbUKT4RN7kZ8t
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _TW_台湾 4
+  server: fn300mtw024.feichuanjs.net
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 1040d22a6f47
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+  server: 192.203.230.6
+  port: 443
+  type: vmess
+  uuid: a875b3de-131d-4425-f0bf-b56e30d5b571
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /123
+    headers:
+      Host: eu3.glucy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+  server: v2.ssrsub.com
+  port: 0
+  type: vmess
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1E6\U0001F1FA澳大利亚(nodefree.org+免费节点每日更新)"
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 4
+  server: 45.12.144.83
+  port: 47127
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _KR_韩国 2
+  server: kr4.microsoft-orgwly.vip
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 03382bc2-df90-4362-9669-01b872de0500
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _KR_韩国 4
+  server: kr2.microsoft-orgwly.vip
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 662be1c1-7f8b-4eac-a6fb-6c9080c8ea00
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_2"
+  server: 152.70.237.92
+  port: 0
+  type: vmess
+  uuid: 9cac569c-fb38-4a71-cae7-2ac1739ecdf0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1F8\U0001F1EC_SG_新加坡"
+  server: 45.118.133.251
+  port: 0
+  type: vmess
+  uuid: 3d6fa91a-6186-4d7f-e0b3-a6d2a23f575e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_6"
+  server: ahdaeph8.com
+  port: 0
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8美国(nodefree.org+免费节点每日更新)_3"
+  server: an011.oioav.com
+  port: 52306
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 9
+  server: 137.175.41.197
+  port: 50004
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _JP_日本 6
+  server: jp3.microsoft-orgwly.vip
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fb4f44f-82eb-452b-9570-066a07e31fb5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "_US_美国->\U0001F1F5\U0001F1F1_PL_波兰"
+  server: bl.nanke.eu.org
+  port: 443
+  type: vmess
+  uuid: c55baec7-843f-4c56-95b7-110bfd188f52
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /name
+    headers:
+      Host: bl.nanke.eu.org
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _JP_日本 8
+  server: 43.206.224.162
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_5"
+  server: xr-3.herokuapp.com
+  port: 0
+  type: vmess
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1F9\U0001F1FC台湾(nodefree.org+免费节点每日更新)"
+  server: cn1.relay.iepl.pw
+  port: 50200
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 40825843-2e84-4433-a4c0-829948eb620b
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1EE\U0001F1F3_IN_印度"
+  server: jgwhdlb2.gaox.ml
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _TW_台湾 2
+  server: 103.177.33.19
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 7
+  server: 137.175.15.198
+  port: 43487
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _SG_新加坡 5
+  server: 43.156.131.164
+  port: 43860
+  type: vmess
+  uuid: be3fdec2-86e1-4d51-969b-704b1efc3158
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1F9\U0001F1FC_TW_台湾"
+  server: tw.tcpbbr.net
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 5
+  server: 137.175.41.196
+  port: 50004
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 6
+  server: 140.99.149.46
+  port: 53082
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _JP_日本 2
+  server: 43.206.239.7
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _US_美国 16
+  server: 163.123.192.63
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: b3359b2b-cb0f-44cd-a152-a796d8b46b01
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _FR_法国
+  server: fr1.09vpn.com
+  port: 8443
+  type: vmess
+  uuid: 40d591de-3e5d-492d-8587-c695a9d15689
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fr1.09vpn.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1FA\U0001F1F8_US_美国_1"
+  server: us.aqvpn.me
+  port: 0
+  type: vmess
+  uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: _US_美国 15
+  server: 142.0.132.42
+  port: 50015
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: _KR_韩国 5
+  server: 15.165.15.248
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: "\U0001F1FB\U0001F1F3越南(nodefree.org 免费节点每日更新)_1"
+  server: hcm3.aqvpn.me
+  port: 0
+  type: vmess
+  uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8美国(nodefree.org+免费节点每日更新)_1"
+  server: cn1.relay.iepl.pw
+  port: 50600
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 40825843-2e84-4433-a4c0-829948eb620b
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
+  server: v3.gitvpn.eu.org
+  port: 443
+  type: vmess
+  uuid: b63e998f-7fc8-48f4-a7d8-35dad9cf5778
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v3.gitvpn.eu.org
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+proxy-groups:
+- name: auto
+  type: url-test
+  proxies:
+  - "\U0001F1F3\U0001F1F1_NL_荷兰"
+  - _SG_新加坡 4
+  - _JP_日本 4
+  - _US_美国 12
+  - _US_美国 10
+  - "_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+  - "\U0001F1EF\U0001F1F5_日本(nodefree.org+免费节点每日更新)"
+  - "\U0001F1EF\U0001F1F5_JP_日本_3"
+  - _SG_新加坡
+  - _JP_日本
+  - _US_美国 8
+  - _JP_日本 5
+  - _TW_台湾 3
+  - _AE_阿联酋
+  - "\U0001F1F8\U0001F1EC新加坡(nodefree.org 免费节点每日更新)_2"
+  - "\U0001F1FB\U0001F1F3越南(nodefree.org 免费节点每日更新)_2"
+  - "\U0001F1F7\U0001F1FA俄罗斯(nodefree.org+免费节点每日更新)"
+  - "\U0001F1FA\U0001F1F8_US_美国_2"
+  - _US_美国 11
+  - "\U0001F1EF\U0001F1F5日本(nodefree.org+免费节点每日更新)"
+  - "\U0001F1E8\U0001F1FF捷克(nodefree.org+免费节点每日更新)"
+  - _US_美国 2
+  - _US_美国 3
+  - _KR_韩国 3
+  - 美国(nodefree.org+免费节点每日更新)
+  - _US_美国
+  - _US_美国 14
+  - "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_1"
+  - "\U0001F1FA\U0001F1F8美国(nodefree.org+免费节点每日更新)_2"
+  - _TW_台湾
+  - _JP_日本 3
+  - "\U0001F1EF\U0001F1F5日本(nodefree.org 免费节点每日更新)"
+  - "\U0001F1EC\U0001F1E7_GB_英国"
+  - _SG_新加坡 2
+  - "_SG_新加坡->\U0001F1F9\U0001F1FC_TW_台湾"
+  - "\U0001F1F8\U0001F1EC新加坡(nodefree.org+免费节点每日更新)"
+  - "\U0001F1ED\U0001F1F0香港(nodefree.org+免费节点每日更新)"
+  - _SG_新加坡 3
+  - _US_美国 13
+  - _JP_日本 7
+  - "\U0001F1ED\U0001F1F0_HK_香港"
+  - _KR_韩国
+  - "\U0001F1F8\U0001F1EC新加坡(nodefree.org 免费节点每日更新)_1"
+  - "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_4"
+  - "\U0001F1ED\U0001F1F0香港(nodefree.org 免费节点每日更新)_2"
+  - "\U0001F1EF\U0001F1F5_JP_日本_1"
+  - 日本(nodefree.org+免费节点每日更新)
+  - "\U0001F1EF\U0001F1F5_JP_日本_2"
+  - _TW_台湾 4
+  - "_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+  - "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+  - "\U0001F1E6\U0001F1FA澳大利亚(nodefree.org+免费节点每日更新)"
+  - _US_美国 4
+  - _KR_韩国 2
+  - _KR_韩国 4
+  - "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_2"
+  - "\U0001F1F8\U0001F1EC_SG_新加坡"
+  - "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_6"
+  - "\U0001F1FA\U0001F1F8美国(nodefree.org+免费节点每日更新)_3"
+  - _US_美国 9
+  - _JP_日本 6
+  - "_US_美国->\U0001F1F5\U0001F1F1_PL_波兰"
+  - _JP_日本 8
+  - "\U0001F1FA\U0001F1F8美国(nodefree.org 免费节点每日更新)_5"
+  - "\U0001F1F9\U0001F1FC台湾(nodefree.org+免费节点每日更新)"
+  - "\U0001F1EE\U0001F1F3_IN_印度"
+  - _TW_台湾 2
+  - _US_美国 7
+  - _SG_新加坡 5
+  - "\U0001F1F9\U0001F1FC_TW_台湾"
+  - _US_美国 5
+  - _US_美国 6
+  - _JP_日本 2
+  - _US_美国 16
+  - _FR_法国
+  - "\U0001F1FA\U0001F1F8_US_美国_1"
+  - _US_美国 15
+  - _KR_韩国 5
+  - "\U0001F1FB\U0001F1F3越南(nodefree.org 免费节点每日更新)_1"
+  - "\U0001F1FA\U0001F1F8美国(nodefree.org+免费节点每日更新)_1"
+  - "_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
+  url: http://www.gstatic.com/generate_204
+  interval: 500
