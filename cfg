@@ -1,33 +1,53 @@
 port: 7890
 socks-port: 7891
 proxies:
-- name: "\U0001F1FA\U0001F1F8 _US_美国 2"
-  server: 137.175.58.77
-  port: 40071
+- name: "\U0001F1FA\U0001F1F8 _US_美国 12"
+  server: 104.27.27.157
+  port: 8080
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ""
+  network: ws
   ws-opts:
-    path: ""
+    path: /qwer01
     headers:
-      Host: ""
+      Host: ecc.vtcss.top
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国 3"
-  server: 142.4.126.21
-  port: 51115
+- name: "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国 2"
+  server: 103.160.204.16
+  port: 443
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
+  alterId: 0
   cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: a2284cc1
+    headers:
+      Host: dedi2.1808.cf
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1EF\U0001F1F5 _JP_日本"
+  server: jp8.421421.xyz
+  port: 20230
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
   tls: false
   skip-cert-verify: false
   network: ""
@@ -35,6 +55,66 @@ proxies:
     path: ""
     headers:
       Host: ""
+  password: d6eafa01-5d46-4329-9831-ba25323a32b0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _CR_哥斯达黎加->\U0001F1FA\U0001F1F8_US_美国"
+  server: 190.93.244.217
+  port: 8080
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国"
+  server: 103.160.204.50
+  port: 443
+  type: vmess
+  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: a2284cc1
+    headers:
+      Host: dedi2.1808.cf
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 2"
+  server: 162.159.241.157
+  port: 8080
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
   password: ""
   protocol: ""
   obfs: ""
@@ -42,139 +122,39 @@ proxies:
   obfs-param: ""
   udp: false
 - name: "\U0001F1FA\U0001F1F8 _US_美国 4"
-  server: 137.175.0.155
-  port: 443
+  server: cfcdn5.sanfencdn.net
+  port: 2052
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/1689935243027
-    headers:
-      Host: www.76381584.xyz
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1F3\U0001F1F1 _NL_荷兰"
-  server: 163.172.218.164
-  port: 443
-  type: ssr
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-ctr
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: NewBypasser2023
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: None
-  obfs-param: cdn.appsflyer.c%%�[%�\\x1fII{�%�
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国 9"
-  server: ns1.v2-vip.fun
-  port: 80
-  type: vmess
-  uuid: 789dfa0d-2028-4d53-a4db-252ea75d863e
+  uuid: 85c359bc-2247-4d83-a294-5d7752db567f
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /api/v3/download.getFile
+    path: /zh-cn
     headers:
-      Host: ssrsub.v01.ssrsub.com
+      Host: jp6.sanfencdn2.com
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-  server: namer-us-sea-01-edgecast.qdns.live
-  port: 2053
+- name: "\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+  server: dongtaiwang2.com
+  port: 443
   type: vmess
-  uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047
+  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /dongtaiwang.com
     headers:
-      Host: namer-us-sea-01-edgecast.qdns.live
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国 6"
-  server: 137.175.18.89
-  port: 42002
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国 7"
-  server: 23.224.15.181
-  port: 50002
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国 10"
-  server: 162.159.50.55
-  port: 8880
-  type: vmess
-  uuid: d7ca2363-81c2-43a0-f141-352815da3ac3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /qwer
-    headers:
-      Host: uxx.vtcss.top
+      Host: 2.freek1.xyz
   password: ""
   protocol: ""
   obfs: ""
@@ -201,146 +181,6 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: "\U0001F1E8\U0001F1F3 _TW_台湾"
-  server: 103.177.33.180
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 9e44e9ffe5c2
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国"
-  server: 154.92.9.132
-  port: 443
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /blue
-    headers:
-      Host: ecc.vtcss.top
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国 5"
-  server: 23.234.198.83
-  port: 34888
-  type: vmess
-  uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1F8\U0001F1EC _SG_新加坡"
-  server: 13.229.247.245
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: amazonskr05
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1F0\U0001F1F7 _KR_韩国"
-  server: 43.202.49.224
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: amazonskr05
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
-  server: 45.199.138.92
-  port: 49232
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _CR_哥斯达黎加->\U0001F1FA\U0001F1F8_US_美国"
-  server: cf1.992688.xyz
-  port: 8080
-  type: vmess
-  uuid: fda2c765-ed35-4e97-ba13-ed64b1c4c460
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hax.vpn66.eu.org
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
 - name: "\U0001F1EE\U0001F1EA _IE_爱尔兰"
   server: 23.92.127.134
   port: 989
@@ -361,58 +201,38 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国 11"
-  server: cf2.992688.xyz
+- name: "\U0001F1FA\U0001F1F8 _US_美国 15"
+  server: 137.175.18.89
+  port: 42002
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 16"
+  server: 104.18.177.181
   port: 8080
   type: vmess
-  uuid: fda2c765-ed35-4e97-ba13-ed64b1c4c460
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: hax.vpn66.eu.org
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1ED\U0001F1F0 _HK_香港"
-  server: 43.154.233.89
-  port: 45516
-  type: vmess
-  uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hk12/getData
-    headers:
-      Host: hk12.verichains.co
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1ED\U0001F1F0 _HK_香港 2"
-  server: 154.92.9.22
-  port: 443
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /blue
+    path: /qwer01
     headers:
       Host: ecc.vtcss.top
   password: ""
@@ -421,13 +241,13 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: "\U0001F1FB\U0001F1F3 _VN_越南"
-  server: 103.173.255.21
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
+- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
+  server: 45.199.138.124
+  port: 47778
+  type: vmess
+  uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc
+  alterId: 64
+  cipher: auto
   tls: false
   skip-cert-verify: false
   network: ""
@@ -435,34 +255,14 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: a2cc8c63-3e75-44db-8230-08dbf5aeda17
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
-  server: 104.31.16.28
-  port: 80
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-    headers:
-      Host: ca4.tehme2.fun
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国 2"
-  server: 103.160.204.18
+- name: "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国 4"
+  server: 103.160.204.17
   port: 443
   type: vmess
   uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
@@ -481,60 +281,20 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国 8"
-  server: 23.224.190.226
-  port: 58022
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1EF\U0001F1F5 _JP_日本"
-  server: kbawsjp2.aiopen.cfd
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 5fb22807-e954-4547-a609-ab9329bcccaf
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: "\U0001F1FA\U0001F1F8 _US_美国"
-  server: v23.jiedian.stream
+- name: "\U0001F1FA\U0001F1F8 _US_美国 24"
+  server: ns1.v2-vip.fun
   port: 80
   type: vmess
-  uuid: b73f3f7e-b8c1-46f7-8afb-047bd7aaac26
+  uuid: 789dfa0d-2028-4d53-a4db-252ea75d863e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /api/v3/download.getFile
     headers:
-      Host: v23.jiedian.stream
+      Host: ssrsub.v01.ssrsub.com
   password: ""
   protocol: ""
   obfs: ""
@@ -561,8 +321,88 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 5"
+  server: 172.67.154.35
+  port: 8880
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 6"
+  server: 104.24.90.135
+  port: 8080
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 7"
+  server: 107.167.29.229
+  port: 46321
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 18"
+  server: 172.67.124.143
+  port: 8880
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
 - name: "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国 3"
-  server: 103.160.204.31
+  server: 103.160.204.23
   port: 443
   type: vmess
   uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
@@ -581,38 +421,555 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
+- name: _AF_阿富汗_1
+  server: 121.127.46.147
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1EF\U0001F1F5 _JP_日本 2"
+  server: jp6.lianpi.xyz
+  port: 23234
+  type: vmess
+  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 10"
+  server: 104.23.103.75
+  port: 8880
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 14"
+  server: 137.175.18.91
+  port: 42002
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1ED\U0001F1F0 _GB_英国->\U0001F1ED\U0001F1F0_HK_香港"
+  server: 158.180.64.228
+  port: 8443
+  type: vmess
+  uuid: 1970cec3-678d-41fa-838e-f387e45559e7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /cdn01
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 13"
+  server: 104.16.161.166
+  port: 8080
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 20"
+  server: 23.225.211.20
+  port: 42941
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 23"
+  server: 104.25.167.88
+  port: 443
+  type: vmess
+  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: a2284cc1
+    headers:
+      Host: dedi2.1808.cf
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1F3\U0001F1F1 _NL_荷兰"
+  server: 163.172.218.164
+  port: 443
+  type: ssr
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-ctr
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: NewBypasser2023
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 26"
+  server: 162.159.50.55
+  port: 8880
+  type: vmess
+  uuid: d7ca2363-81c2-43a0-f141-352815da3ac3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer
+    headers:
+      Host: uxx.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1E8\U0001F1F3 _TW_台湾"
+  server: hinettw1.applebench.tech
+  port: 56568
+  type: vmess
+  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+  server: 104.20.6.253
+  port: 8080
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 9"
+  server: 104.21.55.82
+  port: 8080
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 11"
+  server: 104.20.85.186
+  port: 8880
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _CR_哥斯达黎加->\U0001F1FA\U0001F1F8_US_美国 2"
+  server: 190.93.246.37
+  port: 8080
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 19"
+  server: 173.82.55.92
+  port: 34412
+  type: vmess
+  uuid: 82620a6e-dbfd-4d57-8a59-9004a4bb9e92
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国"
+  server: 142.4.126.69
+  port: 52212
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 8"
+  server: 107.167.29.235
+  port: 46321
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 17"
+  server: 140.99.57.46
+  port: 59418
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 21"
+  server: 104.25.72.227
+  port: 8080
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 25"
+  server: 172.67.65.210
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp3.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1EA\U0001F1F8 _ES_西班牙->\U0001F1EB\U0001F1F7_FR_法国"
+  server: shm.ircf.space
+  port: 443
+  type: vmess
+  uuid: 79770a32-9607-4919-9483-0f1794559390
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /juYLyvNBpY0LBOAommy2aJE
+    headers:
+      Host: hiddis2.freelines.net
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1F8\U0001F1EC _US_美国->\U0001F1F8\U0001F1EC_SG_新加坡"
+  server: cfcdn3.sanfencdn.net
+  port: 2052
+  type: vmess
+  uuid: 85c359bc-2247-4d83-a294-5d7752db567f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /zh-cn
+    headers:
+      Host: sg2.sanfencdn2.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰 2"
+  server: 45.199.138.145
+  port: 42111
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 22"
+  server: 104.25.196.249
+  port: 8880
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /qwer01
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
 proxy-groups:
 - name: auto
   type: url-test
   proxies:
+  - "\U0001F1FA\U0001F1F8 _US_美国 12"
+  - "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国 2"
+  - "\U0001F1EF\U0001F1F5 _JP_日本"
+  - "\U0001F1FA\U0001F1F8 _CR_哥斯达黎加->\U0001F1FA\U0001F1F8_US_美国"
+  - "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国"
   - "\U0001F1FA\U0001F1F8 _US_美国 2"
-  - "\U0001F1FA\U0001F1F8 _US_美国 3"
   - "\U0001F1FA\U0001F1F8 _US_美国 4"
-  - "\U0001F1F3\U0001F1F1 _NL_荷兰"
-  - "\U0001F1FA\U0001F1F8 _US_美国 9"
-  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+  - "\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+  - "\U0001F1EC\U0001F1E7 _GB_英国"
+  - "\U0001F1EE\U0001F1EA _IE_爱尔兰"
+  - "\U0001F1FA\U0001F1F8 _US_美国 15"
+  - "\U0001F1FA\U0001F1F8 _US_美国 16"
+  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
+  - "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国 4"
+  - "\U0001F1FA\U0001F1F8 _US_美国 24"
+  - "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1F3\U0001F1F1_NL_荷兰"
+  - "\U0001F1FA\U0001F1F8 _US_美国 5"
   - "\U0001F1FA\U0001F1F8 _US_美国 6"
   - "\U0001F1FA\U0001F1F8 _US_美国 7"
-  - "\U0001F1FA\U0001F1F8 _US_美国 10"
-  - "\U0001F1EC\U0001F1E7 _GB_英国"
-  - "\U0001F1E8\U0001F1F3 _TW_台湾"
-  - "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国"
-  - "\U0001F1FA\U0001F1F8 _US_美国 5"
-  - "\U0001F1F8\U0001F1EC _SG_新加坡"
-  - "\U0001F1F0\U0001F1F7 _KR_韩国"
-  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
-  - "\U0001F1FA\U0001F1F8 _CR_哥斯达黎加->\U0001F1FA\U0001F1F8_US_美国"
-  - "\U0001F1EE\U0001F1EA _IE_爱尔兰"
-  - "\U0001F1FA\U0001F1F8 _US_美国 11"
-  - "\U0001F1ED\U0001F1F0 _HK_香港"
-  - "\U0001F1ED\U0001F1F0 _HK_香港 2"
-  - "\U0001F1FB\U0001F1F3 _VN_越南"
-  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
-  - "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国 2"
-  - "\U0001F1FA\U0001F1F8 _US_美国 8"
-  - "\U0001F1EF\U0001F1F5 _JP_日本"
-  - "\U0001F1FA\U0001F1F8 _US_美国"
-  - "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1F3\U0001F1F1_NL_荷兰"
+  - "\U0001F1FA\U0001F1F8 _US_美国 18"
   - "\U0001F1ED\U0001F1F0 _HK_香港->\U0001F1FA\U0001F1F8_US_美国 3"
+  - _AF_阿富汗_1
+  - "\U0001F1EF\U0001F1F5 _JP_日本 2"
+  - "\U0001F1FA\U0001F1F8 _US_美国 10"
+  - "\U0001F1FA\U0001F1F8 _US_美国 14"
+  - "\U0001F1ED\U0001F1F0 _GB_英国->\U0001F1ED\U0001F1F0_HK_香港"
+  - "\U0001F1FA\U0001F1F8 _US_美国 13"
+  - "\U0001F1FA\U0001F1F8 _US_美国 20"
+  - "\U0001F1FA\U0001F1F8 _US_美国 23"
+  - "\U0001F1F3\U0001F1F1 _NL_荷兰"
+  - "\U0001F1FA\U0001F1F8 _US_美国 26"
+  - "\U0001F1E8\U0001F1F3 _TW_台湾"
+  - "\U0001F1FA\U0001F1F8 _US_美国 3"
+  - "\U0001F1FA\U0001F1F8 _US_美国 9"
+  - "\U0001F1FA\U0001F1F8 _US_美国 11"
+  - "\U0001F1FA\U0001F1F8 _CR_哥斯达黎加->\U0001F1FA\U0001F1F8_US_美国 2"
+  - "\U0001F1FA\U0001F1F8 _US_美国 19"
+  - "\U0001F1FA\U0001F1F8 _US_美国"
+  - "\U0001F1FA\U0001F1F8 _US_美国 8"
+  - "\U0001F1FA\U0001F1F8 _US_美国 17"
+  - "\U0001F1FA\U0001F1F8 _US_美国 21"
+  - "\U0001F1FA\U0001F1F8 _US_美国 25"
+  - "\U0001F1EA\U0001F1F8 _ES_西班牙->\U0001F1EB\U0001F1F7_FR_法国"
+  - "\U0001F1F8\U0001F1EC _US_美国->\U0001F1F8\U0001F1EC_SG_新加坡"
+  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰 2"
+  - "\U0001F1FA\U0001F1F8 _US_美国 22"
   url: http://www.gstatic.com/generate_204
   interval: 500
