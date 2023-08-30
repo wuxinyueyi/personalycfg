@@ -1,0 +1,555 @@
+port: 7890
+socks-port: 7891
+proxies:
+- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+  server: 172.67.8.239
+  port: 443
+  type: vmess
+  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ikun
+    headers:
+      Host: vceu3e.twittei.me
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+  server: singapore.com
+  port: 443
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: d.freeh1.xyz
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 16"
+  server: us-01.cloudlion.me
+  port: 2082
+  type: vmess
+  uuid: 09e0674a-e558-468f-892c-098699aba31c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us-01.cloudlion.me
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 7"
+  server: 162.159.247.47
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp3.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 2"
+  server: 172.64.207.79
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp4.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 8"
+  server: 172.64.193.37
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp4.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 15"
+  server: 172.67.49.8
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp3.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 12"
+  server: nl-01.cloudlion.me
+  port: 2082
+  type: vmess
+  uuid: 09e0674a-e558-468f-892c-098699aba31c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nl-01.cloudlion.me
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 10"
+  server: 162.159.240.97
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp3.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 11"
+  server: 216.24.57.1
+  port: 443
+  type: vmess
+  uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: a7ee85f4
+    headers:
+      Host: dd2.1808.cf
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 17"
+  server: 172.67.57.119
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp3.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 14"
+  server: us-04.cloudlion.me
+  port: 2082
+  type: vmess
+  uuid: 09e0674a-e558-468f-892c-098699aba31c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us-04.cloudlion.me
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
+  server: 23.227.39.82
+  port: 443
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: d.freeh1.xyz
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国 2"
+  server: 172.67.51.152
+  port: 443
+  type: vmess
+  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ikun
+    headers:
+      Host: vceu3e.twittei.me
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1E8\U0001F1E6 _CA_加拿大 3"
+  server: 51.161.35.200
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 006e3baa-cacd-4530-ae52-d633c4e9056d
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _NL_荷兰->\U0001F1FA\U0001F1F8_US_美国"
+  server: 188.114.97.168
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ecc.vtcss.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 6"
+  server: 172.64.169.199
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp4.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 5"
+  server: 172.64.87.129
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp4.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1F1_CL_智利"
+  server: sdygarm.e5outllok.me
+  port: 80
+  type: vmess
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sdygarm.e5outllok.me
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1E8\U0001F1E6 _CA_加拿大 2"
+  server: 23.227.38.81
+  port: 443
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: d.freeh1.xyz
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+  server: 17.wyhkaa0.gq
+  port: 2095
+  type: vmess
+  uuid: 1e36655b-7d28-4513-d7f8-5f1a0c00a07d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: 17.wyhkaa0.gq
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 13"
+  server: 172.67.87.175
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: lv2.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 9"
+  server: stock.hostmonit.com
+  port: 443
+  type: vmess
+  uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /nishikata
+    headers:
+      Host: us2.icu2rip.eu.org
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国 4"
+  server: 3.wyhkaa0.gq
+  port: 2095
+  type: vmess
+  uuid: 0150eac1-6e49-4329-9c06-50027c0b9ad7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: 3.wyhkaa0.gq
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1E8\U0001F1F7 _CR_哥斯达黎加"
+  server: 190.93.246.241
+  port: 2082
+  type: vmess
+  uuid: 8d3e92c9-bbe7-477f-9eeb-4ead471407d7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray
+    headers:
+      Host: de1vm.cdn-03.live
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 _US_美国"
+  server: 9.wyhkaa0.gq
+  port: 2095
+  type: vmess
+  uuid: d838d99a-6806-4be4-c126-7fca613cf6a9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: 9.wyhkaa0.gq
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+proxy-groups:
+- name: auto
+  type: url-test
+  proxies:
+  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+  - "\U0001F1FA\U0001F1F8 _US_美国 16"
+  - "\U0001F1FA\U0001F1F8 _US_美国 7"
+  - "\U0001F1FA\U0001F1F8 _US_美国 2"
+  - "\U0001F1FA\U0001F1F8 _US_美国 8"
+  - "\U0001F1FA\U0001F1F8 _US_美国 15"
+  - "\U0001F1FA\U0001F1F8 _US_美国 12"
+  - "\U0001F1FA\U0001F1F8 _US_美国 10"
+  - "\U0001F1FA\U0001F1F8 _US_美国 11"
+  - "\U0001F1FA\U0001F1F8 _US_美国 17"
+  - "\U0001F1FA\U0001F1F8 _US_美国 14"
+  - "\U0001F1E8\U0001F1E6 _CA_加拿大"
+  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国 2"
+  - "\U0001F1E8\U0001F1E6 _CA_加拿大 3"
+  - "\U0001F1FA\U0001F1F8 _NL_荷兰->\U0001F1FA\U0001F1F8_US_美国"
+  - "\U0001F1FA\U0001F1F8 _US_美国 6"
+  - "\U0001F1FA\U0001F1F8 _US_美国 5"
+  - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1F1_CL_智利"
+  - "\U0001F1E8\U0001F1E6 _CA_加拿大 2"
+  - "\U0001F1FA\U0001F1F8 _US_美国 3"
+  - "\U0001F1FA\U0001F1F8 _US_美国 13"
+  - "\U0001F1FA\U0001F1F8 _US_美国 9"
+  - "\U0001F1FA\U0001F1F8 _US_美国 4"
+  - "\U0001F1E8\U0001F1F7 _CR_哥斯达黎加"
+  - "\U0001F1FA\U0001F1F8 _US_美国"
+  url: http://www.gstatic.com/generate_204
+  interval: 500
