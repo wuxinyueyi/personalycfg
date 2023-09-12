@@ -1,207 +1,147 @@
 port: 7890
 socks-port: 7891
 proxies:
-- name: 美国_GIT2_54
-  server: 172.67.83.191
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: lv2.scproxy.top
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_GIT2_47
-  server: 23.227.39.115
+- name: XX_GIT_228
+  server: 163.123.192.33
   port: 443
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: 3.freek1.xyz
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_CFMEM_29
-  server: 172.64.161.58
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_GIT2_41
-  server: 162.159.253.16
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: ca.ilovescp.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_CFMEM_23
-  server: 172.67.140.110
-  port: 80
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v1893298323Py
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_V2R_66
-  server: 172.67.196.139
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: ca.ilovescp.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_CFMEM_24
-  server: 18.181.170.237
-  port: 443
-  type: ss
+  type: trojan
   uuid: ""
   alterId: 0
-  cipher: aes-256-cfb
+  cipher: ""
   tls: false
-  skip-cert-verify: false
-  network: ""
+  skip-cert-verify: true
+  network: tcp
   ws-opts:
     path: ""
     headers:
       Host: ""
-  password: amazonskr05
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_NDFORG_13
-  server: 162.159.240.97
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: dp3.scproxy.top
-  password: ""
+  password: e62db6f7-88ea-425d-90de-a9ba7770b1d6
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CLOUDFLARE.COM_V2R_71
-  server: 104.25.58.189
-  port: 2095
+- name: XX_GIT_239
+  server: 103.131.56.254
+  port: 10019
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: dfcf3cca-47d0-49aa-9143-42ad1873af77
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_223
+  server: 13.49.187.216
+  port: 443
   type: vmess
-  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
+  tls: true
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /TG:@hkaa0
+    path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9
     headers:
-      Host: 13.wyhkaa0.gq
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_36
-  server: 172.64.105.187
+- name: 美国_GIT_277
+  server: 45.63.106.86
+  port: 37869
+  type: vmess
+  uuid: 4c90d167-e65b-4419-d455-eb635724d2ed
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_34
+  server: 198.41.223.224
   port: 80
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /shirker
     headers:
-      Host: ca.ilovescp.com
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_37
+- name: 美国_GIT_177
+  server: 35.74.26.49
+  port: 21583
+  type: vmess
+  uuid: 22acc467-7440-386a-927a-d84be554b37e
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_180
+  server: 188.114.98.119
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_336
   server: 172.67.102.115
   port: 80
   type: vmess
@@ -221,8 +161,108 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_44
-  server: 172.67.100.189
+- name: 美国_GIT_127
+  server: 172.67.7.166
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_211
+  server: 172.67.59.39
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_143
+  server: 172.67.49.28
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_175
+  server: 35.78.250.83
+  port: 21583
+  type: vmess
+  uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_202
+  server: 172.67.152.248
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_348
+  server: 141.101.115.65
   port: 80
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -241,18 +281,98 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_CFMEM_25
-  server: 104.27.193.64
+- name: XX_GIT_62
+  server: 103.160.204.63
+  port: 2052
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue99
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 德国_GIT_97
+  server: 64.110.86.210
+  port: 23334
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 54ed5ad0-1d84-4dd2-9dc8-1c6ad9269132
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 德国_GIT_289
+  server: 194.116.173.21
+  port: 9038
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: gYCYXfkUQEs2TaJQ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 法国_GIT_290
+  server: 54.36.115.241
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_233
+  server: 172.67.132.15
   port: 443
   type: vmess
-  uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /pDDgT3v8NaAJHFPuEaDfC8t
+    path: /ray
     headers:
       Host: ""
   password: ""
@@ -261,131 +381,11 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_V2R_65
-  server: 172.64.203.172
+- name: 亚太地区_GIT_71
+  server: 103.160.204.234
   port: 80
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: ca.ilovescp.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_NDFORG_11
-  server: 172.67.148.210
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: ca.ilovescp.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CLOUDFLARE.COM_V2R_61
-  server: 104.21.46.159
-  port: 80
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v1893298323Py
-    headers:
-      Host: us01.runba.gq
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_GIT2_46
-  server: 173.245.49.236
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: ca.ilovescp.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_GIT2_59
-  server: 172.67.120.174
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: ca.ilovescp.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_NDFORG_2
-  server: 172.67.184.53
-  port: 8443
-  type: vmess
-  uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cloudconeaaa
-    headers:
-      Host: cloudconeaaa.gorgorchicken.one
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 亚太地区_CFMEM_26
-  server: 103.160.204.8
-  port: 80
-  type: vmess
-  uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+  uuid: 7ca21098-691c-4c12-8aac-934b21635423
   alterId: 0
   cipher: auto
   tls: false
@@ -401,8 +401,8 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_CFMEM_35
-  server: 172.64.103.88
+- name: 美国_GIT_156
+  server: 172.67.22.15
   port: 80
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -421,48 +421,8 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 亚太地区_V2R_75
-  server: 103.160.204.36
-  port: 80
-  type: vmess
-  uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /TG:@hkaa0
-    headers:
-      Host: 2.wyhkaa0.gq
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_CFMEM_22
-  server: 172.64.133.137
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_CFMEM_32
-  server: 23.227.39.87
+- name: 美国_GIT_35
+  server: 23.227.39.82
   port: 443
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -481,18 +441,18 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_39
-  server: 107.167.30.149
-  port: 43900
+- name: 美国_GIT_60
+  server: 172.67.95.171
+  port: 80
   type: vmess
-  uuid: 58e560b4-bba6-4843-be5f-83321022fa0d
-  alterId: 64
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-  network: ""
+  skip-cert-verify: true
+  network: ws
   ws-opts:
-    path: ""
+    path: /shirker
     headers:
       Host: ""
   password: ""
@@ -501,8 +461,248 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_48
-  server: 172.64.90.186
+- name: 美国_GIT_85
+  server: 172.67.63.75
+  port: 80
+  type: vmess
+  uuid: 6567eb30-6982-4484-bb9a-97232b229f2f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 欧洲_V2R_344
+  server: 45.11.104.94
+  port: 3306
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3febb05ea76a940f
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_108
+  server: 107.167.20.183
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/243535322906
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_171
+  server: 192.74.229.125
+  port: 80
+  type: vmess
+  uuid: 4a75c3ba-f2e9-11ed-bf1b-f23c91369f2d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_295
+  server: 104.21.92.91
+  port: 443
+  type: vmess
+  uuid: c5964a63-d67c-4668-cdae-6443a1581e76
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jdbp606
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_50
+  server: 104.27.11.243
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_149
+  server: 104.18.236.126
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_163
+  server: 172.67.27.227
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_224
+  server: 162.159.243.133
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 荷兰_GIT_37
+  server: 130.162.158.81
+  port: 80
+  type: vmess
+  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 俄罗斯_GIT_125
+  server: 193.203.203.86
+  port: 80
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cLc4PM8ADUxgOin4hAZDAA
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_139
+  server: 74.119.195.57
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 62963aad-8e90-45b6-949e-33216b260ba6
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT2_318
+  server: 172.64.105.187
   port: 80
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -521,7 +721,407 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_V2R_62
+- name: XX_GIT_131
+  server: 103.160.204.215
+  port: 80
+  type: vmess
+  uuid: 2076a20e-5912-42d2-fc2e-e9d7580dbc7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_153
+  server: 103.160.204.65
+  port: 2052
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue99
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_174
+  server: 35.79.21.222
+  port: 446
+  type: vmess
+  uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_185
+  server: 172.64.132.22
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_247
+  server: 104.17.137.141
+  port: 443
+  type: vmess
+  uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_337
+  server: 172.67.190.223
+  port: 8080
+  type: vmess
+  uuid: a04922f6-5766-49ba-d9fb-8aba40f49277
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /jdbp606
+    headers:
+      Host: hk2.mianfenyun012.eu.org
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_231
+  server: 104.21.3.243
+  port: 80
+  type: vmess
+  uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /adobe
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT2_323
+  server: 103.149.144.45
+  port: 19482
+  type: vmess
+  uuid: 50a170b7-1198-4603-e51a-0da28605d9e2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_146
+  server: 172.64.169.199
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_199
+  server: 172.67.12.199
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_275
+  server: 188.114.99.11
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_33
+  server: 104.31.16.196
+  port: 443
+  type: vmess
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 日本_GIT_134
+  server: 54.248.208.3
+  port: 20004
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 法国_GIT_205
+  server: 57.128.173.6
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_52
+  server: 23.227.39.117
+  port: 443
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_320
+  server: 172.64.161.58
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ca.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_115
+  server: 162.159.58.231
+  port: 80
+  type: vmess
+  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 亚太地区_GIT_150
+  server: 103.160.204.154
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_221
+  server: 172.67.16.130
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_296
+  server: 104.18.41.208
+  port: 443
+  type: vmess
+  uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /19544
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_347
   server: 172.67.92.119
   port: 80
   type: vmess
@@ -541,27 +1141,187 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_V2R_63
-  server: 23.227.39.82
-  port: 443
+- name: 美国_GIT_78
+  server: 172.67.184.13
+  port: 80
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708
   alterId: 0
   cipher: auto
-  tls: true
-  skip-cert-verify: false
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /dongtaiwang.com
+    path: /
     headers:
-      Host: d.freeh1.xyz
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_V2R_69
+- name: 美国_GIT_219
+  server: 172.67.149.81
+  port: 80
+  type: vmess
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_269
+  server: 103.160.204.22
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 法国_GIT_281
+  server: 62.210.188.19
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 27181131b8
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_V2R_334
+  server: 172.67.149.100
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ca.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 澳大利亚_GIT_124
+  server: 192.65.217.233
+  port: 80
+  type: vmess
+  uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_191
+  server: 188.114.96.186
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_235
+  server: 188.114.97.245
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_288
+  server: 108.186.116.167
+  port: 46605
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_333
   server: 172.67.92.55
   port: 80
   type: vmess
@@ -581,7 +1341,807 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_V2R_73
+- name: 美国_GIT_80
+  server: 172.67.128.217
+  port: 80
+  type: vmess
+  uuid: dc42deba-1458-450e-938d-4d5ff4ab0f92
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_119
+  server: 209.216.77.26
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3550ce3dec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_268
+  server: 104.31.16.58
+  port: 443
+  type: vmess
+  uuid: E4C92B68-B275-4002-A8CA-682D3172E49B
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 日本_GIT_252
+  server: 54.95.57.79
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3ddbffcb-bdbb-49c0-a7fe-5c3b0c58e9be
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: XX_GIT_273
+  server: 103.160.204.223
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_317
+  server: 172.67.83.191
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: lv2.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_117
+  server: 190.93.244.249
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_226
+  server: 172.64.193.37
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_227
+  server: 172.67.134.209
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_79
+  server: 188.114.96.206
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_89
+  server: 172.64.168.28
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 阿富汗_GIT_298
+  server: 121.127.46.147
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_187
+  server: 103.160.204.27
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_243
+  server: 188.114.97.115
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 新加坡_GIT_260
+  server: 52.221.241.208
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3ddbffcb-bdbb-49c0-a7fe-5c3b0c58e9be
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 法国_GIT_299
+  server: 195.154.118.40
+  port: 443
+  type: ssr
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-ctr
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: NewBypasser2023
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ""
+  obfs-param: cdn.appsflyer.c%�
+  udp: false
+- name: 美国_GIT_102
+  server: 172.67.100.189
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 荷兰_GIT_110
+  server: 130.162.157.253
+  port: 80
+  type: vmess
+  uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_122
+  server: 104.25.99.200
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_254
+  server: 4.216.25.107
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 8008b06e-2d1d-421c-9cdc-20af1f59093a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_V2R_350
+  server: 162.159.129.138
+  port: 443
+  type: vmess
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us-1.acyun.tk
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_311
+  server: 172.67.211.253
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ca.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_264
+  server: 103.160.204.87
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_192
+  server: 188.114.96.141
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 亚太地区_GIT_236
+  server: 103.160.204.228
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_NDFORG_5
+  server: 162.159.138.125
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshkit/@yzcjd/64fb4a7d30294/
+    headers:
+      Host: lb.vhax.net
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CLOUDFLARE.COM_GIT_141
+  server: 104.17.199.183
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 南非_GIT_151
+  server: 156.245.8.142
+  port: 443
+  type: vmess
+  uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1693130902818
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_292
+  server: 35.77.198.103
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 36606545-bc8b-4152-a751-3f0957318bd9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 南非_GIT_158
+  server: 156.225.67.171
+  port: 35977
+  type: vmess
+  uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_259
+  server: 163.123.192.36
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e62db6f7-88ea-425d-90de-a9ba7770b1d6
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 立陶宛_GIT_287
+  server: 89.116.250.162
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ywQ9KSLI4ZBm9wOAXUaN
+    headers:
+      Host: ""
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 韩国_GIT_297
+  server: 221.156.153.169
+  port: 30003
+  type: vmess
+  uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: a7ee85f4
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_49
+  server: 104.31.16.68
+  port: 80
+  type: vmess
+  uuid: 9b66f5c7-cc71-4b72-8ad7-d136c1e95f71
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_152
+  server: 104.19.213.33
+  port: 80
+  type: vmess
+  uuid: 567d3fe2-8df2-466c-ab0d-640cc151c62c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_293
+  server: 198.2.195.193
+  port: 57427
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_160
+  server: 103.160.204.98
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_189
+  server: 190.93.244.13
+  port: 2052
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue99
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_197
+  server: 216.24.57.1
+  port: 443
+  type: vmess
+  uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: a7ee85f4
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_218
+  server: 172.67.10.151
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_342
   server: 172.67.75.194
   port: 443
   type: vmess
@@ -601,128 +2161,8 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_NDFORG_8
-  server: 172.67.44.97
-  port: 80
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sshkit/@yzcjd/64fb4a7d30294/
-    headers:
-      Host: lb.vhax.net
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_V2R_67
-  server: 137.175.0.155
-  port: 41551
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_V2R_74
-  server: 172.64.153.211
-  port: 443
-  type: vmess
-  uuid: 6e751712-9569-5187-86ea-8f585ad99105
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api01
-    headers:
-      Host: schereswed.softwarenews.store
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CLOUDFLARE.COM_GIT2_55
-  server: 162.159.135.61
-  port: 2052
-  type: vmess
-  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vnpt.iiio.wiki
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_V2R_70
-  server: 104.21.92.91
-  port: 8080
-  type: vmess
-  uuid: 89e8501d-1a59-4754-cdc2-0e6334b97e3b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /jdbp606
-    headers:
-      Host: us1.mianfenyun012.eu.org
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 亚太地区_V2R_60
-  server: 103.160.204.63
-  port: 2052
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /blue99
-    headers:
-      Host: ecc.vtcss.top
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CLOUDFLARE.COM_NDFORG_1
-  server: 162.159.243.53
+- name: 美国_GIT_43
+  server: 172.64.133.137
   port: 80
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -734,58 +2174,198 @@ proxies:
   ws-opts:
     path: /shirker
     headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 新加坡_GIT_64
+  server: 18.136.126.26
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 欧洲_GIT_113
+  server: 45.8.159.86
+  port: 10103
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: d56fd04a-5802-4788-bbaf-3ea14142e597
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_181
+  server: 104.25.13.12
+  port: 80
+  type: vmess
+  uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: a7ee85f4
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_349
+  server: 172.67.6.189
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
       Host: ca.ilovescp.com
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
-  udp: true
-- name: XX_GIT2_51
-  server: 103.160.204.97
-  port: 80
+  udp: false
+- name: 美国_GIT_38
+  server: 172.67.242.38
+  port: 443
   type: vmess
-  uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vuk2.0bad.com/chat
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_101
+  server: 104.25.237.191
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /TG:@hkaa0
     headers:
-      Host: 2.wyhkaa0.gq
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_56
-  server: 172.67.229.20
-  port: 8880
+- name: 美国_GIT_105
+  server: 172.65.221.200
+  port: 80
   type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+    path: /
     headers:
-      Host: fr7.tehme100.fun
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_CFMEM_34
-  server: 23.227.38.81
+- name: 美国_GIT_140
+  server: 190.93.244.44
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_157
+  server: 172.67.205.203
+  port: 80
+  type: vmess
+  uuid: 99c25b0e-db17-494d-bbb4-98397ea8fe4e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_238
+  server: 23.227.39.110
   port: 443
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
   alterId: 0
   cipher: auto
   tls: true
@@ -801,87 +2381,47 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_38
-  server: 172.64.169.211
-  port: 80
+- name: 美国_GIT_300
+  server: 137.175.15.199
+  port: 443
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
-  tls: false
-  skip-cert-verify: false
+  tls: true
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /shirker
+    path: /path/1684063265777
     headers:
-      Host: lv2.scproxy.top
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_57
-  server: 172.67.10.151
-  port: 80
+- name: 美国_GIT_55
+  server: 172.67.229.19
+  port: 8880
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /shirker
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
     headers:
-      Host: ca.ilovescp.com
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_50
-  server: 172.67.190.223
-  port: 8080
-  type: vmess
-  uuid: a8966719-aeaf-4886-d202-72f75f845b83
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /jdbp606
-    headers:
-      Host: us2.mianfenyun012.eu.org
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_V2R_72
-  server: 172.67.95.171
-  port: 80
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: dp3.scproxy.top
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_CFMEM_27
+- name: 美国_GIT_51
   server: 104.21.36.26
   port: 8443
   type: vmess
@@ -901,8 +2441,248 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CLOUDFLARE.COM_V2R_64
-  server: 198.41.223.224
+- name: 美国_GIT_94
+  server: 104.17.227.121
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_346
+  server: 172.67.229.18
+  port: 8880
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+    headers:
+      Host: fr7.tehme100.fun
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_148
+  server: 172.67.188.127
+  port: 8080
+  type: vmess
+  uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tg@herhero6
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_168
+  server: 172.105.247.173
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_234
+  server: 104.24.177.7
+  port: 443
+  type: vmess
+  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /12796
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_99
+  server: 103.160.204.97
+  port: 80
+  type: vmess
+  uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_195
+  server: 141.101.123.42
+  port: 2052
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue99
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_258
+  server: 35.78.208.95
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3ddbffcb-bdbb-49c0-a7fe-5c3b0c58e9be
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_154
+  server: 142.4.110.38
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/121016071014
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_176
+  server: 35.74.26.49
+  port: 21585
+  type: vmess
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_183
+  server: 188.114.97.168
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_270
+  server: 103.160.204.28
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_338
+  server: 198.41.223.197
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -921,27 +2701,347 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_V2R_68
-  server: 23.227.38.82
+- name: 美国_GIT_106
+  server: 104.21.7.237
   port: 443
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 9f858ce1-7e02-4863-aa24-d90f8d3437d7
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /dongtaiwang.com
+    path: speedtest
     headers:
-      Host: d.freeh1.xyz
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: XX_CFMEM_30
+- name: 美国_GIT_107
+  server: 172.64.153.211
+  port: 443
+  type: vmess
+  uuid: 6e751712-9569-5187-86ea-8f585ad99105
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api01
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_142
+  server: 162.159.153.29
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_166
+  server: 172.67.173.108
+  port: 443
+  type: vmess
+  uuid: 48843232-58e7-429f-90fb-3809074cc0bb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /zh-cn
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_212
+  server: 172.67.127.46
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_84
+  server: 107.167.16.202
+  port: 443
+  type: vmess
+  uuid: 8c679b81-84fc-43ce-9553-ddca575a6949
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/080822272914
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_104
+  server: 172.67.120.174
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_280
+  server: 172.64.201.138
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_201
+  server: 172.67.212.44
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_232
+  server: 103.160.204.37
+  port: 2052
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue99
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_245
+  server: 20.212.190.51
+  port: 20001
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 8cdf33dd-0a05-419e-b9d6-435eb5cb3e07
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_272
+  server: 204.13.153.248
+  port: 38960
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: TugBC8yxwf
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_340
+  server: 162.159.136.61
+  port: 2052
+  type: vmess
+  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vnpt.iiio.wiki
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_335
+  server: 104.21.46.159
+  port: 80
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /frfrxxx0fk832v101N
+    headers:
+      Host: v101.runba.gq
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CLOUDFLARE.COM_GIT_40
+  server: 104.31.16.46
+  port: 2082
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_326
+  server: 172.67.129.158
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp3.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_194
+  server: 173.245.49.234
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 亚太地区_GIT_54
   server: 103.160.204.31
   port: 2052
   type: vmess
@@ -961,20 +3061,2400 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_GIT2_49
-  server: 104.21.7.237
+- name: 美国_GIT_225
+  server: 172.64.142.31
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 亚太地区_GIT_137
+  server: 103.160.204.43
+  port: 80
+  type: vmess
+  uuid: 7ca21098-691c-4c12-8aac-934b21635423
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_188
+  server: 198.41.217.138
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_206
+  server: 104.19.206.172
+  port: 80
+  type: vmess
+  uuid: 4714b6cc-a9f0-4db0-a215-d668e6c3b0a7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /123
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_242
+  server: 104.24.22.58
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_286
+  server: 141.193.213.20
+  port: 80
+  type: vmess
+  uuid: 25759dd1-d083-438d-95ce-4b120114fd91
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_325
+  server: 172.64.202.22
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ca.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_100
+  server: 198.41.205.114
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_114
+  server: 103.160.204.12
+  port: 80
+  type: vmess
+  uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_341
+  server: 18.183.132.14
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_76
+  server: 190.93.244.157
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_266
+  server: 103.160.204.95
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_302
+  server: 64.32.21.246
+  port: 44313
+  type: vmess
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_81
+  server: 104.17.55.117
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 日本_GIT_135
+  server: 54.248.208.3
+  port: 20008
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_198
+  server: 198.2.195.193
+  port: 43427
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_278
+  server: 108.186.208.156
   port: 443
   type: vmess
-  uuid: 9f858ce1-7e02-4863-aa24-d90f8d3437d7
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/173300203323
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_321
+  server: 162.159.243.53
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ca.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_246
+  server: 172.67.229.37
+  port: 80
+  type: vmess
+  uuid: 72e8030a-96c2-4bdb-acfb-5bc02248f9f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 新加坡_GIT_262
+  server: 54.169.128.48
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3ddbffcb-bdbb-49c0-a7fe-5c3b0c58e9be
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CLOUDFLARE.COM_GIT_65
+  server: 162.159.253.16
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_215
+  server: 172.64.130.176
+  port: 80
+  type: vmess
+  uuid: c53919e6-fed6-4058-a02c-eb3f4452f691
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_257
+  server: 13.213.6.170
+  port: 28038
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f7c08b52-69cd-4055-84d7-3cb9b291786f
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_267
+  server: 104.21.119.51
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_274
+  server: 141.101.122.144
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_276
+  server: 172.67.144.232
+  port: 80
+  type: vmess
+  uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 俄罗斯_GIT_279
+  server: 185.59.218.177
+  port: 443
+  type: vmess
+  uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_330
+  server: 104.27.193.64
+  port: 443
+  type: vmess
+  uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: speedtest
+    path: /pDDgT3v8NaAJHFPuEaDfC8t
     headers:
-      Host: amsterdam.kotick.site
+      Host: avaspeed.jetspeed.fun
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_98
+  server: 173.245.58.109
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_144
+  server: 172.67.107.16
+  port: 443
+  type: vmess
+  uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /nishikata
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 法国_GIT_291
+  server: 54.36.189.115
+  port: 80
+  type: vmess
+  uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_303
+  server: 172.67.204.84
+  port: 443
+  type: vmess
+  uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_90
+  server: 198.41.197.101
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_229
+  server: 104.26.4.4
+  port: 80
+  type: vmess
+  uuid: 72e8030a-96c2-4bdb-acfb-5bc02248f9f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_230
+  server: 172.67.142.186
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_248
+  server: 188.114.97.152
+  port: 80
+  type: vmess
+  uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_249
+  server: 23.227.38.109
+  port: 443
+  type: vmess
+  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_V2R_339
+  server: 103.160.204.8
+  port: 80
+  type: vmess
+  uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: 10.wyhkaa0.gq
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_322
+  server: 172.64.103.88
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: lv2.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_70
+  server: 23.227.39.109
+  port: 443
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_329
+  server: 162.159.240.97
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp3.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_92
+  server: 173.245.49.236
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_130
+  server: 172.67.87.175
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_56
+  server: 23.227.39.84
+  port: 443
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_128
+  server: 172.67.160.88
+  port: 80
+  type: vmess
+  uuid: 567d3fe2-8df2-466c-ab0d-640cc151c62c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_159
+  server: 162.159.135.61
+  port: 2052
+  type: vmess
+  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_332
+  server: 172.67.120.200
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: lv2.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_42
+  server: 162.159.128.168
+  port: 443
+  type: vmess
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_45
+  server: 172.64.198.36
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_72
+  server: 198.41.196.190
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_306
+  server: 172.67.148.210
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ca.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_265
+  server: 103.160.204.113
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue03
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_331
+  server: 172.64.203.172
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ca.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_109
+  server: 172.67.49.8
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_120
+  server: 172.67.51.152
+  port: 443
+  type: vmess
+  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ikun
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 西班牙_GIT_284
+  server: 82.223.108.64
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 41dbabe59a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: XX_GIT_69
+  server: 103.160.204.72
+  port: 80
+  type: vmess
+  uuid: 7ca21098-691c-4c12-8aac-934b21635423
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_182
+  server: 104.21.40.222
+  port: 80
+  type: vmess
+  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_186
+  server: 8.222.181.177
+  port: 80
+  type: vmess
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /2TokGE9A/
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_301
+  server: 64.32.10.216
+  port: 443
+  type: vmess
+  uuid: 1f17fb81-2c5a-48d2-aa74-b19a648778a3
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1691318318420
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 亚太地区_GIT_129
+  server: 103.160.204.21
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_136
+  server: 8.222.138.164
+  port: 80
+  type: vmess
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /2TokGE9A/
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_179
+  server: 190.93.244.188
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_208
+  server: 198.200.37.231
+  port: 51009
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_304
+  server: 23.227.38.81
+  port: 443
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: d.freeh1.xyz
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_66
+  server: 23.227.38.82
+  port: 443
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_204
+  server: 66.241.124.93
+  port: 443
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CLOUDFLARE.COM_GIT_167
+  server: 162.159.194.228
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 南非_GIT_216
+  server: 156.225.67.101
+  port: 53797
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_75
+  server: 103.160.204.36
+  port: 80
+  type: vmess
+  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_126
+  server: 198.41.204.172
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_164
+  server: 198.200.37.231
+  port: 51209
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_178
+  server: 35.79.21.222
+  port: 448
+  type: vmess
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_V2R_343
+  server: 103.160.204.108
+  port: 80
+  type: vmess
+  uuid: 7ca21098-691c-4c12-8aac-934b21635423
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: 16.wyhkaa0.gq
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_147
+  server: 172.64.101.91
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_271
+  server: 104.21.27.184
+  port: 2082
+  type: vmess
+  uuid: 57eee503-a9e3-439c-a0d5-17cebed16b53
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_121
+  server: 104.19.177.59
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_165
+  server: 172.64.108.179
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_193
+  server: 141.101.120.197
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_241
+  server: 188.114.99.145
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_256
+  server: 20.27.74.79
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 5e65f547-15ec-49f0-9fe6-2340cf1aa2e0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_82
+  server: 104.25.106.21
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_103
+  server: 162.159.130.74
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/64ee26041efcc/
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_116
+  server: 162.159.58.164
+  port: 80
+  type: vmess
+  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_261
+  server: 141.101.122.233
+  port: 8880
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /GdtYWlsLmNvbSJ9LCJjb3V
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_244
+  server: 198.41.195.68
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 巴西_GIT_184
+  server: 188.114.98.179
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_200
+  server: 103.160.204.242
+  port: 8080
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 亚太地区_GIT_240
+  server: 103.160.204.71
+  port: 2082
+  type: vmess
+  uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_172
+  server: 35.77.42.227
+  port: 28785
+  type: vmess
+  uuid: 22acc467-7440-386a-927a-d84be554b37e
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_207
+  server: 104.27.43.111
+  port: 80
+  type: vmess
+  uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 韩国_GIT_283
+  server: 13.125.149.246
+  port: 80
+  type: vmess
+  uuid: e1d3ce91-6e90-452c-95cd-7870576adb59
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_63
+  server: 172.67.188.127
+  port: 80
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /opt/video/images
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_255
+  server: 13.215.175.172
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3ddbffcb-bdbb-49c0-a7fe-5c3b0c58e9be
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 英国_GIT_294
+  server: 51.195.42.126
+  port: 80
+  type: vmess
+  uuid: 930e8882-169c-4d14-84e1-0aa671611325
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_210
+  server: 172.67.57.119
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_GIT_237
+  server: 103.160.204.70
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 新加坡_GIT_282
+  server: 13.229.156.37
+  port: 50143
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f7943d8a-9c20-3c6e-b391-bceebb4e6aad
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_285
+  server: 38.26.135.15
+  port: 40940
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_87
+  server: 104.26.12.140
+  port: 443
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_V2R_345
+  server: 172.64.90.186
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ca.ilovescp.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CLOUDFLARE.COM_GIT_83
+  server: 190.93.245.249
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_220
+  server: 104.27.19.105
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /rDCYQta83d0oPABKBhcIX
+    headers:
+      Host: ""
+  password: 4d706727-996f-4427-930d-60f3bd414cf9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_138
+  server: 172.67.45.210
+  port: 80
+  type: vmess
+  uuid: 59806dd4-c92e-424a-8713-9700e109edfb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_162
+  server: 172.64.207.79
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_190
+  server: 172.64.105.249
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_123
+  server: 172.67.211.19
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_209
+  server: 162.159.135.61
+  port: 2082
+  type: vmess
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CLOUDFLARE.COM_GIT_213
+  server: 104.21.92.91
+  port: 80
+  type: vmess
+  uuid: c5964a63-d67c-4668-cdae-6443a1581e76
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jdbp606
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_217
+  server: 137.175.86.189
+  port: 42151
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_77
+  server: 104.27.0.124
+  port: 2095
+  type: vmess
+  uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_96
+  server: 104.31.16.14
+  port: 443
+  type: vmess
+  uuid: da8a932a-73bc-4782-9958-2c7e018e1054
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@hopev2ray،@hopev2ray
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT2_307
+  server: 162.159.247.47
+  port: 80
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: dp3.scproxy.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_173
+  server: 35.78.250.83
+  port: 21585
+  type: vmess
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_203
+  server: 104.17.159.28
+  port: 80
+  type: vmess
+  uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_73
+  server: 190.93.244.19
+  port: 2095
+  type: vmess
+  uuid: 32af4006-0698-4910-806c-b813074f36eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TG:@hkaa0
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_132
+  server: 172.67.16.63
+  port: 80
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /blue06
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_GIT_155
+  server: 23.224.202.86
+  port: 57702
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: XX_NDFORG_15
+  server: 103.168.155.69
+  port: 3306
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3febb05ea76a940f
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_GIT_196
+  server: 172.67.8.239
+  port: 443
+  type: vmess
+  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ikun
+    headers:
+      Host: ""
   password: ""
   protocol: ""
   obfs: ""
@@ -985,55 +5465,279 @@ proxy-groups:
 - name: auto
   type: url-test
   proxies:
-  - 美国_GIT2_54
-  - 美国_GIT2_47
-  - 美国_CFMEM_29
-  - 美国_GIT2_41
-  - 美国_CFMEM_23
-  - 美国_V2R_66
-  - 美国_CFMEM_24
-  - 美国_NDFORG_13
-  - CLOUDFLARE.COM_V2R_71
-  - 美国_GIT2_36
-  - 美国_GIT2_37
-  - 美国_GIT2_44
-  - 美国_CFMEM_25
-  - 美国_V2R_65
-  - 美国_NDFORG_11
-  - CLOUDFLARE.COM_V2R_61
-  - 美国_GIT2_46
-  - 美国_GIT2_59
-  - 美国_NDFORG_2
-  - 亚太地区_CFMEM_26
-  - 美国_CFMEM_35
-  - 亚太地区_V2R_75
-  - 美国_CFMEM_22
-  - 美国_CFMEM_32
-  - 美国_GIT2_39
-  - 美国_GIT2_48
-  - 美国_V2R_62
-  - 美国_V2R_63
-  - 美国_V2R_69
-  - 美国_V2R_73
-  - 美国_NDFORG_8
-  - 美国_V2R_67
-  - 美国_V2R_74
-  - CLOUDFLARE.COM_GIT2_55
-  - 美国_V2R_70
-  - 亚太地区_V2R_60
-  - CLOUDFLARE.COM_NDFORG_1
-  - XX_GIT2_51
-  - 美国_GIT2_56
-  - 美国_CFMEM_34
-  - 美国_GIT2_38
-  - 美国_GIT2_57
-  - 美国_GIT2_50
-  - 美国_V2R_72
-  - 美国_CFMEM_27
-  - CLOUDFLARE.COM_V2R_64
-  - 美国_V2R_68
-  - XX_CFMEM_30
-  - 美国_GIT2_49
+  - XX_GIT_228
+  - XX_GIT_239
+  - 美国_GIT_223
+  - 美国_GIT_277
+  - 美国_GIT_34
+  - 美国_GIT_177
+  - 巴西_GIT_180
+  - 美国_V2R_336
+  - 美国_GIT_127
+  - 美国_GIT_211
+  - 美国_GIT_143
+  - 美国_GIT_175
+  - 美国_GIT_202
+  - 美国_V2R_348
+  - XX_GIT_62
+  - 德国_GIT_97
+  - 德国_GIT_289
+  - 法国_GIT_290
+  - 美国_GIT_233
+  - 亚太地区_GIT_71
+  - 美国_GIT_156
+  - 美国_GIT_35
+  - 美国_GIT_60
+  - 美国_GIT_85
+  - 欧洲_V2R_344
+  - 美国_GIT_108
+  - 美国_GIT_171
+  - 美国_GIT_295
+  - 美国_GIT_50
+  - 美国_GIT_149
+  - 美国_GIT_163
+  - 美国_GIT_224
+  - 荷兰_GIT_37
+  - 俄罗斯_GIT_125
+  - 美国_GIT_139
+  - 美国_GIT2_318
+  - XX_GIT_131
+  - XX_GIT_153
+  - 美国_GIT_174
+  - 美国_GIT_185
+  - 美国_GIT_247
+  - 美国_V2R_337
+  - 美国_GIT_231
+  - XX_GIT2_323
+  - 美国_GIT_146
+  - 美国_GIT_199
+  - 巴西_GIT_275
+  - 美国_GIT_33
+  - 日本_GIT_134
+  - 法国_GIT_205
+  - 美国_GIT_52
+  - 美国_GIT2_320
+  - 美国_GIT_115
+  - 亚太地区_GIT_150
+  - 美国_GIT_221
+  - 美国_GIT_296
+  - 美国_V2R_347
+  - 美国_GIT_78
+  - 美国_GIT_219
+  - XX_GIT_269
+  - 法国_GIT_281
+  - 美国_V2R_334
+  - 澳大利亚_GIT_124
+  - 巴西_GIT_191
+  - 巴西_GIT_235
+  - 美国_GIT_288
+  - 美国_V2R_333
+  - 美国_GIT_80
+  - 美国_GIT_119
+  - 美国_GIT_268
+  - 日本_GIT_252
+  - XX_GIT_273
+  - 美国_GIT2_317
+  - 美国_GIT_117
+  - 美国_GIT_226
+  - 美国_GIT_227
+  - 巴西_GIT_79
+  - 美国_GIT_89
+  - 阿富汗_GIT_298
+  - XX_GIT_187
+  - 巴西_GIT_243
+  - 新加坡_GIT_260
+  - 法国_GIT_299
+  - 美国_GIT_102
+  - 荷兰_GIT_110
+  - 美国_GIT_122
+  - 美国_GIT_254
+  - 美国_V2R_350
+  - 美国_GIT2_311
+  - XX_GIT_264
+  - 巴西_GIT_192
+  - 亚太地区_GIT_236
+  - 美国_NDFORG_5
+  - CLOUDFLARE.COM_GIT_141
+  - 南非_GIT_151
+  - 美国_GIT_292
+  - 南非_GIT_158
+  - XX_GIT_259
+  - 立陶宛_GIT_287
+  - 韩国_GIT_297
+  - 美国_GIT_49
+  - 美国_GIT_152
+  - 美国_GIT_293
+  - XX_GIT_160
+  - 美国_GIT_189
+  - 美国_GIT_197
+  - 美国_GIT_218
+  - 美国_V2R_342
+  - 美国_GIT_43
+  - 新加坡_GIT_64
+  - 欧洲_GIT_113
+  - 美国_GIT_181
+  - 美国_V2R_349
+  - 美国_GIT_38
+  - 美国_GIT_101
+  - 美国_GIT_105
+  - 美国_GIT_140
+  - 美国_GIT_157
+  - 美国_GIT_238
+  - 美国_GIT_300
+  - 美国_GIT_55
+  - 美国_GIT_51
+  - 美国_GIT_94
+  - 美国_V2R_346
+  - 美国_GIT_148
+  - 美国_GIT_168
+  - 美国_GIT_234
+  - XX_GIT_99
+  - 美国_GIT_195
+  - 美国_GIT_258
+  - 美国_GIT_154
+  - 美国_GIT_176
+  - 巴西_GIT_183
+  - XX_GIT_270
+  - 美国_V2R_338
+  - 美国_GIT_106
+  - 美国_GIT_107
+  - 美国_GIT_142
+  - 美国_GIT_166
+  - 美国_GIT_212
+  - 美国_GIT_84
+  - 美国_GIT_104
+  - 美国_GIT_280
+  - 美国_GIT_201
+  - XX_GIT_232
+  - 美国_GIT_245
+  - 美国_GIT_272
+  - 美国_V2R_340
+  - 美国_V2R_335
+  - CLOUDFLARE.COM_GIT_40
+  - 美国_GIT2_326
+  - 美国_GIT_194
+  - 亚太地区_GIT_54
+  - 美国_GIT_225
+  - 亚太地区_GIT_137
+  - 美国_GIT_188
+  - 美国_GIT_206
+  - 美国_GIT_242
+  - 美国_GIT_286
+  - 美国_GIT2_325
+  - 美国_GIT_100
+  - XX_GIT_114
+  - 美国_V2R_341
+  - 美国_GIT_76
+  - XX_GIT_266
+  - 美国_GIT_302
+  - 美国_GIT_81
+  - 日本_GIT_135
+  - 美国_GIT_198
+  - 美国_GIT_278
+  - 美国_GIT2_321
+  - 美国_GIT_246
+  - 新加坡_GIT_262
+  - CLOUDFLARE.COM_GIT_65
+  - 美国_GIT_215
+  - 美国_GIT_257
+  - 美国_GIT_267
+  - 美国_GIT_274
+  - 美国_GIT_276
+  - 俄罗斯_GIT_279
+  - 美国_V2R_330
+  - 美国_GIT_98
+  - 美国_GIT_144
+  - 法国_GIT_291
+  - 美国_GIT_303
+  - 美国_GIT_90
+  - 美国_GIT_229
+  - 美国_GIT_230
+  - 巴西_GIT_248
+  - 美国_GIT_249
+  - XX_V2R_339
+  - 美国_GIT2_322
+  - 美国_GIT_70
+  - 美国_GIT2_329
+  - 美国_GIT_92
+  - 美国_GIT_130
+  - 美国_GIT_56
+  - 美国_GIT_128
+  - 美国_GIT_159
+  - 美国_V2R_332
+  - 美国_GIT_42
+  - 美国_GIT_45
+  - 美国_GIT_72
+  - 美国_GIT2_306
+  - XX_GIT_265
+  - 美国_V2R_331
+  - 美国_GIT_109
+  - 美国_GIT_120
+  - 西班牙_GIT_284
+  - XX_GIT_69
+  - 美国_GIT_182
+  - 美国_GIT_186
+  - 美国_GIT_301
+  - 亚太地区_GIT_129
+  - 美国_GIT_136
+  - 美国_GIT_179
+  - 美国_GIT_208
+  - 美国_GIT2_304
+  - 美国_GIT_66
+  - 美国_GIT_204
+  - CLOUDFLARE.COM_GIT_167
+  - 南非_GIT_216
+  - XX_GIT_75
+  - 美国_GIT_126
+  - 美国_GIT_164
+  - 美国_GIT_178
+  - XX_V2R_343
+  - 美国_GIT_147
+  - 美国_GIT_271
+  - 美国_GIT_121
+  - 美国_GIT_165
+  - 美国_GIT_193
+  - 巴西_GIT_241
+  - 美国_GIT_256
+  - 美国_GIT_82
+  - 美国_GIT_103
+  - 美国_GIT_116
+  - 美国_GIT_261
+  - 美国_GIT_244
+  - 巴西_GIT_184
+  - XX_GIT_200
+  - 亚太地区_GIT_240
+  - 美国_GIT_172
+  - 美国_GIT_207
+  - 韩国_GIT_283
+  - 美国_GIT_63
+  - 美国_GIT_255
+  - 英国_GIT_294
+  - 美国_GIT_210
+  - XX_GIT_237
+  - 新加坡_GIT_282
+  - 美国_GIT_285
+  - 美国_GIT_87
+  - 美国_V2R_345
+  - CLOUDFLARE.COM_GIT_83
+  - 美国_GIT_220
+  - 美国_GIT_138
+  - 美国_GIT_162
+  - 美国_GIT_190
+  - 美国_GIT_123
+  - 美国_GIT_209
+  - CLOUDFLARE.COM_GIT_213
+  - 美国_GIT_217
+  - 美国_GIT_77
+  - 美国_GIT_96
+  - 美国_GIT2_307
+  - 美国_GIT_173
+  - 美国_GIT_203
+  - 美国_GIT_73
+  - 美国_GIT_132
+  - 美国_GIT_155
+  - XX_NDFORG_15
+  - 美国_GIT_196
   url: http://www.gstatic.com/generate_204
   interval: 1000
 tag: ""
