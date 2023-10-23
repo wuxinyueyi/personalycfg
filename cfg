@@ -1,440 +1,20 @@
 port: 7890
 socks-port: 7891
 proxies:
-- name: 美国_65
-  server: 3.10.157.89
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-directvpn
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_62
-  server: jd3.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jd3.shabijichang.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_74
-  server: 168.75.76.226
-  port: 20492
-  type: vmess
-  uuid: 259e1c70-fa0f-4759-b959-1e5630eac8de
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CLOUDFLARE.COM_63
-  server: 104.21.75.246
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sbl2.shabijichang.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 英国_48
-  server: 52.56.67.143
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-directvpn
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_50
-  server: flkf2.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_22
-  server: jd2.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_53
-  server: mm3.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 加拿大_45
-  server: 35.181.203.24
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-directvpn
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CLOUDFLARE.COM_79
-  server: mrb2.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mrb2.shabijichang.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_49
-  server: yd1.992688.xyz
+- name: 美国_69
+  server: 104.26.1.116
   port: 2052
   type: vmess
-  uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 爱尔兰_75
-  server: 54.247.136.66
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-privatevpns
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_78
-  server: 3.120.242.243
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-privatevpns
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_43
-  server: 13.37.210.5
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-privatevpns
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_66
-  server: wnd2.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /服务器4元月，节点2.5元月@natdcibot
     headers:
-      Host: wnd2.shabijichang.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CLOUDFLARE.COM_14
-  server: 104.25.254.162
-  port: 2096
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_70
-  server: hdlb3.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hdlb3.shabijichang.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 阿富汗_38
-  server: 121.127.46.147
-  port: 989
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8f7aCzcPKbsF8p3
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_51
-  server: lt1.992688.xyz
-  port: 2052
-  type: vmess
-  uuid: fa5fc74f-0f0b-4221-82ba-dc7cd24e24e5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 南非_68
-  server: 156.225.67.104
-  port: 30000
-  type: vmess
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/1696944806961
-    headers:
-      Host: www.41758112.xyz
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 吉尔吉斯斯坦_80
-  server: fi1.connecton.surf
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 44c5578a7c
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_10
-  server: db5.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
+      Host: jd2kuai5yuan.cloudflare88.eu.org
   password: ""
   protocol: ""
   obfs: ""
@@ -442,46 +22,46 @@ proxies:
   obfs-param: ""
   udp: false
 - name: 美国_59
-  server: 104.17.27.2
+  server: freeyx.cloudflare88.eu.org
   port: 80
   type: vmess
-  uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /服务器4元月，节点2.5元月@natdcibot
     headers:
-      Host: my2.gamedaylion.buzz
+      Host: jd2kuai5yuan.cloudflare88.eu.org
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_64
-  server: 104.20.231.210
-  port: 80
+- name: 美国_68
+  server: freeyx.cloudflare88.eu.org
+  port: 2082
   type: vmess
-  uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /服务器4元月，节点2.5元月@natdcibot
     headers:
-      Host: my.designlion.buzz
+      Host: jd2kuai5yuan.cloudflare88.eu.org
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_72
+- name: 美国_54
   server: fhc2.shabijichang.com
   port: 80
   type: vmess
@@ -501,68 +81,48 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_44
-  server: 18.132.185.20
-  port: 22222
+- name: 美国_52
+  server: us1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen
+  port: 443
   type: trojan
   uuid: ""
   alterId: 0
   cipher: ""
   tls: false
-  skip-cert-verify: true
-  network: tcp
+  skip-cert-verify: false
+  network: ""
   ws-opts:
     path: ""
     headers:
       Host: ""
-  password: telegram-id-privatevpns
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_52
-  server: cf-lt.sharecentre.online
-  port: 8080
-  type: vmess
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      Host: ""
-  password: ""
+  password: a3f221f8-43d6-4363-8624-ce62d3db0202
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_57
-  server: 164.92.152.63
-  port: 19101
-  type: vmess
-  uuid: e2e6813a-695d-499b-8f69-929ac0f04b61
+- name: 美国_72
+  server: 209.216.77.26
+  port: 443
+  type: trojan
+  uuid: ""
   alterId: 0
-  cipher: auto
+  cipher: ""
   tls: false
-  skip-cert-verify: true
-  network: tcp
+  skip-cert-verify: false
+  network: ""
   ws-opts:
     path: ""
     headers:
       Host: ""
-  password: ""
+  password: 1b491c39f3
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_76
-  server: sbl2.shabijichang.com
+- name: 美国_53
+  server: flkf2.shabijichang.com
   port: 80
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
@@ -574,120 +134,40 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sbl2.shabijichang.com
+      Host: flkf2.shabijichang.com
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_6
-  server: brcf.duaaoped.xyz
-  port: 8443
+- name: 美国_62
+  server: freeyx.cloudflare88.eu.org
+  port: 2086
   type: vmess
-  uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xtsmol
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_61
-  server: 104.21.40.162
-  port: 443
-  type: vmess
-  uuid: d196ccc9-db42-475d-a7e4-7c27a6a326d1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: be1.xv2ray.net
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 爱尔兰_46
-  server: 34.251.172.224
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-directvpn
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_60
-  server: 172.67.187.109
-  port: 80
-  type: vmess
-  uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /服务器4元月，节点2.5元月@natdcibot
     headers:
-      Host: ee1.xv2ray.net
+      Host: jd2kuai5yuan.cloudflare88.eu.org
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 爱尔兰_41
-  server: 54.170.136.218
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-directvpn
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 吉尔吉斯斯坦_81
-  server: 37.143.129.56
+- name: 捷克_27
+  server: 89.187.179.192
   port: 443
-  type: trojan
+  type: ss
   uuid: ""
   alterId: 0
-  cipher: ""
+  cipher: aes-256-cfb
   tls: false
   skip-cert-verify: false
   network: ""
@@ -695,17 +175,37 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 44c5578a7c
+  password: asdKkaskJKfnsa
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CLOUDFLARE.COM_73
-  server: 104.17.18.26
+- name: 俄罗斯_46
+  server: 80.92.204.106
+  port: 9094
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: rpgbNnU9rDDU4aWZ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_65
+  server: mrb2.shabijichang.com
   port: 80
   type: vmess
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   alterId: 0
   cipher: auto
   tls: false
@@ -714,34 +214,14 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: a.109420.xyz
+      Host: mrb2.shabijichang.com
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_69
-  server: 35.181.201.98
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-directvpn
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CLOUDFLARE.COM_58
+- name: 美国_58
   server: ld2.shabijichang.com
   port: 80
   type: vmess
@@ -761,53 +241,13 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_54
-  server: mm2.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_55
-  server: yhnsb3.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_35
-  server: 198.244.231.25
+- name: 吉尔吉斯斯坦_74
+  server: fi1.connecton.surf
   port: 443
-  type: ss
+  type: trojan
   uuid: ""
   alterId: 0
-  cipher: aes-256-cfb
+  cipher: ""
   tls: false
   skip-cert-verify: false
   network: ""
@@ -815,14 +255,114 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: asdKkaskJKfnsa
+  password: 44c5578a7c
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 加拿大_42
-  server: 35.181.165.132
+- name: 美国_67
+  server: jd2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jd2.shabijichang.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_70
+  server: freeyx.cloudflare88.eu.org
+  port: 8880
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /服务器4元月，节点2.5元月@natdcibot
+    headers:
+      Host: jd2kuai5yuan.cloudflare88.eu.org
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_50
+  server: 18.169.124.35
+  port: 22222
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: telegram-id-privatevpns
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_71
+  server: sbl3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sbl3.shabijichang.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CLOUDFLARE.COM_64
+  server: freeyx.cloudflare88.eu.org
+  port: 8080
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /服务器4元月，节点2.5元月@natdcibot
+    headers:
+      Host: jd2kuai5yuan.cloudflare88.eu.org
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 爱尔兰_28
+  server: 54.76.165.95
   port: 22222
   type: trojan
   uuid: ""
@@ -842,7 +382,47 @@ proxies:
   obfs-param: ""
   udp: true
 - name: 美国_47
-  server: 13.43.227.116
+  server: jd3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 阿富汗_24
+  server: 121.127.46.147
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 英国_49
+  server: 3.11.11.241
   port: 22222
   type: trojan
   uuid: ""
@@ -861,33 +441,13 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CLOUDFLARE.COM_26
-  server: asb2.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 俄罗斯_33
-  server: 46.29.238.88
-  port: 4437
+- name: 美国_35
+  server: 54.186.250.178
+  port: 443
   type: ss
   uuid: ""
   alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: aes-256-cfb
   tls: false
   skip-cert-verify: false
   network: ""
@@ -895,64 +455,44 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: s6JDiq37UPy3eAgbaxaFEm0WySnyJn4ndYBbQ/J4PqM=
+  password: amazonskr05
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_3
-  server: sbl3.shabijichang.com
-  port: 80
+- name: 美国_63
+  server: freeyx.cloudflare88.eu.org
+  port: 2052
   type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /服务器4元月，节点2.5元月@natdcibot
     headers:
-      Host: ""
+      Host: jd2kuai5yuan.cloudflare88.eu.org
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_71
-  server: 104.24.208.25
-  port: 2053
+- name: 美国_66
+  server: 172.99.190.109
+  port: 443
   type: vmess
-  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: b5.iraniancp.click
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_9
-  server: nomore.hideip.tk
-  port: 8443
-  type: vmess
-  uuid: 874a60cd-f099-499a-8aee-e4606ccf3e86
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
+    path: linkvws
     headers:
       Host: ""
   password: ""
@@ -961,11 +501,31 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_77
+- name: 加拿大_57
+  server: 108.181.10.17
+  port: 80
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /0vixdm74
+    headers:
+      Host: teams.microsoft.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CLOUDFLARE.COM_60
   server: wnd3.shabijichang.com
   port: 80
   type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   alterId: 0
   cipher: auto
   tls: false
@@ -982,7 +542,47 @@ proxies:
   obfs-param: ""
   udp: false
 - name: 美国_56
-  server: db4.shabijichang.com
+  server: asb2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: asb2.shabijichang.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 吉尔吉斯斯坦_61
+  server: 37.143.129.56
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 44c5578a7c
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_26
+  server: mm3.shabijichang.com
   port: 80
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
@@ -1001,11 +601,11 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 加拿大_67
-  server: 108.181.10.17
+- name: 美国_73
+  server: hdlb2.shabijichang.com
   port: 80
   type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   alterId: 0
   cipher: auto
   tls: false
@@ -1013,6 +613,126 @@ proxies:
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: hdlb2.shabijichang.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_55
+  server: 104.26.0.2
+  port: 80
+  type: vmess
+  uuid: 541ea7b0-23c1-4590-ad1b-18e6f58758d7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@daozhang6666
+    headers:
+      Host: usa.daozhang.link
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_37
+  server: 104.21.75.246
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_48
+  server: mm2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_75
+  server: 172.67.184.13
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sbl2.shabijichang.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_36
+  server: 104.16.181.135
+  port: 2052
+  type: vmess
+  uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 南非_51
+  server: 156.225.67.104
+  port: 30000
+  type: vmess
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1696944806961
     headers:
       Host: ""
   password: ""
@@ -1025,57 +745,43 @@ proxy-groups:
 - name: auto
   type: url-test
   proxies:
-  - 美国_65
-  - 美国_62
-  - 美国_74
-  - CLOUDFLARE.COM_63
-  - 英国_48
-  - 美国_50
-  - 美国_22
-  - 美国_53
-  - 加拿大_45
-  - CLOUDFLARE.COM_79
-  - 美国_49
-  - 爱尔兰_75
-  - 美国_78
-  - 美国_43
-  - 美国_66
-  - CLOUDFLARE.COM_14
-  - 美国_70
-  - 阿富汗_38
-  - 美国_51
-  - 南非_68
-  - 吉尔吉斯斯坦_80
-  - 美国_10
-  - 美国_59
-  - 美国_64
-  - 美国_72
-  - 美国_44
-  - 美国_52
-  - 美国_57
-  - 美国_76
-  - 美国_6
-  - 美国_61
-  - 爱尔兰_46
-  - 美国_60
-  - 爱尔兰_41
-  - 吉尔吉斯斯坦_81
-  - CLOUDFLARE.COM_73
   - 美国_69
-  - CLOUDFLARE.COM_58
+  - 美国_59
+  - 美国_68
   - 美国_54
-  - 美国_55
-  - 美国_35
-  - 加拿大_42
-  - 美国_47
-  - CLOUDFLARE.COM_26
-  - 俄罗斯_33
-  - 美国_3
+  - 美国_52
+  - 美国_72
+  - 美国_53
+  - 美国_62
+  - 捷克_27
+  - 俄罗斯_46
+  - 美国_65
+  - 美国_58
+  - 吉尔吉斯斯坦_74
+  - 美国_67
+  - 美国_70
+  - 美国_50
   - 美国_71
-  - 美国_9
-  - 美国_77
+  - CLOUDFLARE.COM_64
+  - 爱尔兰_28
+  - 美国_47
+  - 阿富汗_24
+  - 英国_49
+  - 美国_35
+  - 美国_63
+  - 美国_66
+  - 加拿大_57
+  - CLOUDFLARE.COM_60
   - 美国_56
-  - 加拿大_67
+  - 吉尔吉斯斯坦_61
+  - 美国_26
+  - 美国_73
+  - 美国_55
+  - 美国_37
+  - 美国_48
+  - 美国_75
+  - 美国_36
+  - 南非_51
   url: http://www.gstatic.com/generate_204
   interval: 5000
 tag: ""
