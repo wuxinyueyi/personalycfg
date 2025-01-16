@@ -1202,7 +1202,7 @@ proxies:
   obfs-param: ""
   udp: false
 proxy-groups:
-- name: auto
+- name: GROUPAUTO
   type: url-test
   proxies:
   - 日本_28
@@ -1260,16 +1260,16 @@ proxy-groups:
   - 日本_60
   - 日本_61
   - 美国_65
-  url: https://telegram.org/
-  interval: 5000
-- name: CN
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+- name: GROUP_CN
   type: url-test
   proxies:
   - CN_0
   - CN_1
   - CN_2
   - CN_3
-  - CN_4
-  url: https://telegram.org/
-  interval: 0
+  - CN_4  
+  url: http://www.gstatic.com/generate_204
+  interval: 300
 tag: ""
