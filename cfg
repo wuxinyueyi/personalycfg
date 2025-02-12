@@ -1,87 +1,7 @@
 port: 7890
 socks-port: 7891
 proxies:
-- name: 加拿大_3
-  server: 104.16.155.10
-  port: 80
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 台湾_11
-  server: qdfhytmhg.fask511.cfd
-  port: 25777
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=1024
-    headers:
-      Host: www.douyin.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_36
-  server: 154.3.8.151
-  port: 30067
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: iUB0923RBA
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_38
-  server: 165.1.69.50
-  port: 443
-  type: vmess
-  uuid: 7a8ec047-662b-4a9f-b89f-fd7d97eca90f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /RVr8ALFBsgTfBC
-    headers:
-      Host: shsus.256709394.xyz
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 冰岛_7
+- name: 冰岛_2
   server: is3.opensocks.site
   port: 8388
   type: ss
@@ -101,227 +21,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_9
-  server: shsus.256709394.xyz
-  port: 443
-  type: vmess
-  uuid: 7a8ec047-662b-4a9f-b89f-fd7d97eca90f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /RVr8ALFBsgTfBC
-    headers:
-      Host: shsus.256709394.xyz
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 欧洲_16
-  server: beesyar.org
-  port: 8080
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_22
-  server: 151.101.130.133
-  port: 80
-  type: vmess
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /racevpn?telegram-
-    headers:
-      Host: telegram-isvvpn.ir
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_32
-  server: 142.202.49.119
-  port: 5003
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: g5MeD6Ft3CWlJId
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_0
-  server: 38.68.135.239
-  port: 3306
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: Y6R9pAtvxxzmGC
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_18
-  server: plex.com
-  port: 80
-  type: vmess
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
-    headers:
-      Host: telegram-isvvpn.ir
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 日本_23
-  server: japan-5.keenvpn.me
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_25
-  server: 142.202.49.119
-  port: 5499
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: lGqs95QkFHo2NV
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_26
-  server: yourjobnavigator.online
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2cba4104747d49d18319e5ade1b93ab5
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 比利时_37
-  server: 192.71.249.146
-  port: 990
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8f7aCzcPKbsF8p3
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_4
-  server: 63.177.133.180
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-directvpn
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 俄罗斯_14
+- name: 俄罗斯_9
   server: 46.17.40.190
   port: 12330
   type: ss
@@ -341,29 +41,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 英国_15
-  server: 185.121.134.12
-  port: 20315
-  type: vmess
-  uuid: fa2a3c9b-47c0-41ba-8a8e-ff66ba96a286
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_28
-  server: 154.90.63.193
-  port: 990
+- name: 德国_11
+  server: 146.19.247.183
+  port: 8388
   type: ss
   uuid: ""
   alterId: 0
@@ -375,14 +55,14 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8f7aCzcPKbsF8p3
+  password: ZTUxOTQ5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_29
-  server: join.ISVvpn.fastly80-3.hosting-ip.com
+- name: 美国_13
+  server: 151.101.130.133
   port: 80
   type: vmess
   uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
@@ -392,7 +72,7 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /racevpn
+    path: /racevpn?telegram-
     headers:
       Host: telegram-isvvpn.ir
   password: ""
@@ -401,307 +81,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 荷兰_33
-  server: 103.104.247.47
-  port: 8080
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_34
-  server: 142.202.49.119
-  port: 6379
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: zDNVedRFPQexG9v
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 英国_39
-  server: 35.179.63.48
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-privatevpns
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 爱尔兰_41
-  server: 52.213.215.174
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-privatevpns
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_6
-  server: 38.147.189.12
-  port: 12875
-  type: vmess
-  uuid: 1a3f584c-0960-48ef-a161-942c91e8ab64
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 加拿大_21
-  server: 142.202.49.119
-  port: 8008
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: XKFKl2rULjIp74
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_24
-  server: 151.101.194.133
-  port: 80
-  type: vmess
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
-    headers:
-      Host: telegram-isvvpn.ir
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 台湾_27
-  server: kkkghdragxc.fask511.cfd
-  port: 25775
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=1024
-    headers:
-      Host: www.douyin.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_31
-  server: s1.db-link01.top
-  port: 8880
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dabai.in172.67.95.35
-    headers:
-      Host: 100-250-32-53.s1.db-link01.top
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_5
-  server: 142.202.49.119
-  port: 5000
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: Y6R9pAtvxxzmGC
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 荷兰_8
-  server: 193.29.139.189
-  port: 8080
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_10
-  server: 3.130.216.214
-  port: 22222
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: telegram-id-directvpn
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 法国_20
-  server: 62.210.88.22
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: R0flZcpSJ1GjvH3mzap1qg
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 英国_40
-  server: 77.239.99.180
-  port: 34775
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: nHDhqhjSzmrCNUeRalyPwQ
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_12
-  server: s1.db-link02.top
-  port: 2082
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dabai.in172.67.79.231
-    headers:
-      Host: 100-113-212-3.s1.db-link02.top
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_30
+- name: 美国_16
   server: 151.101.0.155
   port: 80
   type: vmess
@@ -721,9 +101,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_35
+- name: 美国_1
   server: 38.68.135.239
-  port: 2375
+  port: 3306
   type: ss
   uuid: ""
   alterId: 0
@@ -735,33 +115,33 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: faBAoD54k87UJG7
+  password: Y6R9pAtvxxzmGC
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_1
-  server: s2.db-link02.top
-  port: 2052
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+- name: XX_7
+  server: 103.104.247.47
+  port: 8080
+  type: ss
+  uuid: ""
   alterId: 0
-  cipher: auto
+  cipher: chacha20-ietf-poly1305
   tls: false
   skip-cert-verify: false
-  network: ws
+  network: ""
   ws-opts:
-    path: /dabai.in172.64.6.224
+    path: ""
     headers:
-      Host: 100-34-100-44.s2.db-link02.top
-  password: ""
+      Host: ""
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_2
+- name: 美国_21
   server: 38.68.135.239
   port: 7307
   type: ss
@@ -781,20 +161,60 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 俄罗斯联邦_13
-  server: 195.58.49.42
-  port: 20315
+- name: 俄罗斯_6
+  server: 89.221.224.166
+  port: 8388
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: NjBlZDlk
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_10
+  server: 38.110.1.202
+  port: 2376
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: faBAoD54k87UJG7
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_14
+  server: plex.com
+  port: 80
   type: vmess
-  uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
     headers:
-      Host: ""
+      Host: telegram-isvvpn.ir
   password: ""
   protocol: ""
   obfs: ""
@@ -802,6 +222,46 @@ proxies:
   obfs-param: ""
   udp: false
 - name: 美国_17
+  server: join.ISVvpn.fastly80-3.hosting-ip.com
+  port: 80
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /racevpn
+    headers:
+      Host: telegram-isvvpn.ir
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 土耳其_19
+  server: 185.123.101.241
+  port: 990
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_12
   server: 38.121.43.248
   port: 8882
   type: ss
@@ -821,9 +281,129 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_19
-  server: 142.202.49.119
-  port: 9101
+- name: 美国_15
+  server: 38.110.1.202
+  port: 8008
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: XKFKl2rULjIp74
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_18
+  server: 151.101.194.133
+  port: 80
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
+    headers:
+      Host: telegram-isvvpn.ir
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 西班牙_0
+  server: 150.241.97.216
+  port: 26039
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: gj1dvw15nnjIyMSjSficeC
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 爱尔兰_3
+  server: 52.138.234.185
+  port: 42658
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cEZPI4PrVloPulwPHRYi5G
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 英国_4
+  server: 77.239.99.180
+  port: 34775
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: nHDhqhjSzmrCNUeRalyPwQ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 乌克兰_5
+  server: 95.164.68.37
+  port: 8388
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: OTBkYmFk
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_8
+  server: 38.110.1.202
+  port: 9102
   type: ss
   uuid: ""
   alterId: 0
@@ -841,13 +421,13 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_6
-  server: uk.fastsoonlink.com
-  port: 40007
-  type: trojan
+- name: 美国_20
+  server: 38.68.135.239
+  port: 2375
+  type: ss
   uuid: ""
   alterId: 0
-  cipher: ""
+  cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
   network: ""
@@ -855,95 +435,15 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  password: faBAoD54k87UJG7
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_8
-  server: tttxbmsm.fask511.cfd
-  port: 25780
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=1024
-    headers:
-      Host: www.douyin.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_12
-  server: web.51.la
-  port: 443
-  type: vmess
-  uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_3
-  server: kkkghdragxc.fask511.cfd
-  port: 25779
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=1024
-    headers:
-      Host: www.douyin.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_4
-  server: naiu-us.05vr9nyqg5.download
-  port: 13019
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: dc15d997-8b26-4294-870e-c90a5784dca4
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_5
-  server: 103.216.253.197
-  port: 40005
+- name: 欧洲_22
+  server: 45.158.171.110
+  port: 8080
   type: ss
   uuid: ""
   alterId: 0
@@ -955,93 +455,13 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_7
-  server: naiu-other.05vr9nyqg5.download
-  port: 13036
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: dc15d997-8b26-4294-870e-c90a5784dca4
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_9
-  server: naiu-sg.05vr9nyqg5.download
-  port: 13028
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: dc15d997-8b26-4294-870e-c90a5784dca4
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
 - name: CN_0
-  server: bvdhgfhfs.fask511.cfd
-  port: 25779
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=1024
-    headers:
-      Host: www.douyin.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_1
-  server: naiu-jp.05vr9nyqg5.download
-  port: 13011
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: dc15d997-8b26-4294-870e-c90a5784dca4
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_2
   server: 45.250.184.183
   port: 6181
   type: ss
@@ -1061,115 +481,193 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
+- name: CN_1
+  server: naiu-sg.05vr9nyqg5.download
+  port: 13028
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: dc15d997-8b26-4294-870e-c90a5784dca4
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_2
+  server: sgp.fastsoonlink.com
+  port: 40005
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_3
+  server: 103.216.253.197
+  port: 40005
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_4
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  port: 33184
+  type: vmess
+  uuid: e1541125-9df4-4ee7-bb05-e68f85d7937f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_5
+  server: hong-kong.keenvpn.me
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_8
+  server: web.51.la
+  port: 443
+  type: vmess
+  uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
 proxy-groups:
 - name: GROUP_ABR_TEST
   type: url-test
   proxies:
-  - 加拿大_3
-  - 台湾_11
-  - 美国_36
-  - 美国_38
-  - 冰岛_7
-  - 美国_9
-  - 欧洲_16
-  - 美国_22
-  - 美国_32
-  - 美国_0
-  - 美国_18
-  - 日本_23
-  - 美国_25
-  - 美国_26
-  - 比利时_37
-  - 美国_4
-  - 俄罗斯_14
-  - 英国_15
-  - 美国_28
-  - 美国_29
-  - 荷兰_33
-  - 美国_34
-  - 英国_39
-  - 爱尔兰_41
-  - 美国_6
-  - 加拿大_21
-  - 美国_24
-  - 台湾_27
-  - 美国_31
-  - 美国_5
-  - 荷兰_8
-  - 美国_10
-  - 法国_20
-  - 英国_40
-  - 美国_12
-  - 美国_30
-  - 美国_35
+  - 冰岛_2
+  - 俄罗斯_9
+  - 德国_11
+  - 美国_13
+  - 美国_16
   - 美国_1
-  - 美国_2
-  - 俄罗斯联邦_13
+  - XX_7
+  - 美国_21
+  - 俄罗斯_6
+  - 美国_10
+  - 美国_14
   - 美国_17
-  - 美国_19
+  - 土耳其_19
+  - 美国_12
+  - 美国_15
+  - 美国_18
+  - 西班牙_0
+  - 爱尔兰_3
+  - 英国_4
+  - 乌克兰_5
+  - 美国_8
+  - 美国_20
+  - 欧洲_22
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: GROUP_ABR_FALLBACK
   type: url-test
   proxies:
-  - 加拿大_3
-  - 台湾_11
-  - 美国_36
-  - 美国_38
-  - 冰岛_7
-  - 美国_9
-  - 欧洲_16
-  - 美国_22
-  - 美国_32
-  - 美国_0
-  - 美国_18
-  - 日本_23
-  - 美国_25
-  - 美国_26
-  - 比利时_37
-  - 美国_4
-  - 俄罗斯_14
-  - 英国_15
-  - 美国_28
-  - 美国_29
-  - 荷兰_33
-  - 美国_34
-  - 英国_39
-  - 爱尔兰_41
-  - 美国_6
-  - 加拿大_21
-  - 美国_24
-  - 台湾_27
-  - 美国_31
-  - 美国_5
-  - 荷兰_8
-  - 美国_10
-  - 法国_20
-  - 英国_40
-  - 美国_12
-  - 美国_30
-  - 美国_35
+  - 冰岛_2
+  - 俄罗斯_9
+  - 德国_11
+  - 美国_13
+  - 美国_16
   - 美国_1
-  - 美国_2
-  - 俄罗斯联邦_13
+  - XX_7
+  - 美国_21
+  - 俄罗斯_6
+  - 美国_10
+  - 美国_14
   - 美国_17
-  - 美国_19
+  - 土耳其_19
+  - 美国_12
+  - 美国_15
+  - 美国_18
+  - 西班牙_0
+  - 爱尔兰_3
+  - 英国_4
+  - 乌克兰_5
+  - 美国_8
+  - 美国_20
+  - 欧洲_22
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: GROUP_CN
   type: fallback
   proxies:
-  - CN_6
-  - CN_8
-  - CN_12
-  - CN_3
-  - CN_4
-  - CN_5
-  - CN_7
-  - CN_9
   - CN_0
   - CN_1
   - CN_2
+  - CN_3
+  - CN_4
+  - CN_5
+  - CN_8
   url: http://www.gstatic.com/generate_204
   interval: 300
 tag: ""
