@@ -1,87 +1,7 @@
 port: 7890
 socks-port: 7891
 proxies:
-- name: 美国_17
-  server: 172.67.202.155
-  port: 2082
-  type: vmess
-  uuid: 5ce824bc-d76b-4420-aef3-45a7bade5228
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@MEHDIO1
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_20
-  server: 35.91.216.191
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: amazonskr05
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_25
-  server: 35.91.198.93
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: amazonskr05
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 俄罗斯_15
-  server: 185.174.138.199
-  port: 2052
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /az05.beyondy.cfd/link?/TM
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 保加利亚_16
+- name: 欧洲_3
   server: 45.142.120.190
   port: 2082
   type: vmess
@@ -101,47 +21,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 美国_18
-  server: 34.222.44.5
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: amazonskr05
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 缅甸_26
-  server: 156.244.37.10
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: rowa9Gqf8QnoqItAbgWONJ
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 俄罗斯_19
+- name: 俄罗斯_6
   server: 185.174.138.209
   port: 2095
   type: vmess
@@ -161,28 +41,8 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 俄罗斯_21
-  server: 185.174.138.196
-  port: 2082
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_23
-  server: 35.87.37.159
+- name: 美国_7
+  server: 35.91.216.191
   port: 443
   type: ss
   uuid: ""
@@ -201,47 +61,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 美国_13
-  server: 35.86.111.233
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: amazonskr05
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 乌克兰_14
-  server: at1.opensocks.site
-  port: 8388
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ODA2MGZh
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 乌克兰_22
+- name: 乌克兰_9
   server: 95.164.36.59
   port: 8388
   type: ss
@@ -261,7 +81,387 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 美国_24
+- name: 美国_18
+  server: 18.237.73.216
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 乌克兰_27
+  server: de2.opensocks.site
+  port: 1443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ZDljYmNh
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_4
+  server: 172.67.202.155
+  port: 2082
+  type: vmess
+  uuid: 5ce824bc-d76b-4420-aef3-45a7bade5228
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@MEHDIO1
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_21
+  server: 34.217.100.159
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 法国_26
+  server: 57.128.190.245
+  port: 20568
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e014f8ab71735926
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 德国_30
+  server: 5.252.25.61
+  port: 8080
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_29
+  server: westsg2-ddns.oraclenat.cc
+  port: 23452
+  type: vmess
+  uuid: 356dd6f9-6671-432c-bb3b-dd5d7c649659
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: westsg2-ddns.oraclenat.cc
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_0
+  server: 35.86.111.233
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_10
+  server: 35.87.37.159
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_12
+  server: 35.91.198.93
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_13
+  server: 35.92.145.143
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_17
+  server: 69.50.95.86
+  port: 6379
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: zDNVedRFPQexG9v
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 欧洲_19
+  server: 45.87.175.166
+  port: 8080
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_22
+  server: 207.90.237.96
+  port: 23008
+  type: vmess
+  uuid: c5a0021d-28fa-4b32-877b-50b513bc2a5f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 英国_32
+  server: 206.245.211.15
+  port: 19005
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ZZ742AZT1DKLRDIF
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_20
+  server: 38.165.233.18
+  port: 990
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 瑞士_15
+  server: 84.17.53.160
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 荷兰_16
+  server: 51.15.27.48
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_5
+  server: 34.222.44.5
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: amazonskr05
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_11
   server: 35.91.235.173
   port: 443
   type: ss
@@ -281,9 +481,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 以色列_27
-  server: 188.191.147.127
-  port: 31348
+- name: XX_31
+  server: 103.104.247.49
+  port: 8080
   type: ss
   uuid: ""
   alterId: 0
@@ -295,24 +495,104 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_10
-  server: 183.236.51.38
-  port: 53902
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 乌克兰_23
+  server: 95.164.68.37
+  port: 1443
+  type: ss
+  uuid: ""
   alterId: 0
-  cipher: auto
+  cipher: chacha20-ietf-poly1305
   tls: false
   skip-cert-verify: false
   network: ""
   ws-opts:
     path: ""
+    headers:
+      Host: ""
+  password: ZDljYmNh
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_24
+  server: s1.cn-db.top
+  port: 2052
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dabai.in104.18.179.207
+    headers:
+      Host: 100-70-193-42.s1.cn-db.top
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_25
+  server: US7-03.890606.xyz
+  port: 80
+  type: vmess
+  uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /bua2hMcbA8wMzbGFtV
+    headers:
+      Host: us7-03.890606.xyz
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 奥地利_1
+  server: at1.opensocks.site
+  port: 8388
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ODA2MGZh
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 俄罗斯_2
+  server: 185.174.138.199
+  port: 2052
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /az05.beyondy.cfd/link?/TM
     headers:
       Host: ""
   password: ""
@@ -320,10 +600,50 @@ proxies:
   obfs: ""
   protocol-param: ""
   obfs-param: ""
+  udp: true
+- name: 俄罗斯_8
+  server: 185.174.138.196
+  port: 2082
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CLOUDFLARE.COM_28
+  server: 190.93.244.66
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tr
+    headers:
+      Host: zeming13.us.kg
+  password: bpb-trojan
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
   udp: false
-- name: CN_11
+- name: CN_3
   server: ti3hyra4.slashdevslashnetslashtun.net
-  port: 21001
+  port: 17006
   type: ss
   uuid: ""
   alterId: 0
@@ -335,33 +655,13 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: Y2U58S90E3GST1AQ
+  password: 3D5E3GR6BW1N99NI
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_14
-  server: qh62onjn.slashdevslashnetslashtun.net
-  port: 16007
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0407WKIEIXMTLGC6
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_15
+- name: CN_5
   server: ti3hyra4.slashdevslashnetslashtun.net
   port: 16006
   type: ss
@@ -381,147 +681,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_17
-  server: qh62onjn.slashdevslashnetslashtun.net
-  port: 15009
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: FCEUOASRQJC0LN0K
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_19
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 15005
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: LZQ0R9BL69GCC6FS
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_3
-  server: w72tapyb.slashdevslashnetslashtun.net
-  port: 18008
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 4S85LF2Q3QK92171
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_5
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 16013
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: IHWLYZSSSX4GSKLA
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
 - name: CN_6
-  server: w72tapyb.slashdevslashnetslashtun.net
-  port: 15008
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2H98UZT9LT1TE3X9
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_9
-  server: w72tapyb.slashdevslashnetslashtun.net
-  port: 21003
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: HQJQFA7U2Z5HGZWH
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_12
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  port: 18002
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 84HMRAWILKB49QUZ
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_22
   server: ti3hyra4.slashdevslashnetslashtun.net
   port: 15006
   type: ss
@@ -541,9 +701,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_25
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 16009
+- name: CN_7
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 17007
   type: ss
   uuid: ""
   alterId: 0
@@ -555,115 +715,15 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: WNW5MZJX57ZJUNQU
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_1
-  server: in06.xxxoooxxxooo.net
-  port: 63092
-  type: vmess
-  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_2
-  server: 120.232.153.41
-  port: 32077
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_7
-  server: 120.198.71.214
-  port: 35565
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
+  password: KUEK4BAJT1HBVTGH
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
 - name: CN_20
-  server: naiu-hk.05vr9nyqg5.download
-  port: 13008
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_13
-  server: 120.198.71.219
-  port: 44014
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_16
-  server: w72tapyb.slashdevslashnetslashtun.net
-  port: 16012
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16003
   type: ss
   uuid: ""
   alterId: 0
@@ -675,33 +735,13 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: B5CJMEHJMSMNQ120
+  password: SEKAN1MMGZ0VVBMC
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_18
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 21004
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: QF377GGQ00RATCMK
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_21
+- name: CN_24
   server: 8tv68qhq.slashdevslashnetslashtun.net
   port: 18013
   type: ss
@@ -721,7 +761,87 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_23
+- name: CN_36
+  server: qh62onjn.slashdevslashnetslashtun.net
+  port: 21002
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ECOQAU8O56QGBV28
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_38
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16004
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: NTW5EWF7WURCP8IV
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_42
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18001
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: H4QQV2BI0QMPRKXI
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_9
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  port: 40021
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dl_media
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_10
   server: qh62onjn.slashdevslashnetslashtun.net
   port: 15011
   type: ss
@@ -735,19 +855,19 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: TCEL1H0XD7TWAKI0
+  password: 5VXMPCJZOU0TU384
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_24
-  server: hk02.x.quickcht3.club
-  port: 52612
+- name: CN_17
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 21001
   type: ss
   uuid: ""
   alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
   network: ""
@@ -755,15 +875,15 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  password: Y2U58S90E3GST1AQ
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_4
-  server: 120.198.71.219
-  port: 42055
+- name: CN_19
+  server: 120.198.71.214
+  port: 35565
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
@@ -781,7 +901,187 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_8
+- name: CN_29
+  server: 183.236.51.38
+  port: 53902
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_0
+  server: in06.xxxoooxxxooo.net
+  port: 63092
+  type: vmess
+  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_4
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18002
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 84HMRAWILKB49QUZ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_16
+  server: 183.2.194.141
+  port: 34011
+  type: vmess
+  uuid: 59383c9f-700c-4767-9e5a-6c6e87669c3c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_22
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16008
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: A2IA8TWD9XT9TJUG
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_23
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15006
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: JHYI1R6ISUYHVNG0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_33
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16014
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: NR1W67VPU6097RWQ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_28
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 17002
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 9GP4N1O8WHSV99JV
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_12
+  server: 183.236.51.38
+  port: 41699
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_11
   server: hk01.x.quickcht3.club
   port: 52611
   type: ss
@@ -801,75 +1101,527 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
+- name: CN_15
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 21004
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: FXFYRVMMA5BPC7HJ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_26
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16009
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 4IOI5AG0HRCCDDVI
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_35
+  server: w72tapyb.slashdevslashnetslashtun.net
+  port: 18008
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 4S85LF2Q3QK92171
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_2
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15005
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: LZQ0R9BL69GCC6FS
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_14
+  server: qh62onjn.slashdevslashnetslashtun.net
+  port: 15009
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: FCEUOASRQJC0LN0K
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_39
+  server: hk02.x.quickcht3.club
+  port: 52612
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_8
+  server: w72tapyb.slashdevslashnetslashtun.net
+  port: 15008
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2H98UZT9LT1TE3X9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_13
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 16009
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: WNW5MZJX57ZJUNQU
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_21
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 21002
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: S5B6YEXVIHPI8WIV
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_25
+  server: 120.198.71.219
+  port: 42055
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_31
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18008
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 6Z15O92K5OSTCQUD
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_32
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 16013
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: IHWLYZSSSX4GSKLA
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_34
+  server: qh62onjn.slashdevslashnetslashtun.net
+  port: 16007
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0407WKIEIXMTLGC6
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_40
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 21004
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: QF377GGQ00RATCMK
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_43
+  server: qh62onjn.slashdevslashnetslashtun.net
+  port: 15015
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: S0FY3FQL4FCQGR4S
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_18
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15007
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 9MCDTT93YYL59MMQ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_27
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15010
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 30AUZZQAYK6NDL3H
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_30
+  server: qh62onjn.slashdevslashnetslashtun.net
+  port: 21006
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: KM16ID6XDW3XRC7K
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_37
+  server: w72tapyb.slashdevslashnetslashtun.net
+  port: 16012
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: B5CJMEHJMSMNQ120
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_41
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18009
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: D9CER6JRJU5HFZC8
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
 proxy-groups:
 - name: GROUP_ABR_TEST
   type: url-test
   proxies:
-  - 美国_17
-  - 美国_20
-  - 美国_25
-  - 俄罗斯_15
-  - 保加利亚_16
+  - 欧洲_3
+  - 俄罗斯_6
+  - 美国_7
+  - 乌克兰_9
   - 美国_18
-  - 缅甸_26
-  - 俄罗斯_19
-  - 俄罗斯_21
-  - 美国_23
+  - 乌克兰_27
+  - 美国_4
+  - 美国_21
+  - 法国_26
+  - 德国_30
+  - 美国_29
+  - 美国_0
+  - 美国_10
+  - 美国_12
   - 美国_13
-  - 乌克兰_14
-  - 乌克兰_22
+  - 美国_17
+  - 欧洲_19
+  - 美国_22
+  - 英国_32
+  - 美国_20
+  - 瑞士_15
+  - 荷兰_16
+  - 美国_5
+  - 美国_11
+  - XX_31
+  - 乌克兰_23
   - 美国_24
-  - 以色列_27
+  - 美国_25
+  - 奥地利_1
+  - 俄罗斯_2
+  - 俄罗斯_8
+  - CLOUDFLARE.COM_28
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: GROUP_ABR_FALLBACK
   type: url-test
   proxies:
-  - 美国_17
-  - 美国_20
-  - 美国_25
-  - 俄罗斯_15
-  - 保加利亚_16
+  - 欧洲_3
+  - 俄罗斯_6
+  - 美国_7
+  - 乌克兰_9
   - 美国_18
-  - 缅甸_26
-  - 俄罗斯_19
-  - 俄罗斯_21
-  - 美国_23
+  - 乌克兰_27
+  - 美国_4
+  - 美国_21
+  - 法国_26
+  - 德国_30
+  - 美国_29
+  - 美国_0
+  - 美国_10
+  - 美国_12
   - 美国_13
-  - 乌克兰_14
-  - 乌克兰_22
+  - 美国_17
+  - 欧洲_19
+  - 美国_22
+  - 英国_32
+  - 美国_20
+  - 瑞士_15
+  - 荷兰_16
+  - 美国_5
+  - 美国_11
+  - XX_31
+  - 乌克兰_23
   - 美国_24
-  - 以色列_27
+  - 美国_25
+  - 奥地利_1
+  - 俄罗斯_2
+  - 俄罗斯_8
+  - CLOUDFLARE.COM_28
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: GROUP_CN
   type: fallback
   proxies:
-  - CN_10
-  - CN_11
-  - CN_14
-  - CN_15
-  - CN_17
-  - CN_19
   - CN_3
   - CN_5
   - CN_6
-  - CN_9
-  - CN_12
-  - CN_22
-  - CN_25
-  - CN_1
-  - CN_2
   - CN_7
   - CN_20
-  - CN_13
-  - CN_16
-  - CN_18
-  - CN_21
-  - CN_23
   - CN_24
+  - CN_36
+  - CN_38
+  - CN_42
+  - CN_9
+  - CN_10
+  - CN_17
+  - CN_19
+  - CN_29
+  - CN_0
   - CN_4
+  - CN_16
+  - CN_22
+  - CN_23
+  - CN_33
+  - CN_28
+  - CN_12
+  - CN_11
+  - CN_15
+  - CN_26
+  - CN_35
+  - CN_2
+  - CN_14
+  - CN_39
   - CN_8
+  - CN_13
+  - CN_21
+  - CN_25
+  - CN_31
+  - CN_32
+  - CN_34
+  - CN_40
+  - CN_43
+  - CN_18
+  - CN_27
+  - CN_30
+  - CN_37
+  - CN_41
   url: http://www.gstatic.com/generate_204
   interval: 300
 tag: ""
