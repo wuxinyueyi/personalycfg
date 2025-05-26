@@ -1,9 +1,9 @@
 port: 7890
 socks-port: 7891
 proxies:
-- name: XX_8
-  server: 103.186.154.38
-  port: 38388
+- name: 美国_29
+  server: 34.215.48.231
+  port: 443
   type: ss
   uuid: ""
   alterId: 0
@@ -15,133 +15,13 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  password: awsps0501
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
-  udp: false
-- name: 日本_9
-  server: 47.74.41.147
-  port: 53893
-  type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: kcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_11
-  server: cs.flha.ru
-  port: 2082
-  type: vmess
-  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cs.flha.ru
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_14
-  server: 172.67.205.22
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-    headers:
-      Host: 1SSdDdFfffHhHJJJJ.20220420.Pp.uA
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 日本_15
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: Nk9asglDzHzjktVzTkvhaA
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 日本_5
-  server: 103.140.136.76
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 04e28ee6e6b0
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_13
-  server: www.hdmoli.com
-  port: 80
-  type: vmess
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /rongseven?ed=2048
-    headers:
-      Host: fr.freeyyds.dpdns.org
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_0
+  udp: true
+- name: 美国_12
   server: 156.146.40.194
   port: 989
   type: ss
@@ -161,27 +41,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 美国_1
-  server: 38.47.96.30
-  port: 443
-  type: vmess
-  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /lzjjj
-    headers:
-      Host: th.lzj520hxw.dpdns.org
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 韩国_2
+- name: 韩国_14
   server: 125.141.31.72
   port: 15098
   type: ss
@@ -201,16 +61,16 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 英国_3
-  server: de.vmess.comnpmjs.com
-  port: 443
+- name: 日本_21
+  server: 47.74.41.147
+  port: 53893
   type: vmess
-  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  network: grpc
+  network: kcp
   ws-opts:
     path: ""
     headers:
@@ -221,49 +81,49 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 日本_4
-  server: 54.248.176.238
+- name: 欧洲_28
+  server: 45.147.201.231
+  port: 23087
+  type: vmess
+  uuid: cd82373b-5ce7-4c55-b66d-7d9640bf28ed
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 挪威_30
+  server: 185.90.61.157
+  port: 20034
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 5Z6Y8MDHRRZXAQ4I
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 日本_42
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
   port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: awsps0501
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 韩国_6
-  server: p231.panda004.net
-  port: 11389
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: qwerREWQ@@
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 新加坡_7
-  server: 18.140.199.169
-  port: 9898
   type: ss
   uuid: ""
   alterId: 0
@@ -275,13 +135,153 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  password: Nk9asglDzHzjktVzTkvhaA
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_10
+- name: 美国_23
+  server: bats-paper-chump.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e6a2e741-0fce-440b-910c-b81325e2263a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 乌克兰_27
+  server: bring-glove-shine.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e6a2e741-0fce-440b-910c-b81325e2263a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 乌克兰_0
+  server: cache-giver-wife.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e6a2e741-0fce-440b-910c-b81325e2263a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 乌克兰_25
+  server: guy-trace-lyric.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_36
+  server: 154.223.16.212
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 塞浦路斯_3
+  server: csgo.com
+  port: 2086
+  type: vmess
+  uuid: c21b972a-bc92-4f8c-8e6a-6868001f7f88
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 乌克兰_22
+  server: strut-brisk-scope.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e6a2e741-0fce-440b-910c-b81325e2263a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_37
   server: 172.67.181.193
   port: 443
   type: trojan
@@ -301,7 +301,167 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_12
+- name: 韩国_18
+  server: p231.panda004.net
+  port: 11389
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: qwerREWQ@@
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_33
+  server: 104.21.22.211
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /Dmby2AKiZKvMo1YauoQwY5
+    headers:
+      Host: ""
+  password: 061ec9d5-ba40-428a-8be0-1947b10b5cfc
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_38
+  server: cs.flha.ru
+  port: 2082
+  type: vmess
+  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cs.flha.ru
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 乌克兰_32
+  server: 94.131.20.3
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 英国_15
+  server: de.vmess.comnpmjs.com
+  port: 443
+  type: vmess
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: grpc
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 日本_16
+  server: 54.248.176.238
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: awsps0501
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_19
+  server: 18.140.199.169
+  port: 9898
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_24
+  server: 172.67.207.27
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /Dmby2AKiZKvMo1YauoQwY5
+    headers:
+      Host: ""
+  password: 061ec9d5-ba40-428a-8be0-1947b10b5cfc
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_39
   server: www.xinjuc.com
   port: 80
   type: vmess
@@ -321,9 +481,89 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_45
-  server: free.2weradf.xyz
-  port: 36211
+- name: 越南_20
+  server: 103.186.154.38
+  port: 38388
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 欧洲_34
+  server: 185.255.123.183
+  port: 20016
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: RP0IOLQDETJW8R6B
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 加拿大_41
+  server: 172.67.205.22
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+    headers:
+      Host: 1SSdDdFfffHhHJJJJ.20220420.Pp.uA
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 乌克兰_35
+  server: chop-wrist-bud.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: XX_17
+  server: 103.140.136.76
+  port: 443
   type: ss
   uuid: ""
   alterId: 0
@@ -335,335 +575,95 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  password: 04e28ee6e6b0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 瑞典_26
+  server: 185.146.173.25
+  port: 80
+  type: vmess
+  uuid: 27ee8047-5da9-4433-8c85-45f5feb1967f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
+    headers:
+      Host: ""
+  password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_78
-  server: v12.heduian.link
-  port: 30812
+- name: 美国_40
+  server: www.hdmoli.com
+  port: 80
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /oooo
+    path: /rongseven?ed=2048
     headers:
-      Host: ocbc.com
+      Host: fr.freeyyds.dpdns.org
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_110
-  server: 120.198.44.126
-  port: 47883
+- name: 葡萄牙_8
+  server: 185.231.233.112
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_13
+  server: 38.47.96.30
+  port: 443
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
   alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_17
-  server: free.2apzhfa.xyz
-  port: 31215
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_16
-  server: free.2apzhfa.xyz
-  port: 31213
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_29
-  server: free.2apzhfa.xyz
-  port: 31641
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_31
-  server: free.2apzhfa.xyz
-  port: 31677
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_33
-  server: free.2weradf.xyz
-  port: 36143
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_50
-  server: free.2weradf.xyz
-  port: 36722
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_84
-  server: 120.233.147.197
-  port: 23340
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_28
-  server: free.2apzhfa.xyz
-  port: 31611
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_57
-  server: free.2weradf.xyz
-  port: 36511
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_63
-  server: sslvpn.51job.com
-  port: 1443
-  type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  alterId: 64
   cipher: auto
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /634c5c4f9782
+    path: /lzjjj
     headers:
-      Host: centos7
+      Host: th.lzj520hxw.dpdns.org
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_53
-  server: free.2weradf.xyz
-  port: 36371
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_98
-  server: 183.238.90.8
-  port: 41766
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_12
-  server: free.2apzhfa.xyz
-  port: 31311
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_19
-  server: free.2apzhfa.xyz
-  port: 31741
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_97
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 15010
+- name: 瑞典_31
+  server: 185.186.78.220
+  port: 20035
   type: ss
   uuid: ""
   alterId: 0
@@ -675,693 +675,13 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: ENYGONDU94UW1G6X
+  password: EC721Y0T86KX506L
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
-  udp: false
-- name: CN_68
-  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
+  udp: true
 - name: CN_92
-  server: 120.198.71.219
-  port: 51095
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_40
-  server: free.2weradf.xyz
-  port: 36115
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_47
-  server: free.2weradf.xyz
-  port: 36215
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_61
-  server: free.2weradf.xyz
-  port: 36671
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_27
-  server: free.2apzhfa.xyz
-  port: 31571
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_82
-  server: cn01.efan8867801.xyz
-  port: 8774
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: rc4-md5
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: efanccyun
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_94
-  server: 120.198.71.216
-  port: 52082
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_2
-  server: free.2apzhfa.xyz
-  port: 31145
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_30
-  server: free.2apzhfa.xyz
-  port: 31671
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_42
-  server: free.2weradf.xyz
-  port: 36173
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_95
-  server: 120.232.153.63
-  port: 37805
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_107
-  server: 120.198.71.214
-  port: 42375
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_75
-  server: cn01.efan8867801.xyz
-  port: 8766
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: rc4-md5
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: efanccyun
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_80
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  port: 16002
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0JR5J197C0KDI6O5
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_4
-  server: free.2apzhfa.xyz
-  port: 31243
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_39
-  server: free.2weradf.xyz
-  port: 36113
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_10
-  server: free.2apzhfa.xyz
-  port: 31173
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_22
-  server: free.2apzhfa.xyz
-  port: 31371
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_54
-  server: free.2weradf.xyz
-  port: 36411
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_55
-  server: free.2weradf.xyz
-  port: 36441
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_0
-  server: free.2apzhfa.xyz
-  port: 31141
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_108
-  server: 120.232.153.41
-  port: 44491
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_37
-  server: free.2weradf.xyz
-  port: 36245
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_38
-  server: free.2weradf.xyz
-  port: 36111
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_109
-  server: cdn-p1-us.youku-dns.com
-  port: 11511
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 77a12a3d-6df0-48c8-a189-b071fcda1456
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_24
-  server: free.2apzhfa.xyz
-  port: 31441
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_66
-  server: v29.heduian.link
-  port: 30829
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_112
-  server: 120.198.71.216
-  port: 35921
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_77
-  server: 36.151.251.59
-  port: 44907
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: RlzoEILU
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_34
-  server: free.2weradf.xyz
-  port: 36145
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_93
-  server: 183.237.84.53
-  port: 55002
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_8
-  server: free.2apzhfa.xyz
-  port: 31115
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_83
-  server: v32.heduian.link
-  port: 30832
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_89
   server: 36.151.251.60
   port: 28296
   type: trojan
@@ -1381,347 +701,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_90
-  server: 183.238.90.8
-  port: 46920
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_9
-  server: free.2apzhfa.xyz
-  port: 31171
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_43
-  server: free.2weradf.xyz
-  port: 36311
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_65
-  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_51
-  server: free.2weradf.xyz
-  port: 36741
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_58
-  server: free.2weradf.xyz
-  port: 36571
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_60
-  server: free.2weradf.xyz
-  port: 36641
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_99
-  server: dozo01.flztjc.top
-  port: 8313
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_104
-  server: 120.198.71.216
-  port: 46759
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_18
-  server: free.2apzhfa.xyz
-  port: 31271
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_35
-  server: free.2weradf.xyz
-  port: 36241
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_49
-  server: free.2weradf.xyz
-  port: 36721
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_91
-  server: vt-bana2-cn-11.ghpgwqswodgzv.com
-  port: 40021
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dl_media
-    headers:
-      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
-  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_101
-  server: 183.236.51.38
-  port: 41024
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_103
-  server: 120.198.71.214
-  port: 32980
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_14
-  server: free.2apzhfa.xyz
-  port: 31341
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_44
-  server: free.2weradf.xyz
-  port: 36341
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_102
+- name: CN_107
   server: 183.236.51.38
   port: 30052
   type: vmess
@@ -1741,9 +721,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_32
+- name: CN_38
   server: free.2weradf.xyz
-  port: 36141
+  port: 36241
   type: ss
   uuid: ""
   alterId: 0
@@ -1761,13 +741,33 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_59
-  server: free.2weradf.xyz
-  port: 36611
+- name: CN_72
+  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_85
+  server: cn01.efan8867801.xyz
+  port: 8774
   type: ss
   uuid: ""
   alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: rc4-md5
   tls: false
   skip-cert-verify: false
   network: ""
@@ -1775,15 +775,15 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  password: efanccyun
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
-  udp: true
-- name: CN_105
+  udp: false
+- name: CN_113
   server: 120.232.153.41
-  port: 46597
+  port: 44491
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
@@ -1801,9 +801,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_3
+- name: CN_29
   server: free.2apzhfa.xyz
-  port: 31241
+  port: 31511
   type: ss
   uuid: ""
   alterId: 0
@@ -1821,9 +821,29 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_20
+- name: CN_117
+  server: 120.198.71.216
+  port: 35921
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_31
   server: free.2apzhfa.xyz
-  port: 31721
+  port: 31611
   type: ss
   uuid: ""
   alterId: 0
@@ -1841,9 +861,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_41
+- name: CN_61
   server: free.2weradf.xyz
-  port: 36171
+  port: 36571
   type: ss
   uuid: ""
   alterId: 0
@@ -1861,127 +881,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_71
-  server: hkkh11v1.xpmc.cc
-  port: 40527
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 91a41f4e02dc
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_86
-  server: 43.247.135.192
-  port: 19504
-  type: vmess
-  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_74
-  server: v9.heduian.link
-  port: 30809
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_11
-  server: free.2apzhfa.xyz
-  port: 31175
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_23
-  server: free.2apzhfa.xyz
-  port: 31411
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_56
-  server: free.2weradf.xyz
-  port: 36471
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_81
+- name: CN_84
   server: 8tv68qhq.slashdevslashnetslashtun.net
   port: 16014
   type: ss
@@ -2001,7 +901,367 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_5
+- name: CN_106
+  server: 183.236.51.38
+  port: 41024
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_109
+  server: 120.198.71.216
+  port: 46759
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_32
+  server: free.2apzhfa.xyz
+  port: 31641
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_99
+  server: 120.198.71.216
+  port: 52082
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_48
+  server: free.2weradf.xyz
+  port: 36211
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_64
+  server: free.2weradf.xyz
+  port: 36671
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_14
+  server: free.2apzhfa.xyz
+  port: 31175
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_19
+  server: free.2apzhfa.xyz
+  port: 31213
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_58
+  server: free.2weradf.xyz
+  port: 36441
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_63
+  server: free.2weradf.xyz
+  port: 36641
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_91
+  server: 183.236.51.38
+  port: 49121
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_45
+  server: free.2weradf.xyz
+  port: 36173
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_52
+  server: free.2weradf.xyz
+  port: 36721
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_87
+  server: 120.233.147.197
+  port: 23340
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_25
+  server: free.2apzhfa.xyz
+  port: 31371
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_55
+  server: free.2weradf.xyz
+  port: 36731
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_66
+  server: sslvpn.51job.com
+  port: 1443
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /634c5c4f9782
+    headers:
+      Host: centos7
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_1
+  server: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: b55123f4-0ba2-11f0-a2ef-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_8
   server: free.2apzhfa.xyz
   port: 31245
   type: ss
@@ -2021,7 +1281,887 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_13
+- name: CN_17
+  server: free.2apzhfa.xyz
+  port: 31341
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_47
+  server: free.2weradf.xyz
+  port: 36341
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_68
+  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_3
+  server: free.2apzhfa.xyz
+  port: 31141
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_6
+  server: free.2apzhfa.xyz
+  port: 31241
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_15
+  server: free.2apzhfa.xyz
+  port: 31311
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_22
+  server: free.2apzhfa.xyz
+  port: 31741
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_23
+  server: free.2apzhfa.xyz
+  port: 31721
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_42
+  server: free.2weradf.xyz
+  port: 36113
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_98
+  server: 183.237.84.53
+  port: 55002
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_100
+  server: 120.232.153.63
+  port: 37805
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_4
+  server: free.2apzhfa.xyz
+  port: 31143
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_104
+  server: dozo01.flztjc.top
+  port: 8313
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_108
+  server: 120.198.71.214
+  port: 32980
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_10
+  server: free.2apzhfa.xyz
+  port: 31113
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_44
+  server: free.2weradf.xyz
+  port: 36171
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_49
+  server: free.2weradf.xyz
+  port: 36213
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_115
+  server: 120.198.44.126
+  port: 47883
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_26
+  server: free.2apzhfa.xyz
+  port: 31411
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_80
+  server: 36.151.251.59
+  port: 44907
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: RlzoEILU
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_101
+  server: 120.232.153.123
+  port: 40392
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_7
+  server: free.2apzhfa.xyz
+  port: 31243
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_86
+  server: v32.heduian.link
+  port: 30832
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_34
+  server: free.2apzhfa.xyz
+  port: 31677
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_37
+  server: free.2weradf.xyz
+  port: 36145
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_65
+  server: free.2weradf.xyz
+  port: 36677
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_110
+  server: 120.232.153.41
+  port: 46597
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_5
+  server: free.2apzhfa.xyz
+  port: 31145
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_36
+  server: free.2weradf.xyz
+  port: 36143
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_46
+  server: free.2weradf.xyz
+  port: 36311
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_51
+  server: free.2weradf.xyz
+  port: 36271
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_54
+  server: free.2weradf.xyz
+  port: 36741
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_56
+  server: free.2weradf.xyz
+  port: 36371
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_18
+  server: free.2apzhfa.xyz
+  port: 31211
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_35
+  server: free.2weradf.xyz
+  port: 36141
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_39
+  server: free.2weradf.xyz
+  port: 36243
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_89
+  server: 43.247.135.192
+  port: 19504
+  type: vmess
+  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_114
+  server: cdn-p1-us.youku-dns.com
+  port: 11511
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 77a12a3d-6df0-48c8-a189-b071fcda1456
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_9
+  server: free.2apzhfa.xyz
+  port: 31111
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_50
+  server: free.2weradf.xyz
+  port: 36215
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_81
+  server: v12.heduian.link
+  port: 30812
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_96
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  port: 40021
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dl_media
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_105
+  server: 183.232.235.2
+  port: 8313
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_28
+  server: free.2apzhfa.xyz
+  port: 31471
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_16
   server: free.2apzhfa.xyz
   port: 31313
   type: ss
@@ -2043,6 +2183,26 @@ proxies:
   udp: true
 - name: CN_21
   server: free.2apzhfa.xyz
+  port: 31271
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_24
+  server: free.2apzhfa.xyz
   port: 31722
   type: ss
   uuid: ""
@@ -2061,49 +2221,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_69
-  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_100
-  server: 183.232.235.2
-  port: 8313
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_48
+- name: CN_41
   server: free.2weradf.xyz
-  port: 36271
+  port: 36111
   type: ss
   uuid: ""
   alterId: 0
@@ -2121,9 +2241,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_36
+- name: CN_43
   server: free.2weradf.xyz
-  port: 36243
+  port: 36115
   type: ss
   uuid: ""
   alterId: 0
@@ -2141,7 +2261,27 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_67
+- name: CN_62
+  server: free.2weradf.xyz
+  port: 36611
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_70
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
   port: 8080
   type: vmess
@@ -2161,9 +2301,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_1
+- name: CN_12
   server: free.2apzhfa.xyz
-  port: 31143
+  port: 31171
   type: ss
   uuid: ""
   alterId: 0
@@ -2181,9 +2321,49 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_25
+- name: CN_95
+  server: 183.238.90.8
+  port: 46920
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_78
+  server: cn01.efan8867801.xyz
+  port: 8766
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: rc4-md5
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: efanccyun
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_30
   server: free.2apzhfa.xyz
-  port: 31471
+  port: 31571
   type: ss
   uuid: ""
   alterId: 0
@@ -2201,13 +2381,13 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_26
-  server: free.2apzhfa.xyz
-  port: 31511
+- name: CN_102
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15010
   type: ss
   uuid: ""
   alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
   network: ""
@@ -2215,15 +2395,35 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  password: ENYGONDU94UW1G6X
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_0
+  server: v5.heduian.link
+  port: 30805
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ""
+  password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_46
+- name: CN_53
   server: free.2weradf.xyz
-  port: 36213
+  port: 36722
   type: ss
   uuid: ""
   alterId: 0
@@ -2241,49 +2441,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_7
-  server: free.2apzhfa.xyz
-  port: 31113
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_15
-  server: free.2apzhfa.xyz
-  port: 31211
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_62
+- name: CN_59
   server: free.2weradf.xyz
-  port: 36677
+  port: 36471
   type: ss
   uuid: ""
   alterId: 0
@@ -2301,7 +2461,127 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_106
+- name: CN_71
+  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_103
+  server: 183.238.90.8
+  port: 41766
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_13
+  server: free.2apzhfa.xyz
+  port: 31173
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_77
+  server: v9.heduian.link
+  port: 30809
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_97
+  server: 120.198.71.219
+  port: 51095
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_11
+  server: free.2apzhfa.xyz
+  port: 31115
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_111
   server: 120.232.153.40
   port: 40292
   type: vmess
@@ -2321,49 +2601,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_88
-  server: 183.236.51.38
-  port: 49121
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_96
-  server: 120.232.153.123
-  port: 40392
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_6
-  server: free.2apzhfa.xyz
-  port: 31111
+- name: CN_74
+  server: hkkh11v1.xpmc.cc
+  port: 40527
   type: ss
   uuid: ""
   alterId: 0
@@ -2375,15 +2615,15 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  password: 91a41f4e02dc
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
-  udp: true
-- name: CN_52
+  udp: false
+- name: CN_60
   server: free.2weradf.xyz
-  port: 36731
+  port: 36511
   type: ss
   uuid: ""
   alterId: 0
@@ -2401,7 +2641,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_111
+- name: CN_116
   server: 183.236.51.38
   port: 49291
   type: vmess
@@ -2421,157 +2661,376 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
+- name: CN_40
+  server: free.2weradf.xyz
+  port: 36245
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_33
+  server: free.2apzhfa.xyz
+  port: 31671
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_83
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 16002
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0JR5J197C0KDI6O5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_112
+  server: 120.198.71.214
+  port: 42375
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_27
+  server: free.2apzhfa.xyz
+  port: 31441
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_57
+  server: free.2weradf.xyz
+  port: 36411
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fa2fb9a-6d59-48b6-bbe3-b394ed1c97ec
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_20
+  server: free.2apzhfa.xyz
+  port: 31215
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: cf4531d3-6c1b-4a49-af98-fcf15e399c16
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_93
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 17004
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3DS48CNCGXYT708N
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_94
+  server: v29.heduian.link
+  port: 30829
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
 proxy-groups:
 - name: GROUP_ABR_TEST
   type: url-test
   proxies:
-  - XX_8
-  - 日本_9
-  - 美国_11
-  - 美国_14
-  - 日本_15
-  - 日本_5
-  - 美国_13
-  - 美国_0
-  - 美国_1
-  - 韩国_2
-  - 英国_3
-  - 日本_4
-  - 韩国_6
-  - 新加坡_7
-  - 美国_10
+  - 美国_29
   - 美国_12
+  - 韩国_14
+  - 日本_21
+  - 欧洲_28
+  - 挪威_30
+  - 日本_42
+  - 美国_23
+  - 乌克兰_27
+  - 乌克兰_0
+  - 乌克兰_25
+  - 美国_36
+  - 塞浦路斯_3
+  - 乌克兰_22
+  - 美国_37
+  - 韩国_18
+  - 美国_33
+  - 美国_38
+  - 乌克兰_32
+  - 英国_15
+  - 日本_16
+  - 美国_19
+  - 美国_24
+  - 美国_39
+  - 越南_20
+  - 欧洲_34
+  - 加拿大_41
+  - 乌克兰_35
+  - XX_17
+  - 瑞典_26
+  - 美国_40
+  - 葡萄牙_8
+  - 美国_13
+  - 瑞典_31
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: GROUP_ABR_FALLBACK
   type: url-test
   proxies:
-  - XX_8
-  - 日本_9
-  - 美国_11
-  - 美国_14
-  - 日本_15
-  - 日本_5
-  - 美国_13
-  - 美国_0
-  - 美国_1
-  - 韩国_2
-  - 英国_3
-  - 日本_4
-  - 韩国_6
-  - 新加坡_7
-  - 美国_10
+  - 美国_29
   - 美国_12
+  - 韩国_14
+  - 日本_21
+  - 欧洲_28
+  - 挪威_30
+  - 日本_42
+  - 美国_23
+  - 乌克兰_27
+  - 乌克兰_0
+  - 乌克兰_25
+  - 美国_36
+  - 塞浦路斯_3
+  - 乌克兰_22
+  - 美国_37
+  - 韩国_18
+  - 美国_33
+  - 美国_38
+  - 乌克兰_32
+  - 英国_15
+  - 日本_16
+  - 美国_19
+  - 美国_24
+  - 美国_39
+  - 越南_20
+  - 欧洲_34
+  - 加拿大_41
+  - 乌克兰_35
+  - XX_17
+  - 瑞典_26
+  - 美国_40
+  - 葡萄牙_8
+  - 美国_13
+  - 瑞典_31
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: GROUP_CN
   type: fallback
   proxies:
-  - CN_45
-  - CN_78
-  - CN_110
-  - CN_17
-  - CN_16
-  - CN_29
-  - CN_31
-  - CN_33
-  - CN_50
-  - CN_84
-  - CN_28
-  - CN_57
-  - CN_63
-  - CN_53
-  - CN_98
-  - CN_12
-  - CN_19
-  - CN_97
-  - CN_68
   - CN_92
-  - CN_40
-  - CN_47
-  - CN_61
-  - CN_27
-  - CN_82
-  - CN_94
-  - CN_2
-  - CN_30
-  - CN_42
-  - CN_95
   - CN_107
-  - CN_75
-  - CN_80
-  - CN_4
-  - CN_39
-  - CN_10
-  - CN_22
-  - CN_54
-  - CN_55
-  - CN_0
-  - CN_108
-  - CN_37
   - CN_38
+  - CN_72
+  - CN_85
+  - CN_113
+  - CN_29
+  - CN_117
+  - CN_31
+  - CN_61
+  - CN_84
+  - CN_106
   - CN_109
-  - CN_24
-  - CN_66
-  - CN_112
-  - CN_77
-  - CN_34
-  - CN_93
-  - CN_8
-  - CN_83
-  - CN_89
-  - CN_90
-  - CN_9
-  - CN_43
-  - CN_65
-  - CN_51
-  - CN_58
-  - CN_60
+  - CN_32
   - CN_99
+  - CN_48
+  - CN_64
+  - CN_14
+  - CN_19
+  - CN_58
+  - CN_63
+  - CN_91
+  - CN_45
+  - CN_52
+  - CN_87
+  - CN_25
+  - CN_55
+  - CN_66
+  - CN_1
+  - CN_8
+  - CN_17
+  - CN_47
+  - CN_68
+  - CN_3
+  - CN_6
+  - CN_15
+  - CN_22
+  - CN_23
+  - CN_42
+  - CN_98
+  - CN_100
+  - CN_4
   - CN_104
+  - CN_108
+  - CN_10
+  - CN_44
+  - CN_49
+  - CN_115
+  - CN_26
+  - CN_80
+  - CN_101
+  - CN_7
+  - CN_86
+  - CN_34
+  - CN_37
+  - CN_65
+  - CN_110
+  - CN_5
+  - CN_36
+  - CN_46
+  - CN_51
+  - CN_54
+  - CN_56
   - CN_18
   - CN_35
-  - CN_49
-  - CN_91
-  - CN_101
-  - CN_103
-  - CN_14
-  - CN_44
-  - CN_102
-  - CN_32
-  - CN_59
-  - CN_105
-  - CN_3
-  - CN_20
-  - CN_41
-  - CN_71
-  - CN_86
-  - CN_74
-  - CN_11
-  - CN_23
-  - CN_56
+  - CN_39
+  - CN_89
+  - CN_114
+  - CN_9
+  - CN_50
   - CN_81
-  - CN_5
-  - CN_13
-  - CN_21
-  - CN_69
-  - CN_100
-  - CN_48
-  - CN_36
-  - CN_67
-  - CN_1
-  - CN_25
-  - CN_26
-  - CN_46
-  - CN_7
-  - CN_15
-  - CN_62
-  - CN_106
-  - CN_88
   - CN_96
-  - CN_6
-  - CN_52
+  - CN_105
+  - CN_28
+  - CN_16
+  - CN_21
+  - CN_24
+  - CN_41
+  - CN_43
+  - CN_62
+  - CN_70
+  - CN_12
+  - CN_95
+  - CN_78
+  - CN_30
+  - CN_102
+  - CN_0
+  - CN_53
+  - CN_59
+  - CN_71
+  - CN_103
+  - CN_13
+  - CN_77
+  - CN_97
+  - CN_11
   - CN_111
+  - CN_74
+  - CN_60
+  - CN_116
+  - CN_40
+  - CN_33
+  - CN_83
+  - CN_112
+  - CN_27
+  - CN_57
+  - CN_20
+  - CN_93
+  - CN_94
   url: http://www.gstatic.com/generate_204
   interval: 300
 tag: ""
