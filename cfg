@@ -1,87 +1,7 @@
 port: 7890
 socks-port: 7891
 proxies:
-- name: 加拿大_34
-  server: cdvbghy7.999182.xyz
-  port: 80
-  type: vmess
-  uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /10W6SJaK0F0oVXeNU6S2RVRP
-    headers:
-      Host: cdvbghy7.999182.xyz
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 乌克兰_26
-  server: chop-wrist-bud.stark-industries.solutions
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 乌克兰_30
-  server: bring-glove-shine.stark-industries.solutions
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: e6a2e741-0fce-440b-910c-b81325e2263a
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_16
-  server: 35.165.193.21
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: awsps0501
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 越南_18
+- name: XX_10
   server: 103.186.155.20
   port: 38388
   type: ss
@@ -101,387 +21,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 加拿大_29
-  server: 172.67.181.193
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ptGwaGzcA4KNAXX
-    headers:
-      Host: ""
-  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 韩国_14
-  server: 125.141.31.72
-  port: 15098
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: qwerREWQ@@
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: XX_17
-  server: 103.140.136.76
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: b87e23b41338
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 日本_32
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: Nk9asglDzHzjktVzTkvhaA
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 乌克兰_20
-  server: cache-giver-wife.stark-industries.solutions
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: e6a2e741-0fce-440b-910c-b81325e2263a
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 乌克兰_21
-  server: guy-trace-lyric.stark-industries.solutions
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 乌克兰_24
-  server: strut-brisk-scope.stark-industries.solutions
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: e6a2e741-0fce-440b-910c-b81325e2263a
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 乌克兰_25
-  server: bats-paper-chump.stark-industries.solutions
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: e6a2e741-0fce-440b-910c-b81325e2263a
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 法国_36
-  server: 195.154.54.171
-  port: 13355
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: dongtaiwang.com
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 乌克兰_31
-  server: 94.131.20.3
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 英国_15
-  server: de.vmess.comnpmjs.com
-  port: 443
-  type: vmess
-  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: grpc
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 日本_19
-  server: 47.74.41.147
-  port: 53893
-  type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: kcp
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 英国_37
-  server: 158.180.228.226
-  port: 443
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /linkws
-    headers:
-      Host: beyonddsz.cfd
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_22
-  server: 154.223.16.212
-  port: 989
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8f7aCzcPKbsF8p3
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 丹麦_23
-  server: csgo.com
-  port: 2086
-  type: vmess
-  uuid: c21b972a-bc92-4f8c-8e6a-6868001f7f88
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_27
-  server: 34.215.48.231
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: awsps0501
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 葡萄牙_28
-  server: 185.231.233.112
-  port: 989
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8f7aCzcPKbsF8p3
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_12
-  server: 156.146.40.194
-  port: 989
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8f7aCzcPKbsF8p3
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_13
-  server: 38.47.96.30
-  port: 443
-  type: vmess
-  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /lzjjj
-    headers:
-      Host: th.lzj520hxw.dpdns.org
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 美国_33
+- name: 美国_16
   server: www.hdmoli.com
   port: 80
   type: vmess
@@ -501,989 +41,49 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_35
-  server: auth0.openai.com
+- name: 美国_0
+  server: 156.146.40.194
+  port: 989
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: f8f7aCzcPKbsF8p3
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_7
+  server: usla.mjt000.com
   port: 443
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /irvideo.cfd/linkws
-    headers:
-      Host: admin.kasrax.ir
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_12
-  server: freea.glyphara.com
-  port: 36171
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_17
-  server: freea.glyphara.com
-  port: 36213
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_19
-  server: freea.glyphara.com
-  port: 36271
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_23
-  server: freea.glyphara.com
-  port: 36731
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_32
-  server: freea.glyphara.com
-  port: 36671
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_119
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 15010
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ENYGONDU94UW1G6X
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_115
-  server: 120.232.153.41
-  port: 41597
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_63
-  server: sslvpn.51job.com
-  port: 1443
-  type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /634c5c4f9782
-    headers:
-      Host: centos7
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_99
-  server: 120.234.102.229
-  port: 42174
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_125
-  server: uk001.dogsvip.site
-  port: 23001
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_35
-  server: freem.vidalith.com
-  port: 31243
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_98
-  server: v29.heduian.link
-  port: 30829
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_25
-  server: freea.glyphara.com
-  port: 36411
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_53
-  server: freem.vidalith.com
-  port: 31371
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_128
-  server: 183.236.51.38
-  port: 49121
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_61
-  server: freem.vidalith.com
-  port: 31671
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_121
-  server: 120.198.44.126
-  port: 47883
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_127
-  server: kr001.dogsvip.site
-  port: 21001
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_3
-  server: freea.glyphara.com
-  port: 36141
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_21
-  server: freea.glyphara.com
-  port: 36722
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_14
-  server: freea.glyphara.com
-  port: 36311
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_57
-  server: freem.vidalith.com
-  port: 31511
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_71
-  server: hkkh11v1.xpmc.cc
-  port: 24043
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 91a41f4e02dc
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_15
-  server: freea.glyphara.com
-  port: 36341
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_45
-  server: freem.vidalith.com
-  port: 31341
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_52
-  server: freem.vidalith.com
-  port: 31722
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_55
-  server: freem.vidalith.com
-  port: 31441
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_22
-  server: freea.glyphara.com
-  port: 36741
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_37
-  server: freem.vidalith.com
-  port: 31111
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_42
-  server: freem.vidalith.com
-  port: 31175
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_114
-  server: 120.198.71.216
-  port: 35921
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_48
-  server: freem.vidalith.com
-  port: 31215
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_60
-  server: freem.vidalith.com
-  port: 31641
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_116
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  port: 18010
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: HO86LQ8KH31JNMBQ
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_95
-  server: 36.151.251.60
-  port: 28296
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: RlzoEILU
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_16
-  server: freea.glyphara.com
-  port: 36211
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_7
-  server: freea.glyphara.com
-  port: 36243
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_33
-  server: freea.glyphara.com
-  port: 36677
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_36
-  server: freem.vidalith.com
-  port: 31245
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_39
-  server: freem.vidalith.com
-  port: 31115
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_40
-  server: freem.vidalith.com
-  port: 31171
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_46
-  server: freem.vidalith.com
-  port: 31211
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_58
-  server: freem.vidalith.com
-  port: 31571
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_111
-  server: 120.233.147.197
-  port: 23335
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_108
-  server: 183.238.90.8
-  port: 39076
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_110
-  server: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net
-  port: 15229
   type: trojan
   uuid: ""
   alterId: 0
   cipher: ""
   tls: false
   skip-cert-verify: false
-  network: ""
+  network: tcp
   ws-opts:
     path: ""
     headers:
       Host: ""
-  password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
+  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_113
-  server: 120.198.71.219
-  port: 44915
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_117
-  server: 183.232.235.2
-  port: 8313
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_8
-  server: freea.glyphara.com
-  port: 36245
+- name: 美国_9
+  server: 3.39.247.174
+  port: 9898
   type: ss
   uuid: ""
   alterId: 0
@@ -1495,753 +95,13 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_29
-  server: freea.glyphara.com
-  port: 36571
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_67
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  port: 8080
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  password: ""
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_78
-  server: cn01.efan8867801.xyz
-  port: 8766
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: rc4-md5
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: efanccyun
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_104
-  server: 183.238.90.8
-  port: 46920
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_5
-  server: freea.glyphara.com
-  port: 36145
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_103
-  server: 120.198.71.214
-  port: 42375
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_30
-  server: freea.glyphara.com
-  port: 36611
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_31
-  server: freea.glyphara.com
-  port: 36641
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_44
-  server: freem.vidalith.com
-  port: 31313
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_54
-  server: freem.vidalith.com
-  port: 31411
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_65
-  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_105
-  server: 120.198.71.219
-  port: 49355
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_112
-  server: 120.198.71.219
-  port: 51095
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_120
-  server: dozo01.flztjc.top
-  port: 8313
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_68
-  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_97
-  server: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: b55123f4-0ba2-11f0-a2ef-f23c91cfbbc9
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_102
-  server: 183.238.90.8
-  port: 41766
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_124
-  server: 120.198.71.214
-  port: 32980
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_10
-  server: freea.glyphara.com
-  port: 36113
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_69
-  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_109
-  server: 183.237.84.53
-  port: 55002
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_20
-  server: freea.glyphara.com
-  port: 36721
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_41
-  server: freem.vidalith.com
-  port: 31173
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_49
-  server: freem.vidalith.com
-  port: 31271
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_73
-  server: 03566c42-swzb40-sznzxg-1jfvb.hgc1.tcpbbr.net
-  port: 8080
-  type: vmess
-  uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_101
-  server: 120.232.153.63
-  port: 37805
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_59
-  server: freem.vidalith.com
-  port: 31611
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_85
-  server: v32.heduian.link
-  port: 30832
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_88
-  server: 111.26.109.79
-  port: 30828
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_6
-  server: freea.glyphara.com
-  port: 36241
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_27
-  server: freea.glyphara.com
-  port: 36471
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_96
-  server: v5.heduian.link
-  port: 30805
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_4
-  server: freea.glyphara.com
-  port: 36143
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_118
-  server: 183.236.51.38
-  port: 39919
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_122
-  server: 120.233.147.197
-  port: 23340
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_18
-  server: freea.glyphara.com
-  port: 36215
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_26
-  server: freea.glyphara.com
-  port: 36441
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_91
+- name: 香港_11
   server: 43.247.134.85
   port: 47010
   type: vmess
@@ -2261,29 +121,249 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_84
-  server: cn01.efan8867801.xyz
-  port: 8774
-  type: ss
-  uuid: ""
+- name: 日本_12
+  server: 8.211.154.107
+  port: 50951
+  type: vmess
+  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
   alterId: 0
-  cipher: rc4-md5
+  cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ""
+  network: kcp
   ws-opts:
     path: ""
     headers:
       Host: ""
-  password: efanccyun
+  password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_13
+- name: 法国_17
+  server: 195.154.54.171
+  port: 13355
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: dongtaiwang.com
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_1
+  server: 38.47.96.30
+  port: 443
+  type: vmess
+  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /lzjjj
+    headers:
+      Host: th.lzj520hxw.dpdns.org
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_5
+  server: 44.243.102.33
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: awsps0501
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 香港_6
+  server: hkkh11v1.xpmc.cc
+  port: 27599
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 91a41f4e02dc
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 香港_4
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  port: 8080
+  type: vmess
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 约旦_13
+  server: 109.107.159.144
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: "74260653385993900"
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_14
+  server: auth0.openai.com
+  port: 443
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /irvideo.cfd/linkws
+    headers:
+      Host: admin.kasrax.ir
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 日本_15
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: Nk9asglDzHzjktVzTkvhaA
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 韩国_2
+  server: 125.141.31.72
+  port: 15098
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: qwerREWQ@@
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 英国_3
+  server: de.vmess.comnpmjs.com
+  port: 443
+  type: vmess
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: grpc
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 香港_8
+  server: 43.226.17.8
+  port: 21755
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 60a930c17ff0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_72
   server: freea.glyphara.com
-  port: 36173
+  port: 36211
   type: ss
   uuid: ""
   alterId: 0
@@ -2295,15 +375,15 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_51
+- name: CN_6
   server: freem.vidalith.com
-  port: 31721
+  port: 31111
   type: ss
   uuid: ""
   alterId: 0
@@ -2315,13 +395,13 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_56
+- name: CN_25
   server: freem.vidalith.com
   port: 31471
   type: ss
@@ -2335,13 +415,393 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_75
+- name: CN_30
+  server: freem.vidalith.com
+  port: 31671
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_32
+  server: sslvpn.51job.com
+  port: 1443
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /634c5c4f9782
+    headers:
+      Host: centos7
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_102
+  server: 183.236.51.38
+  port: 49291
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_106
+  server: 120.232.153.40
+  port: 52182
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_45
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18001
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: FOCNS0YH4YSOUJTO
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_96
+  server: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_61
+  server: freea.glyphara.com
+  port: 36145
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_0
+  server: freem.vidalith.com
+  port: 31141
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_1
+  server: freem.vidalith.com
+  port: 31143
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_2
+  server: freem.vidalith.com
+  port: 31145
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_18
+  server: freem.vidalith.com
+  port: 31271
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_29
+  server: freem.vidalith.com
+  port: 31641
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_52
+  server: 111.26.109.79
+  port: 30828
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_59
+  server: freea.glyphara.com
+  port: 36141
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_70
+  server: freea.glyphara.com
+  port: 36311
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_82
+  server: freea.glyphara.com
+  port: 36441
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_105
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  port: 40021
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dl_media
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_5
+  server: freem.vidalith.com
+  port: 31245
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_19
+  server: freem.vidalith.com
+  port: 31741
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_41
   server: v9.heduian.link
   port: 30809
   type: vmess
@@ -2356,6 +816,286 @@ proxies:
     headers:
       Host: baidu.com
   password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_42
+  server: 43.247.134.85
+  port: 47010
+  type: vmess
+  uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_65
+  server: freea.glyphara.com
+  port: 36111
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_77
+  server: freea.glyphara.com
+  port: 36722
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_81
+  server: freea.glyphara.com
+  port: 36411
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_24
+  server: freem.vidalith.com
+  port: 31441
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_37
+  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_75
+  server: freea.glyphara.com
+  port: 36271
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_89
+  server: freea.glyphara.com
+  port: 36677
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_101
+  server: 120.198.71.216
+  port: 35921
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_92
+  server: 120.198.71.219
+  port: 49355
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_8
+  server: freem.vidalith.com
+  port: 31115
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_20
+  server: freem.vidalith.com
+  port: 31721
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_21
+  server: freem.vidalith.com
+  port: 31722
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_36
+  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   protocol: ""
   obfs: ""
   protocol-param: ""
@@ -2381,9 +1121,29 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_9
+- name: CN_50
+  server: cn01.efan8867801.xyz
+  port: 8774
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: rc4-md5
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: efanccyun
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_88
   server: freea.glyphara.com
-  port: 36111
+  port: 36671
   type: ss
   uuid: ""
   alterId: 0
@@ -2395,19 +1155,19 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_24
-  server: freea.glyphara.com
-  port: 36371
-  type: ss
-  uuid: ""
+- name: CN_104
+  server: 120.198.71.219
+  port: 51095
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: auto
   tls: false
   skip-cert-verify: false
   network: ""
@@ -2415,15 +1175,15 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
+  password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
-  udp: true
-- name: CN_38
+  udp: false
+- name: CN_13
   server: freem.vidalith.com
-  port: 31113
+  port: 31313
   type: ss
   uuid: ""
   alterId: 0
@@ -2435,15 +1195,235 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_126
+- name: CN_56
+  server: 47.76.92.36
+  port: 39253
+  type: vmess
+  uuid: 16e7adc5-8a1e-44b1-8327-14f7367caaf8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: kcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_22
+  server: freem.vidalith.com
+  port: 31371
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_28
+  server: freem.vidalith.com
+  port: 31611
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_66
+  server: freea.glyphara.com
+  port: 36113
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_73
+  server: freea.glyphara.com
+  port: 36213
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_76
+  server: freea.glyphara.com
+  port: 36721
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_78
+  server: freea.glyphara.com
+  port: 36741
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_79
+  server: freea.glyphara.com
+  port: 36731
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_12
+  server: freem.vidalith.com
+  port: 31311
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_17
+  server: freem.vidalith.com
+  port: 31215
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_91
   server: 183.236.51.38
-  port: 49291
+  port: 39919
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_110
+  server: 183.236.51.38
+  port: 49121
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
@@ -2461,9 +1441,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_34
-  server: freem.vidalith.com
-  port: 31241
+- name: CN_62
+  server: freea.glyphara.com
+  port: 36241
   type: ss
   uuid: ""
   alterId: 0
@@ -2475,13 +1455,73 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_62
+- name: CN_64
+  server: freea.glyphara.com
+  port: 36245
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_99
+  server: 183.232.235.2
+  port: 8313
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_27
+  server: freem.vidalith.com
+  port: 31571
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_31
   server: freem.vidalith.com
   port: 31677
   type: ss
@@ -2495,13 +1535,333 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_129
+- name: CN_51
+  server: v32.heduian.link
+  port: 30832
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_107
+  server: 120.198.71.219
+  port: 44915
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_109
+  server: 120.198.71.214
+  port: 32980
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_3
+  server: freem.vidalith.com
+  port: 31241
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_4
+  server: freem.vidalith.com
+  port: 31243
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_7
+  server: freem.vidalith.com
+  port: 31113
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_94
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15010
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ENYGONDU94UW1G6X
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_60
+  server: freea.glyphara.com
+  port: 36143
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_97
+  server: 120.232.153.63
+  port: 37805
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_15
+  server: freem.vidalith.com
+  port: 31211
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_35
+  server: v29.heduian.link
+  port: 30829
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_67
+  server: freea.glyphara.com
+  port: 36115
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_90
+  server: dozo01.flztjc.top
+  port: 8313
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_9
+  server: freem.vidalith.com
+  port: 31171
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_10
+  server: freem.vidalith.com
+  port: 31173
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_103
+  server: 120.232.153.41
+  port: 41597
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_93
   server: 183.236.51.38
   port: 41024
   type: vmess
@@ -2521,29 +1881,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_28
-  server: freea.glyphara.com
-  port: 36511
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_47
+- name: CN_14
   server: freem.vidalith.com
-  port: 31213
+  port: 31341
   type: ss
   uuid: ""
   alterId: 0
@@ -2555,19 +1895,19 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_123
-  server: 120.232.153.40
-  port: 52182
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
+- name: CN_39
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15003
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
   network: ""
@@ -2575,13 +1915,133 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: ""
+  password: 4KGHWKCKQAJOVPHO
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_81
+- name: CN_63
+  server: freea.glyphara.com
+  port: 36243
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_69
+  server: freea.glyphara.com
+  port: 36173
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_80
+  server: freea.glyphara.com
+  port: 36371
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_85
+  server: freea.glyphara.com
+  port: 36571
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_23
+  server: freem.vidalith.com
+  port: 31411
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_98
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18010
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: HO86LQ8KH31JNMBQ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_47
   server: v12.heduian.link
   port: 30812
   type: vmess
@@ -2601,7 +2061,47 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_106
+- name: CN_74
+  server: freea.glyphara.com
+  port: 36215
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_86
+  server: freea.glyphara.com
+  port: 36611
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_111
   server: 183.236.51.38
   port: 30052
   type: vmess
@@ -2621,9 +2121,49 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_11
+- name: CN_16
+  server: freem.vidalith.com
+  port: 31213
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_44
+  server: cn01.efan8867801.xyz
+  port: 8766
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: rc4-md5
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: efanccyun
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_68
   server: freea.glyphara.com
-  port: 36115
+  port: 36171
   type: ss
   uuid: ""
   alterId: 0
@@ -2635,15 +2175,95 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_43
+- name: CN_71
+  server: freea.glyphara.com
+  port: 36341
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_83
+  server: freea.glyphara.com
+  port: 36471
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_84
+  server: freea.glyphara.com
+  port: 36511
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_87
+  server: freea.glyphara.com
+  port: 36641
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_11
   server: freem.vidalith.com
-  port: 31311
+  port: 31175
   type: ss
   uuid: ""
   alterId: 0
@@ -2655,15 +2275,15 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_50
+- name: CN_26
   server: freem.vidalith.com
-  port: 31741
+  port: 31511
   type: ss
   uuid: ""
   alterId: 0
@@ -2675,27 +2295,67 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: f8830198-0633-42b1-9cd4-5a734799956f
+  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_107
-  server: vt-bana2-cn-11.ghpgwqswodgzv.com
-  port: 40021
+- name: CN_34
+  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
+  port: 15229
   type: trojan
   uuid: ""
   alterId: 0
   cipher: ""
   tls: false
   skip-cert-verify: false
-  network: ws
+  network: ""
   ws-opts:
-    path: /dl_media
+    path: ""
     headers:
-      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
-  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+      Host: ""
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_95
+  server: 120.198.71.214
+  port: 42375
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_108
+  server: 183.237.84.53
+  port: 55002
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
@@ -2705,177 +2365,152 @@ proxy-groups:
 - name: GROUP_ABR_TEST
   type: url-test
   proxies:
-  - 加拿大_34
-  - 乌克兰_26
-  - 乌克兰_30
+  - XX_10
   - 美国_16
-  - 越南_18
-  - 加拿大_29
-  - 韩国_14
-  - XX_17
-  - 日本_32
-  - 乌克兰_20
-  - 乌克兰_21
-  - 乌克兰_24
-  - 乌克兰_25
-  - 法国_36
-  - 乌克兰_31
-  - 英国_15
-  - 日本_19
-  - 英国_37
-  - 美国_22
-  - 丹麦_23
-  - 美国_27
-  - 葡萄牙_28
-  - 美国_12
-  - 美国_13
-  - 美国_33
-  - 美国_35
+  - 美国_0
+  - 美国_7
+  - 美国_9
+  - 香港_11
+  - 日本_12
+  - 法国_17
+  - 美国_1
+  - 美国_5
+  - 香港_6
+  - 香港_4
+  - 约旦_13
+  - 美国_14
+  - 日本_15
+  - 韩国_2
+  - 英国_3
+  - 香港_8
   url: http://www.gstatic.com/generate_204
   interval: 600
 - name: GROUP_ABR_FALLBACK
   type: fallback
   proxies:
-  - 加拿大_34
-  - 乌克兰_26
-  - 乌克兰_30
+  - XX_10
   - 美国_16
-  - 越南_18
-  - 加拿大_29
-  - 韩国_14
-  - XX_17
-  - 日本_32
-  - 乌克兰_20
-  - 乌克兰_21
-  - 乌克兰_24
-  - 乌克兰_25
-  - 法国_36
-  - 乌克兰_31
-  - 英国_15
-  - 日本_19
-  - 英国_37
-  - 美国_22
-  - 丹麦_23
-  - 美国_27
-  - 葡萄牙_28
-  - 美国_12
-  - 美国_13
-  - 美国_33
-  - 美国_35
+  - 美国_0
+  - 美国_7
+  - 美国_9
+  - 香港_11
+  - 日本_12
+  - 法国_17
+  - 美国_1
+  - 美国_5
+  - 香港_6
+  - 香港_4
+  - 约旦_13
+  - 美国_14
+  - 日本_15
+  - 韩国_2
+  - 英国_3
+  - 香港_8
   url: http://www.gstatic.com/generate_204
   interval: 600
 - name: GROUP_CN
   type: 'url-test '
   proxies:
+  - CN_72
+  - CN_6
+  - CN_25
+  - CN_30
+  - CN_32
+  - CN_102
+  - CN_106
+  - CN_45
+  - CN_96
+  - CN_61
+  - CN_0
+  - CN_1
+  - CN_2
+  - CN_18
+  - CN_29
+  - CN_52
+  - CN_59
+  - CN_70
+  - CN_82
+  - CN_105
+  - CN_5
+  - CN_19
+  - CN_41
+  - CN_42
+  - CN_65
+  - CN_77
+  - CN_81
+  - CN_24
+  - CN_37
+  - CN_75
+  - CN_89
+  - CN_101
+  - CN_92
+  - CN_8
+  - CN_20
+  - CN_21
+  - CN_36
+  - CN_100
+  - CN_50
+  - CN_88
+  - CN_104
+  - CN_13
+  - CN_56
+  - CN_22
+  - CN_28
+  - CN_66
+  - CN_73
+  - CN_76
+  - CN_78
+  - CN_79
   - CN_12
   - CN_17
-  - CN_19
-  - CN_23
-  - CN_32
-  - CN_119
-  - CN_115
-  - CN_63
-  - CN_99
-  - CN_125
-  - CN_35
-  - CN_98
-  - CN_25
-  - CN_53
-  - CN_128
-  - CN_61
-  - CN_121
-  - CN_127
-  - CN_3
-  - CN_21
-  - CN_14
-  - CN_57
-  - CN_71
-  - CN_15
-  - CN_45
-  - CN_52
-  - CN_55
-  - CN_22
-  - CN_37
-  - CN_42
-  - CN_114
-  - CN_48
-  - CN_60
-  - CN_116
-  - CN_95
-  - CN_16
-  - CN_7
-  - CN_33
-  - CN_36
-  - CN_39
-  - CN_40
-  - CN_46
-  - CN_58
-  - CN_111
-  - CN_108
-  - CN_110
-  - CN_113
-  - CN_117
-  - CN_8
-  - CN_29
-  - CN_67
-  - CN_78
-  - CN_104
-  - CN_5
-  - CN_103
-  - CN_30
-  - CN_31
-  - CN_44
-  - CN_54
-  - CN_65
-  - CN_105
-  - CN_112
-  - CN_120
-  - CN_68
-  - CN_97
-  - CN_102
-  - CN_124
-  - CN_10
-  - CN_69
-  - CN_109
-  - CN_20
-  - CN_41
-  - CN_49
-  - CN_73
-  - CN_101
-  - CN_59
-  - CN_85
-  - CN_88
-  - CN_6
-  - CN_27
-  - CN_96
-  - CN_4
-  - CN_118
-  - CN_122
-  - CN_18
-  - CN_26
   - CN_91
-  - CN_84
-  - CN_13
-  - CN_51
-  - CN_56
-  - CN_75
-  - CN_100
-  - CN_9
-  - CN_24
-  - CN_38
-  - CN_126
-  - CN_34
+  - CN_110
   - CN_62
-  - CN_129
-  - CN_28
-  - CN_47
-  - CN_123
-  - CN_81
-  - CN_106
-  - CN_11
-  - CN_43
-  - CN_50
+  - CN_64
+  - CN_99
+  - CN_27
+  - CN_31
+  - CN_51
   - CN_107
+  - CN_109
+  - CN_3
+  - CN_4
+  - CN_7
+  - CN_94
+  - CN_60
+  - CN_97
+  - CN_15
+  - CN_35
+  - CN_67
+  - CN_90
+  - CN_9
+  - CN_10
+  - CN_103
+  - CN_93
+  - CN_14
+  - CN_39
+  - CN_63
+  - CN_69
+  - CN_80
+  - CN_85
+  - CN_23
+  - CN_98
+  - CN_47
+  - CN_74
+  - CN_86
+  - CN_111
+  - CN_16
+  - CN_44
+  - CN_68
+  - CN_71
+  - CN_83
+  - CN_84
+  - CN_87
+  - CN_11
+  - CN_26
+  - CN_34
+  - CN_95
+  - CN_108
   url: http://www.gstatic.com/generate_204
   interval: 600
 tag: ""
