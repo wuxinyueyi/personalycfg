@@ -1,36 +1,16 @@
 port: 7890
 socks-port: 7891
 proxies:
-- name: 美国_20
-  server: octopus.starspace.link
-  port: 443
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: DKzNyaYFCDj86DTIFlO7aanXwgOuYy3Ow3yDlC3ZS9AqFRAAexgR2qz4l843NApZxpep5
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_10
-  server: 8.211.154.107
-  port: 50951
+- name: 美国_12
+  server: 206.237.127.188
+  port: 51036
   type: vmess
-  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
+  uuid: af73136a-bbfa-4f95-a3e0-6c3005aa8ae1
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: kcp
+  network: tcp
   ws-opts:
     path: ""
     headers:
@@ -41,67 +21,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 加拿大_15
-  server: www.hdmoli.com
-  port: 80
-  type: vmess
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /rongseven?ed=2048
-    headers:
-      Host: fr.freeyyds.dpdns.org
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_29
-  server: series-a2-mec.samanehha.co
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: u17T3BvpYaaiuW2c
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_7
-  server: 52.195.15.105
-  port: 9898
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 韩国_8
+- name: 韩国_10
   server: 125.141.26.12
   port: 4857
   type: ss
@@ -116,166 +36,6 @@ proxies:
     headers:
       Host: ""
   password: qwerREWQ@@
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 韩国_6
-  server: 43.226.17.17
-  port: 14312
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2e96aa2f3054
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_13
-  server: series-a1.samanehha.co
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: W74XFALLLuw6m5IA
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_17
-  server: series-a2.varzesh360.co
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: mps3FwmDjLrWaOVg
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_25
-  server: series-a2.samanehha.co
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: mps3FwmDjLrWaOVg
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 韩国_2
-  server: 125.141.31.72
-  port: 15098
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: qwerREWQ@@
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 英国_3
-  server: de.vmess.comnpmjs.com
-  port: 443
-  type: vmess
-  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: grpc
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 英国_27
-  server: api.namasha.co
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: u17T3BvpYaaiuW2c
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_30
-  server: admin.c4.webramz.co
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 69MUii7VDwMqh7Hz
   protocol: ""
   obfs: ""
   protocol-param: ""
@@ -301,36 +61,16 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 美国_4
-  server: 34.212.26.32
+- name: 英国_3
+  server: de.vmess.comnpmjs.com
   port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-cfb
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: awsps0501
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 香港_19
-  server: 18.162.203.189
-  port: 3000
   type: vmess
-  uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-  network: ""
+  network: grpc
   ws-opts:
     path: ""
     headers:
@@ -341,68 +81,48 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_22
-  server: cloudflare-ip.mofashi.ltd
-  port: 80
+- name: 香港_6
+  server: b959ad51-sxaf40-t323lh-1t0nn.hgc1.tcpbbr.net
+  port: 8080
   type: vmess
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  uuid: ba78226c-b772-11ef-ab53-f23c91cfbbc9
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /rongseven?ed=2048
+    path: /
     headers:
-      Host: us.freeyyds.dpdns.org
+      Host: broadcastlv.chat.bilibili.com
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 英国_26
-  server: admin.c1.webramz.co
-  port: 443
-  type: ss
+- name: 美国_37
+  server: 103.116.7.103
+  port: 2083
+  type: trojan
   uuid: ""
   alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: ""
   tls: false
   skip-cert-verify: false
-  network: ""
+  network: ws
   ws-opts:
-    path: ""
+    path: /
     headers:
-      Host: ""
-  password: 1xO2cqPazqjGfCfd
+      Host: epme.ambercc.filegear-sg.me
+  password: Aimer
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_9
-  server: 3.38.139.172
-  port: 9898
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 韩国_11
-  server: bapus.koreanbbq.link
+- name: 乌克兰_42
+  server: bring-glove-shine.stark-industries.solutions
   port: 443
   type: trojan
   uuid: ""
@@ -415,59 +135,19 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: 94Xn93e3F2uOxCE8De8upAAwnlI8ySRRj70Ol6zgYNBjZFCDK5Yaca3D8aT2qaxyEc0DK
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: 法国_24
-  server: 57.128.190.171
-  port: 11259
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: f9d73c84e32a10f3
+  password: e6a2e741-0fce-440b-910c-b81325e2263a
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 新加坡_18
-  server: 34.142.186.111
-  port: 80
-  type: vmess
-  uuid: 5f9de409-a257-494d-9451-0c38ff15d27e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_23
-  server: series-a2-mec.varzesh360.co
+- name: 美国_41
+  server: guy-trace-lyric.stark-industries.solutions
   port: 443
-  type: ss
+  type: trojan
   uuid: ""
   alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: ""
   tls: false
   skip-cert-verify: false
   network: ""
@@ -475,53 +155,13 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: u17T3BvpYaaiuW2c
+  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: 美国_14
-  server: freakconfig13.felafel.org
-  port: 443
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 1xO2cqPazqjGfCfd
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 加拿大_16
-  server: Xcvfgt5.222560.xyz
-  port: 80
-  type: vmess
-  uuid: 19a78eeb-d83a-4364-b095-b7dd93436320
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /7LBPethgWxDoVuzO0WLijID
-    headers:
-      Host: Xcvfgt5.222560.xyz
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: 美国_28
+- name: "美国\n\n数据二\t: 美国 | CloudFlare节点\n\n数据三\t: 美国\n\nURL\t: http://www.cip.cc/104.21.23.231\n\n</pre>\n_36"
   server: cs.flha.ru
   port: 2082
   type: vmess
@@ -536,6 +176,346 @@ proxies:
     headers:
       Host: cs.flha.ru
   password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 香港_4
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  port: 8080
+  type: vmess
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_43
+  server: 172.67.133.248
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mZr1mA5hub7QHHkQBzYO
+    headers:
+      Host: DDd.890604.FIlEGear-sG.Me
+  password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 乌克兰_45
+  server: chop-wrist-bud.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_31
+  server: 104.21.25.95
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /mZr1mA5hub7QHHkQBzYO
+    headers:
+      Host: ""
+  password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 俄罗斯_49
+  server: 5.182.84.244
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: epme.ambercc.filegear-sg.me
+  password: Aimer
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 斯洛文尼亚_35
+  server: 92.53.190.161
+  port: 2087
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: epme.ambercc.filegear-sg.me
+  password: Aimer
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 乌克兰_38
+  server: 94.131.20.3
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_25
+  server: 141.193.213.94
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: ""
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_5
+  server: 3.34.131.22
+  port: 443
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: yijian0503
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 韩国_11
+  server: p080.panda001.net
+  port: 36379
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: qwerREWQ@@
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 伊朗_44
+  server: 178.22.121.98
+  port: 1091
+  type: vmess
+  uuid: 6ef3b433-eea7-4e5d-95a5-c5f742ce2fb7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 欧洲_29
+  server: 45.159.251.33
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fc9c5ff-9531-4178-966f-7d958e1df64b
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 乌克兰_47
+  server: bats-paper-chump.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e6a2e741-0fce-440b-910c-b81325e2263a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 韩国_2
+  server: 125.141.31.72
+  port: 15098
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-cfb
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: qwerREWQ@@
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_7
+  server: usla.mjt000.com
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 欧洲_23
+  server: 45.67.229.222
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0fc9c5ff-9531-4178-966f-7d958e1df64b
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 加拿大_48
+  server: 172.67.135.37
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /HpYP4foAlpTKtfYnjLYhU30U
+    headers:
+      Host: cCtv4.459.pp.uA
+  password: 44ed7a37-af89-4cd1-8680-83a7207810d9
   protocol: ""
   obfs: ""
   protocol-param: ""
@@ -561,8 +541,28 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 美国_5
-  server: usla.mjt000.com
+- name: 香港_8
+  server: 43.226.17.17
+  port: 37859
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2e96aa2f3054
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_16
+  server: 104.21.35.247
   port: 443
   type: trojan
   uuid: ""
@@ -570,87 +570,107 @@ proxies:
   cipher: ""
   tls: false
   skip-cert-verify: false
-  network: tcp
+  network: ws
   ws-opts:
-    path: ""
+    path: /ptGwaGzcA4KNAXX
     headers:
       Host: ""
-  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
-  udp: false
-- name: 加拿大_12
-  server: diagram.protocolbuffer.com
-  port: 18334
+  udp: true
+- name: 美国_22
+  server: 104.21.71.112
+  port: 443
   type: trojan
   uuid: ""
   alterId: 0
   cipher: ""
   tls: false
   skip-cert-verify: false
-  network: ""
+  network: ws
   ws-opts:
-    path: ""
+    path: /By7cEmOrNRS58yeduy9AOG
     headers:
       Host: ""
-  password: YaN8FFNe58nga3xAu3yTx0CSllcSeOnDZOj3SXROCz3S34B9D3F7Ka0aYa8yaxpXCDRKZ
+  password: 895552fa-6284-4c1d-ba00-3944e0c7c626
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: 欧洲_21
-  server: 45.147.201.231
-  port: 23090
-  type: vmess
-  uuid: bdcde962-0855-493c-a8c7-acec071973a5
+- name: 美国_28
+  server: 104.21.15.232
+  port: 443
+  type: trojan
+  uuid: ""
   alterId: 0
-  cipher: auto
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /4p35eUnmGxQ8YJFJxz
+    headers:
+      Host: ""
+  password: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: XX_34
+  server: 103.116.7.248
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ""
-  password: ""
+      Host: epme.ambercc.filegear-sg.me
+  password: Aimer
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_50
-  server: vt-bana2-cn-11.ghpgwqswodgzv.com
-  port: 40021
-  type: trojan
+- name: 日本_46
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  port: 443
+  type: ss
   uuid: ""
   alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dl_media
-    headers:
-      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
-  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_52
-  server: 120.232.153.40
-  port: 31209
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
+  cipher: chacha20-ietf-poly1305
   tls: false
   skip-cert-verify: false
   network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: Nk9asglDzHzjktVzTkvhaA
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: 美国_19
+  server: 142.4.119.72
+  port: 57118
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: tcp
   ws-opts:
     path: ""
     headers:
@@ -660,7 +680,207 @@ proxies:
   obfs: ""
   protocol-param: ""
   obfs-param: ""
+  udp: true
+- name: "美国\n\n数据二\t: 美国 | CloudFlare节点\n\n数据三\t: 美国加利福尼亚旧金山\n\nURL\t: http://www.cip.cc/172.67.144.126\n\n</pre>\n_21"
+  server: 172.67.144.126
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /By7cEmOrNRS58yeduy9AOG
+    headers:
+      Host: ""
+  password: 895552fa-6284-4c1d-ba00-3944e0c7c626
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: 美国_39
+  server: cache-giver-wife.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e6a2e741-0fce-440b-910c-b81325e2263a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
   udp: false
+- name: 乌克兰_40
+  server: strut-brisk-scope.stark-industries.solutions
+  port: 443
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: e6a2e741-0fce-440b-910c-b81325e2263a
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_11
+  server: freem.vidalith.com
+  port: 31245
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_12
+  server: freem.vidalith.com
+  port: 31111
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_32
+  server: freem.vidalith.com
+  port: 31541
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_35
+  server: freem.vidalith.com
+  port: 31641
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_36
+  server: freem.vidalith.com
+  port: 31671
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_44
+  server: 60.249.28.136
+  port: 2377
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_64
+  server: 36.151.251.62
+  port: 13542
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: RlzoEILU
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
 - name: CN_2
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
   port: 15229
@@ -681,129 +901,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_61
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  port: 8080
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_11
-  server: v9.heduian.link
-  port: 30809
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_13
-  server: cn01.efan8867801.xyz
-  port: 8766
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: rc4-md5
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: efanccyun
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_3
-  server: v29.heduian.link
-  port: 30829
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_12
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  port: 15007
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: Q5XH89ZLTSGOQASZ
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_31
-  server: f5ada702-swb8g0-t5fh9u-1uni.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_34
-  server: 183.238.90.8
-  port: 41766
+- name: CN_79
+  server: 120.234.102.229
+  port: 49174
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
@@ -821,507 +921,7 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_54
-  server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
-  port: 17233
-  type: vmess
-  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_5
-  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_47
-  server: 120.198.71.216
-  port: 35921
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_48
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  port: 17232
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_55
-  server: dozo01.flztjc.top
-  port: 8313
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_56
-  server: 183.232.235.2
-  port: 8313
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_42
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 15003
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 4KGHWKCKQAJOVPHO
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_17
-  server: v32.heduian.link
-  port: 30832
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_23
-  server: 36.151.251.62
-  port: 3330
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: RlzoEILU
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_25
-  server: 7d09e919-swq1s0-tcvn0z-1tlyg.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: be8ba532-0dcf-11f0-9a65-f23c9164ca5d
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_53
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 15010
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ENYGONDU94UW1G6X
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_15
-  server: v12.heduian.link
-  port: 30812
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_60
-  server: 120.198.71.219
-  port: 51095
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_46
-  server: 120.232.153.40
-  port: 52182
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_44
-  server: 120.198.71.219
-  port: 44915
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_59
-  server: 183.236.51.38
-  port: 41024
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_51
-  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  port: 17233
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_41
-  server: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 3e6ae2e4-a8a5-11ef-8578-f23c913c8d2b
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_30
-  server: 5f9d335d-swexs0-t5juhn-4tue.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: fe506496-24eb-11ef-abd3-f23c91cfbbc9
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_8
-  server: hkkh11v1.xpmc.cc
-  port: 20273
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: chacha20-ietf-poly1305
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 91a41f4e02dc
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_16
-  server: cn01.efan8867801.xyz
-  port: 8774
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: rc4-md5
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: efanccyun
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_19
-  server: 111.26.109.79
-  port: 30828
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_24
-  server: 36.151.251.62
-  port: 13542
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: RlzoEILU
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_14
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  port: 18010
-  type: ss
-  uuid: ""
-  alterId: 0
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: TF63RS7M0DB9OJ3B
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_37
-  server: 120.232.153.41
-  port: 41597
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_29
+- name: CN_65
   server: 120.233.44.201
   port: 21102
   type: trojan
@@ -1341,13 +941,13 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_40
-  server: 183.238.90.8
-  port: 46920
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: CN_37
+  server: freem.vidalith.com
+  port: 31677
+  type: ss
+  uuid: ""
   alterId: 0
-  cipher: auto
+  cipher: chacha20-ietf-poly1305
   tls: false
   skip-cert-verify: false
   network: ""
@@ -1355,146 +955,26 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_43
-  server: d855bbcd-sx15s0-t1l0zq-1qof8.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: 042b75a6-d3e6-11ee-b308-f23c9164ca5d
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_6
-  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
-  port: 15229
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_22
-  server: 36.156.102.123
-  port: 50723
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: RlzoEILU
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_36
-  server: 120.198.44.126
-  port: 47883
+- name: CN_53
+  server: tk.hzlt.tkddns.xyz
+  port: 22643
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-  network: ""
+  network: ws
   ws-opts:
-    path: ""
+    path: /
     headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_28
-  server: 36.151.251.61
-  port: 33097
-  type: trojan
-  uuid: ""
-  alterId: 0
-  cipher: ""
-  tls: false
-  skip-cert-verify: true
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: RlzoEILU
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: true
-- name: CN_38
-  server: 43.247.134.85
-  port: 47010
-  type: vmess
-  uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
-  password: ""
-  protocol: ""
-  obfs: ""
-  protocol-param: ""
-  obfs-param: ""
-  udp: false
-- name: CN_57
-  server: 183.236.51.38
-  port: 59652
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ""
-  ws-opts:
-    path: ""
-    headers:
-      Host: ""
+      Host: zxjp-c.tkong.cc
   password: ""
   protocol: ""
   obfs: ""
@@ -1502,6 +982,26 @@ proxies:
   obfs-param: ""
   udp: false
 - name: CN_58
+  server: 8.211.154.107
+  port: 50951
+  type: vmess
+  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: kcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_82
   server: 183.237.84.53
   port: 55002
   type: vmess
@@ -1521,9 +1021,9 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_32
+- name: CN_86
   server: 120.198.71.219
-  port: 49355
+  port: 51095
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
@@ -1541,9 +1041,829 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_35
+- name: CN_5
+  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_15
+  server: freem.vidalith.com
+  port: 31171
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_4
+  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+  port: 15229
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_33
+  server: freem.vidalith.com
+  port: 31571
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_81
+  server: 120.232.153.40
+  port: 43292
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_75
+  server: 120.198.71.216
+  port: 46159
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_85
+  server: 183.232.235.2
+  port: 8313
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_88
   server: 183.236.51.38
-  port: 49121
+  port: 33919
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_90
+  server: 183.238.90.8
+  port: 46920
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_22
+  server: freem.vidalith.com
+  port: 31213
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_42
+  server: v9.heduian.link
+  port: 30809
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_83
+  server: 120.232.153.40
+  port: 31209
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_59
+  server: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
+  port: 27231
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_63
+  server: v8.heduian.link
+  port: 30808
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_78
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15008
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 0S43J3FD6L7IEKGQ
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_89
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  port: 40021
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dl_media
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_6
+  server: freem.vidalith.com
+  port: 31141
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_16
+  server: freem.vidalith.com
+  port: 31173
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_50
+  server: cn01.efan8867801.xyz
+  port: 8774
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: rc4-md5
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: efanccyun
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_66
+  server: 36.151.251.62
+  port: 3330
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: RlzoEILU
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_68
+  server: 120.232.153.41
+  port: 41491
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_74
+  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
+  port: 17233
+  type: vmess
+  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_76
+  server: 183.236.51.38
+  port: 30052
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_84
+  server: 183.236.51.38
+  port: 41024
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_9
+  server: freem.vidalith.com
+  port: 31241
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_20
+  server: freem.vidalith.com
+  port: 31341
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_87
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15003
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 4KGHWKCKQAJOVPHO
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_8
+  server: freem.vidalith.com
+  port: 31145
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_73
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  port: 17232
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_24
+  server: freem.vidalith.com
+  port: 31741
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_17
+  server: freem.vidalith.com
+  port: 31175
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_21
+  server: freem.vidalith.com
+  port: 31211
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_25
+  server: freem.vidalith.com
+  port: 31721
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_62
+  server: v29.heduian.link
+  port: 30829
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_27
+  server: freem.vidalith.com
+  port: 31371
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_26
+  server: freem.vidalith.com
+  port: 31722
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_7
+  server: freem.vidalith.com
+  port: 31143
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_10
+  server: freem.vidalith.com
+  port: 31243
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_28
+  server: freem.vidalith.com
+  port: 31411
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_72
+  server: 183.238.90.8
+  port: 41766
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_92
+  server: 183.238.90.8
+  port: 39076
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_1
+  server: 183.236.51.38
+  port: 49291
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
@@ -1560,30 +1880,30 @@ proxies:
   obfs: ""
   protocol-param: ""
   obfs-param: ""
-  udp: false
-- name: CN_39
-  server: 120.232.153.63
-  port: 37805
+  udp: true
+- name: CN_47
+  server: v12.heduian.link
+  port: 30812
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ""
+  network: ws
   ws-opts:
-    path: ""
+    path: /oooo
     headers:
-      Host: ""
+      Host: ocbc.com
   password: ""
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_45
+- name: CN_71
   server: 183.236.51.38
-  port: 49302
+  port: 59652
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
@@ -1601,9 +1921,129 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
-- name: CN_49
-  server: 183.238.90.8
-  port: 39076
+- name: CN_51
+  server: v32.heduian.link
+  port: 30832
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_91
+  server: dozo01.flztjc.top
+  port: 8313
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_55
+  server: 103.30.78.122
+  port: 50412
+  type: vmess
+  uuid: 086124a3-0084-405b-aea4-39b69d3836f3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_14
+  server: freem.vidalith.com
+  port: 31115
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_67
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18008
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 6EZ5QKFX60AVSUYT
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_70
+  server: 120.198.44.126
+  port: 47883
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_93
+  server: 120.232.153.40
+  port: 50152
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
@@ -1641,13 +2081,13 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_1
-  server: 183.236.51.38
-  port: 49291
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
+- name: CN_19
+  server: freem.vidalith.com
+  port: 31313
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
   tls: false
   skip-cert-verify: false
   network: ""
@@ -1655,35 +2095,35 @@ proxies:
     path: ""
     headers:
       Host: ""
-  password: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_27
-  server: bd8e9b7d-swzb40-t5vrf3-716s.cu.plebai.net
-  port: 15229
-  type: trojan
+- name: CN_29
+  server: freem.vidalith.com
+  port: 31441
+  type: ss
   uuid: ""
   alterId: 0
-  cipher: ""
+  cipher: chacha20-ietf-poly1305
   tls: false
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ""
   ws-opts:
     path: ""
     headers:
       Host: ""
-  password: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
   protocol: ""
   obfs: ""
   protocol-param: ""
   obfs-param: ""
   udp: true
-- name: CN_33
+- name: CN_80
   server: 183.236.51.38
-  port: 30052
+  port: 49302
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
@@ -1701,136 +2141,416 @@ proxies:
   protocol-param: ""
   obfs-param: ""
   udp: false
+- name: CN_77
+  server: 120.198.71.216
+  port: 35921
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_13
+  server: freem.vidalith.com
+  port: 31113
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_23
+  server: freem.vidalith.com
+  port: 31215
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_30
+  server: freem.vidalith.com
+  port: 31471
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_34
+  server: freem.vidalith.com
+  port: 31611
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_38
+  server: hkkh11v1.xpmc.cc
+  port: 48345
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: 91a41f4e02dc
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_18
+  server: freem.vidalith.com
+  port: 31311
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_45
+  server: cn01.efan8867801.xyz
+  port: 8766
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: rc4-md5
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: efanccyun
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_52
+  server: 111.26.109.79
+  port: 30828
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+  password: ""
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_61
+  server: 36.151.251.61
+  port: 33097
+  type: trojan
+  uuid: ""
+  alterId: 0
+  cipher: ""
+  tls: false
+  skip-cert-verify: true
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: RlzoEILU
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
+- name: CN_69
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15010
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: ENYGONDU94UW1G6X
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: false
+- name: CN_31
+  server: freem.vidalith.com
+  port: 31511
+  type: ss
+  uuid: ""
+  alterId: 0
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ""
+  ws-opts:
+    path: ""
+    headers:
+      Host: ""
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  protocol: ""
+  obfs: ""
+  protocol-param: ""
+  obfs-param: ""
+  udp: true
 proxy-groups:
 - name: GROUP_ABR_TEST
   type: url-test
   proxies:
-  - 美国_20
-  - 美国_10
-  - 加拿大_15
-  - 美国_29
-  - 美国_7
-  - 韩国_8
-  - 韩国_6
-  - 美国_13
-  - 美国_17
-  - 美国_25
-  - 韩国_2
-  - 英国_3
-  - 英国_27
-  - 美国_30
+  - 美国_12
+  - 韩国_10
   - 美国_0
-  - 美国_4
-  - 香港_19
-  - 美国_22
-  - 英国_26
-  - 美国_9
-  - 韩国_11
-  - 法国_24
-  - 新加坡_18
-  - 美国_23
-  - 美国_14
-  - 加拿大_16
-  - 美国_28
-  - 美国_1
+  - 英国_3
+  - 香港_6
+  - 美国_37
+  - 乌克兰_42
+  - 美国_41
+  - "美国\n\n数据二\t: 美国 | CloudFlare节点\n\n数据三\t: 美国\n\nURL\t: http://www.cip.cc/104.21.23.231\n\n</pre>\n_36"
+  - 香港_4
+  - 美国_43
+  - 乌克兰_45
+  - 美国_31
+  - 俄罗斯_49
+  - 斯洛文尼亚_35
+  - 乌克兰_38
+  - 美国_25
   - 美国_5
-  - 加拿大_12
-  - 欧洲_21
+  - 韩国_11
+  - 伊朗_44
+  - 欧洲_29
+  - 乌克兰_47
+  - 韩国_2
+  - 美国_7
+  - 欧洲_23
+  - 加拿大_48
+  - 美国_1
+  - 香港_8
+  - 美国_16
+  - 美国_22
+  - 美国_28
+  - XX_34
+  - 日本_46
+  - 美国_19
+  - "美国\n\n数据二\t: 美国 | CloudFlare节点\n\n数据三\t: 美国加利福尼亚旧金山\n\nURL\t: http://www.cip.cc/172.67.144.126\n\n</pre>\n_21"
+  - 美国_39
+  - 乌克兰_40
   url: http://www.gstatic.com/generate_204
   interval: 600
 - name: GROUP_ABR_FALLBACK
   type: fallback
   proxies:
-  - 美国_20
-  - 美国_10
-  - 加拿大_15
-  - 美国_29
-  - 美国_7
-  - 韩国_8
-  - 韩国_6
-  - 美国_13
-  - 美国_17
-  - 美国_25
-  - 韩国_2
-  - 英国_3
-  - 英国_27
-  - 美国_30
+  - 美国_12
+  - 韩国_10
   - 美国_0
-  - 美国_4
-  - 香港_19
-  - 美国_22
-  - 英国_26
-  - 美国_9
-  - 韩国_11
-  - 法国_24
-  - 新加坡_18
-  - 美国_23
-  - 美国_14
-  - 加拿大_16
-  - 美国_28
-  - 美国_1
+  - 英国_3
+  - 香港_6
+  - 美国_37
+  - 乌克兰_42
+  - 美国_41
+  - "美国\n\n数据二\t: 美国 | CloudFlare节点\n\n数据三\t: 美国\n\nURL\t: http://www.cip.cc/104.21.23.231\n\n</pre>\n_36"
+  - 香港_4
+  - 美国_43
+  - 乌克兰_45
+  - 美国_31
+  - 俄罗斯_49
+  - 斯洛文尼亚_35
+  - 乌克兰_38
+  - 美国_25
   - 美国_5
-  - 加拿大_12
-  - 欧洲_21
+  - 韩国_11
+  - 伊朗_44
+  - 欧洲_29
+  - 乌克兰_47
+  - 韩国_2
+  - 美国_7
+  - 欧洲_23
+  - 加拿大_48
+  - 美国_1
+  - 香港_8
+  - 美国_16
+  - 美国_22
+  - 美国_28
+  - XX_34
+  - 日本_46
+  - 美国_19
+  - "美国\n\n数据二\t: 美国 | CloudFlare节点\n\n数据三\t: 美国加利福尼亚旧金山\n\nURL\t: http://www.cip.cc/172.67.144.126\n\n</pre>\n_21"
+  - 美国_39
+  - 乌克兰_40
   url: http://www.gstatic.com/generate_204
   interval: 600
 - name: GROUP_CN
   type: url-test
   proxies:
-  - CN_50
-  - CN_52
-  - CN_2
-  - CN_61
   - CN_11
-  - CN_13
-  - CN_3
   - CN_12
-  - CN_31
-  - CN_34
-  - CN_54
-  - CN_5
-  - CN_47
-  - CN_48
-  - CN_55
-  - CN_56
-  - CN_42
-  - CN_17
-  - CN_23
-  - CN_25
-  - CN_53
-  - CN_15
-  - CN_60
-  - CN_46
-  - CN_44
-  - CN_59
-  - CN_51
-  - CN_41
-  - CN_30
-  - CN_8
-  - CN_16
-  - CN_19
-  - CN_24
-  - CN_14
-  - CN_37
-  - CN_29
-  - CN_40
-  - CN_43
-  - CN_6
-  - CN_22
-  - CN_36
-  - CN_28
-  - CN_38
-  - CN_57
-  - CN_58
   - CN_32
   - CN_35
-  - CN_39
-  - CN_45
-  - CN_49
-  - CN_0
-  - CN_1
-  - CN_27
+  - CN_36
+  - CN_44
+  - CN_64
+  - CN_2
+  - CN_79
+  - CN_65
+  - CN_37
+  - CN_53
+  - CN_58
+  - CN_82
+  - CN_86
+  - CN_5
+  - CN_15
+  - CN_4
   - CN_33
+  - CN_81
+  - CN_75
+  - CN_85
+  - CN_88
+  - CN_90
+  - CN_22
+  - CN_42
+  - CN_83
+  - CN_59
+  - CN_63
+  - CN_78
+  - CN_89
+  - CN_6
+  - CN_16
+  - CN_50
+  - CN_66
+  - CN_68
+  - CN_74
+  - CN_76
+  - CN_84
+  - CN_9
+  - CN_20
+  - CN_87
+  - CN_8
+  - CN_73
+  - CN_24
+  - CN_17
+  - CN_21
+  - CN_25
+  - CN_62
+  - CN_27
+  - CN_26
+  - CN_7
+  - CN_10
+  - CN_28
+  - CN_72
+  - CN_92
+  - CN_1
+  - CN_47
+  - CN_71
+  - CN_51
+  - CN_91
+  - CN_55
+  - CN_14
+  - CN_67
+  - CN_70
+  - CN_93
+  - CN_0
+  - CN_19
+  - CN_29
+  - CN_80
+  - CN_77
+  - CN_13
+  - CN_23
+  - CN_30
+  - CN_34
+  - CN_38
+  - CN_18
+  - CN_45
+  - CN_52
+  - CN_61
+  - CN_69
+  - CN_31
   url: http://www.gstatic.com/generate_204
   interval: 600
 tag: ""
