@@ -28904,8 +28904,8 @@ proxy-groups:
         - GROUP_MP_TEST
         - GROUP_QT_TEST
         - GROUP_UX_TEST
-      url: ""
-      interval: 0
+      url: https://www.google.com/generate_204
+      interval: 300
     - name: GROUP_FOREIGN_FALLBACK
       type: fallback
       proxies:
@@ -28915,8 +28915,8 @@ proxy-groups:
         - GROUP_MP_TEST
         - GROUP_QT_TEST
         - GROUP_UX_TEST
-      url: ""
-      interval: 0
+      url: https://www.google.com/generate_204
+      interval: 300
 rules:
     - DOMAIN-KEYWORD,bing,GROUP_CN_FALLBACK
     - DOMAIN-KEYWORD,github,GROUP_CN_FALLBACK
