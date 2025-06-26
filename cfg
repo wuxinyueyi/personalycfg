@@ -28063,7 +28063,7 @@ proxy-groups:
         - GROUP_YZ_TEST
       url: ""
       interval: 0
-rules:
+rules:   
     - GEOIP,CN,DIRECT
     - GEOIP,HK,DIRECT
     - IP-CIDR,192.0.0.0/8,DIRECT
