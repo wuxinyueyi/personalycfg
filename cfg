@@ -28049,8 +28049,8 @@ proxy-groups:
         - GROUP_QT_TEST
         - GROUP_UX_TEST
         - GROUP_YZ_TEST
-      url: ""
-      interval: 0
+      url: https://www.google.com/generate_204
+      interval: 300
     - name: GROUP_FOREIGN_FALLBACK
       type: fallback
       proxies:
@@ -28061,8 +28061,8 @@ proxy-groups:
         - GROUP_QT_TEST
         - GROUP_UX_TEST
         - GROUP_YZ_TEST
-      url: ""
-      interval: 0
+      url: https://www.google.com/generate_204
+      interval: 300
 rules:   
     - GEOIP,CN,DIRECT
     - GEOIP,HK,DIRECT
