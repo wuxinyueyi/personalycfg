@@ -37318,6 +37318,8 @@ proxy-groups:
       timeout: 1500
       tolerance: 0
 rules:
+    - DOMAIN-SUFIX,.cn,DIRECT
+    - DOMAIN-SUFFIX,.hk,DIRECT
     - GEOIP,CN,DIRECT
     - GEOIP,HK,DIRECT
     - IP-CIDR,192.0.0.0/8,DIRECT
