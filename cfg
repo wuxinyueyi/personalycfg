@@ -90,7 +90,7 @@ proxies:
       udp: false
     - name: CN_20
       type: ss
-      server: 113.99.143.13
+      server: 113.99.143.107
       port: 8766
       uuid: ""
       alterId: 0
@@ -216,7 +216,7 @@ proxies:
       udp: false
     - name: CN_29
       type: ss
-      server: 113.99.143.13
+      server: 113.99.143.107
       port: 8774
       uuid: ""
       alterId: 0
@@ -550,20 +550,20 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_60
+    - name: US_62
       type: vmess
       server: 141.193.213.20
       port: 80
-      uuid: 15df1f53-9101-404b-dd52-7774cdb3c218
+      uuid: e5d7063b-afbc-47bb-a913-e459a7714830
       alterId: 0
       cipher: auto
       tls: false
       skip-cert-verify: false
       network: ws
       ws-opts:
-        path: /
+        path: /vpnneo
         headers:
-            Host: net2.xtls.my.id
+            Host: hurricane3.nextvpn.cc
       password: ""
       protocol: ""
       obfs: ""
@@ -573,7 +573,7 @@ proxies:
       udp: false
     - name: US_64
       type: vmess
-      server: 74.63.241.28
+      server: 69.162.95.4
       port: 443
       uuid: a8ce5e05-d5c9-48c0-a082-7b39453b29c0
       alterId: 0
@@ -634,6 +634,48 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: US_241
+      type: vmess
+      server: 172.64.40.103
+      port: 8080
+      uuid: e9123cce-e4bd-46cf-8466-708b363a9807
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: gyde.aifjj.asia
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_243
+      type: vmess
+      server: 172.64.229.161
+      port: 8080
+      uuid: e9123cce-e4bd-46cf-8466-708b363a9807
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: gyde.aifjj.asia
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: DE_251
       type: ss
       server: 185.177.229.245
@@ -669,27 +711,6 @@ proxies:
         path: /
         headers:
             Host: farid.1.berozha.ir
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
-    - name: US_256
-      type: vmess
-      server: 104.21.23.231
-      port: 80
-      uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d
-      alterId: 0
-      cipher: auto
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /
-        headers:
-            Host: test.flha.ru
       password: ""
       protocol: ""
       obfs: ""
@@ -2524,6 +2545,27 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: US_573
+      type: vmess
+      server: 172.67.173.64
+      port: 443
+      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /6We3U9Df1WGxgFnoFPw1
+        headers:
+            Host: ssssssssssssfffffffgh.2032.pp.ua
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: IN_596
       type: trojan
       server: 152.67.160.174
@@ -2539,6 +2581,27 @@ proxies:
         headers:
             Host: ""
       password: 54080134-2cba-4535-8599-95650bd9aa54
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_598
+      type: vmess
+      server: 104.21.16.1
+      port: 443
+      uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /reffs7y26g0ua
+        headers:
+            Host: surongwei.eu.org
+      password: ""
       protocol: ""
       obfs: ""
       protocol-param: ""
@@ -2589,7 +2652,7 @@ proxies:
       udp: false
     - name: US_680
       type: vmess
-      server: 166.117.68.124
+      server: 76.223.91.20
       port: 443
       uuid: 9bb0e2e3-c5b9-4606-9cbb-a3c36f2d01d7
       alterId: 0
@@ -2631,7 +2694,7 @@ proxies:
       udp: false
     - name: US_737
       type: vmess
-      server: 104.26.8.112
+      server: 172.67.73.208
       port: 80
       uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
       alterId: 0
@@ -2664,6 +2727,27 @@ proxies:
         path: /
         headers:
             Host: ""
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_768
+      type: vmess
+      server: 172.67.200.13
+      port: 443
+      uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /azumase.ren
+        headers:
+            Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
       password: ""
       protocol: ""
       obfs: ""
@@ -2734,6 +2818,27 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: US_785
+      type: vmess
+      server: 104.26.12.54
+      port: 80
+      uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: time.is
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: CN_790
       type: vmess
       server: 36.151.194.29
@@ -2755,20 +2860,83 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_801
+    - name: US_791
       type: vmess
-      server: 172.233.219.49
+      server: 104.21.73.150
+      port: 443
+      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /6We3U9Df1WGxgFnoFPw1
+        headers:
+            Host: dddvvbn.931.pp.ua
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_795
+      type: vmess
+      server: 172.67.173.64
+      port: 443
+      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /6We3U9Df1WGxgFnoFPw1
+        headers:
+            Host: sssssssxxxx.2032.pp.ua
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_796
+      type: vmess
+      server: 172.67.191.174
       port: 80
-      uuid: 27c4d8dc-9676-4ac4-95bf-46a0e338f82e
+      uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
       alterId: 0
       cipher: auto
       tls: false
       skip-cert-verify: false
       network: ws
       ws-opts:
-        path: /superstar
+        path: /f6taOMcOSZb9TPR
         headers:
-            Host: pull.free.video.10010.com
+            Host: bbbbbbbbb.222769.xyz
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_797
+      type: vmess
+      server: 172.67.165.122
+      port: 443
+      uuid: 20e89a95-cedf-4fe3-9421-517ce66be170
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /SHToRcqfiraYkzOdf
+        headers:
+            Host: pppploiu.4444936.xyz
       password: ""
       protocol: ""
       obfs: ""
@@ -2881,20 +3049,20 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_865
+    - name: US_863
       type: vmess
-      server: 172.67.69.244
-      port: 443
-      uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+      server: 104.20.36.161
+      port: 2086
+      uuid: c2a55def-e91e-4132-c504-0f276c4c3a1e
       alterId: 0
       cipher: auto
-      tls: true
+      tls: false
       skip-cert-verify: false
       network: ws
       ws-opts:
-        path: /
+        path: /aries
         headers:
-            Host: powerservice.com
+            Host: RACKNERD.COM
       password: ""
       protocol: ""
       obfs: ""
@@ -2944,9 +3112,9 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_872
+    - name: GB_872
       type: vmess
-      server: 23.204.150.28
+      server: 104.78.173.167
       port: 443
       uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
       alterId: 0
@@ -3492,7 +3660,7 @@ proxies:
       udp: false
     - name: CN_998
       type: vmess
-      server: 183.60.123.4
+      server: 183.60.123.0
       port: 9111
       uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
       alterId: 0
@@ -3513,7 +3681,7 @@ proxies:
       udp: false
     - name: CN_999
       type: vmess
-      server: 183.60.123.2
+      server: 183.60.123.1
       port: 5100
       uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
       alterId: 0
@@ -3534,7 +3702,7 @@ proxies:
       udp: false
     - name: CN_1002
       type: vmess
-      server: 183.60.123.4
+      server: 183.60.123.2
       port: 20025
       uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
       alterId: 0
@@ -3555,7 +3723,7 @@ proxies:
       udp: false
     - name: US_1008
       type: vmess
-      server: 166.117.68.124
+      server: 76.223.91.20
       port: 443
       uuid: c9459985-d2d6-4e01-a5a1-1ed0815ac841
       alterId: 0
@@ -3637,49 +3805,28 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: US_1030
+      type: vmess
+      server: 104.21.90.210
+      port: 80
+      uuid: 3eb05cb6-d2e1-4a31-9f82-514cfa98fe15
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /ray?ed=2048
+        headers:
+            Host: icook.hk
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: US_1049
-      type: trojan
-      server: 172.237.146.25
-      port: 443
-      uuid: ""
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
-    - name: US_1052
-      type: trojan
-      server: 172.237.146.38
-      port: 443
-      uuid: ""
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
-    - name: US_1057
       type: trojan
       server: 172.233.219.78
       port: 443
@@ -3700,9 +3847,9 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_1058
+    - name: US_1052
       type: trojan
-      server: 13.248.169.48
+      server: 172.237.146.8
       port: 443
       uuid: ""
       alterId: 0
@@ -3714,7 +3861,49 @@ proxies:
         path: ""
         headers:
             Host: ""
-      password: 4d048fc6-d944-41dd-b327-10856adcc82d
+      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_1055
+      type: vmess
+      server: 172.67.144.158
+      port: 443
+      uuid: f664d429-84f6-47b9-aaa8-39bde191c897
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /vmessws
+        headers:
+            Host: 6ofj69.scvps.my.id
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_1057
+      type: trojan
+      server: 172.233.219.123
+      port: 443
+      uuid: ""
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
       protocol: ""
       obfs: ""
       protocol-param: ""
@@ -3723,7 +3912,7 @@ proxies:
       udp: false
     - name: US_1071
       type: trojan
-      server: 172.233.219.49
+      server: 172.233.219.123
       port: 443
       uuid: ""
       alterId: 0
@@ -3744,7 +3933,7 @@ proxies:
       udp: false
     - name: US_1072
       type: trojan
-      server: 172.233.219.123
+      server: 172.233.219.78
       port: 443
       uuid: ""
       alterId: 0
@@ -3912,7 +4101,7 @@ proxies:
       udp: false
     - name: US_1120
       type: trojan
-      server: 172.233.219.78
+      server: 172.237.146.38
       port: 443
       uuid: ""
       alterId: 0
@@ -3954,7 +4143,7 @@ proxies:
       udp: false
     - name: US_1172
       type: trojan
-      server: 172.237.146.38
+      server: 172.237.146.25
       port: 443
       uuid: ""
       alterId: 0
@@ -4122,7 +4311,7 @@ proxies:
       udp: false
     - name: US_1229
       type: vmess
-      server: 172.67.239.67
+      server: 104.18.239.100
       port: 2052
       uuid: e7e26f7b-c4d8-3856-9c9a-dbb98f97fd6b
       alterId: 0
@@ -4162,48 +4351,6 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: MY_1243
-      type: trojan
-      server: 85.211.176.182
-      port: 443
-      uuid: ""
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: 172b2279-f7f5-4542-ab6c-9e96ad7dd5be
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
-    - name: US_1244
-      type: vmess
-      server: 172.67.191.174
-      port: 80
-      uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
-      alterId: 0
-      cipher: auto
-      tls: true
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /
-        headers:
-            Host: YyyYYYYyU.222769.xyZ
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
     - name: CN_1250
       type: vmess
       server: 36.151.194.29
@@ -4227,7 +4374,7 @@ proxies:
       udp: false
     - name: CN_1251
       type: ss
-      server: 120.236.198.203
+      server: 121.204.244.24
       port: 40030
       uuid: ""
       alterId: 0
@@ -4269,7 +4416,7 @@ proxies:
       udp: false
     - name: US_1255
       type: vmess
-      server: 172.67.239.67
+      server: 104.19.77.44
       port: 80
       uuid: acd2a463-4d67-3272-8326-f0c9179d52de
       alterId: 0
@@ -4353,7 +4500,7 @@ proxies:
       udp: false
     - name: US_1276
       type: vmess
-      server: 172.67.71.122
+      server: 104.26.5.57
       port: 8080
       uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
       alterId: 0
@@ -4395,7 +4542,7 @@ proxies:
       udp: false
     - name: US_1292
       type: vmess
-      server: 172.67.71.122
+      server: 104.26.5.57
       port: 2095
       uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
       alterId: 0
@@ -5044,27 +5191,6 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_1511
-      type: trojan
-      server: 13.248.169.48
-      port: 443
-      uuid: ""
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
     - name: MY_1513
       type: trojan
       server: 85.211.178.40
@@ -5109,7 +5235,7 @@ proxies:
       udp: false
     - name: TW_1516
       type: trojan
-      server: 60.248.240.223
+      server: 59.125.131.163
       port: 8443
       uuid: ""
       alterId: 0
@@ -5212,9 +5338,30 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: TW_1533
+      type: trojan
+      server: 60.248.240.223
+      port: 8443
+      uuid: ""
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: CN_1535
       type: trojan
-      server: 120.241.226.93
+      server: 120.241.226.85
       port: 2053
       uuid: ""
       alterId: 0
@@ -5235,8 +5382,29 @@ proxies:
       udp: false
     - name: CN_1538
       type: trojan
-      server: 120.241.226.93
+      server: 120.241.226.94
       port: 2053
+      uuid: ""
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: TW_1540
+      type: trojan
+      server: 60.250.152.209
+      port: 8443
       uuid: ""
       alterId: 0
       cipher: ""
@@ -5277,7 +5445,7 @@ proxies:
       udp: false
     - name: TW_1566
       type: trojan
-      server: 36.228.211.61
+      server: 59.125.131.163
       port: 8443
       uuid: ""
       alterId: 0
@@ -5298,7 +5466,7 @@ proxies:
       udp: false
     - name: TW_1568
       type: trojan
-      server: 60.250.152.209
+      server: 36.228.211.61
       port: 8443
       uuid: ""
       alterId: 0
@@ -5403,7 +5571,7 @@ proxies:
       udp: false
     - name: TW_1580
       type: trojan
-      server: 36.228.211.61
+      server: 211.20.245.139
       port: 8443
       uuid: ""
       alterId: 0
@@ -5424,7 +5592,7 @@ proxies:
       udp: false
     - name: CN_1584
       type: trojan
-      server: 120.241.226.94
+      server: 120.241.226.85
       port: 2053
       uuid: ""
       alterId: 0
@@ -5466,7 +5634,7 @@ proxies:
       udp: false
     - name: CN_1592
       type: trojan
-      server: 120.241.226.93
+      server: 120.241.226.94
       port: 2053
       uuid: ""
       alterId: 0
@@ -5529,7 +5697,7 @@ proxies:
       udp: false
     - name: TW_1611
       type: trojan
-      server: 60.248.240.223
+      server: 211.20.245.139
       port: 8443
       uuid: ""
       alterId: 0
@@ -5571,8 +5739,50 @@ proxies:
       udp: false
     - name: CN_1616
       type: trojan
-      server: 120.241.226.93
+      server: 120.241.226.85
       port: 2053
+      uuid: ""
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_1618
+      type: trojan
+      server: 13.248.169.48
+      port: 443
+      uuid: ""
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: TW_1620
+      type: trojan
+      server: 61.228.105.32
+      port: 8443
       uuid: ""
       alterId: 0
       cipher: ""
@@ -5613,7 +5823,7 @@ proxies:
       udp: false
     - name: TW_1624
       type: trojan
-      server: 61.221.189.241
+      server: 60.248.240.223
       port: 8443
       uuid: ""
       alterId: 0
@@ -5634,8 +5844,29 @@ proxies:
       udp: false
     - name: CN_1625
       type: trojan
-      server: 120.241.226.94
+      server: 120.241.226.85
       port: 2053
+      uuid: ""
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: TW_1626
+      type: trojan
+      server: 61.221.189.241
+      port: 8443
       uuid: ""
       alterId: 0
       cipher: ""
@@ -5668,48 +5899,6 @@ proxies:
         headers:
             Host: ""
       password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
-    - name: US_1637
-      type: trojan
-      server: 13.248.169.48
-      port: 443
-      uuid: ""
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
-    - name: TW_1638
-      type: trojan
-      server: 36.228.192.2
-      port: 8443
-      uuid: ""
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
       protocol: ""
       obfs: ""
       protocol-param: ""
@@ -5814,6 +6003,27 @@ proxies:
         path: /vmess
         headers:
             Host: ""
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_1679
+      type: vmess
+      server: 162.159.140.220
+      port: 8443
+      uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /8cda48b3
+        headers:
+            Host: speed.cloudflare.com
       password: ""
       protocol: ""
       obfs: ""
@@ -6136,6 +6346,27 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: US_1912
+      type: vmess
+      server: 141.193.213.223
+      port: 443
+      uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: tw02.nttkk.com
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: JP_1918
       type: trojan
       server: 150.230.201.192
@@ -6178,9 +6409,9 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_1963
+    - name: NL_1963
       type: trojan
-      server: 192.157.56.142
+      server: 37.48.65.143
       port: 443
       uuid: ""
       alterId: 0
@@ -6234,27 +6465,6 @@ proxies:
         path: /
         headers:
             Host: exa.nextvpn.cc
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
-    - name: US_1979
-      type: vmess
-      server: 69.162.95.4
-      port: 443
-      uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d
-      alterId: 0
-      cipher: auto
-      tls: true
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /
-        headers:
-            Host: oz.moonfree.top
       password: ""
       protocol: ""
       obfs: ""
@@ -6451,6 +6661,27 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: TW_2078
+      type: trojan
+      server: 61.221.189.241
+      port: 3462
+      uuid: ""
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: DE_2079
       type: trojan
       server: 139.162.158.172
@@ -6556,27 +6787,6 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: MY_2116
-      type: trojan
-      server: 85.211.176.182
-      port: 443
-      uuid: ""
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: false
     - name: MY_2117
       type: trojan
       server: 85.211.176.182
@@ -6640,6 +6850,48 @@ proxies:
       obfs-param: data.bilibili.com/ed5a2165400
       obfs-password: ""
       udp: false
+    - name: HK_2148
+      type: ss
+      server: 54.46.69.241
+      port: 36888
+      uuid: ""
+      alterId: 0
+      cipher: aes-256-gcm
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: HK_2155
+      type: ss
+      server: 18.166.51.117
+      port: 15099
+      uuid: ""
+      alterId: 0
+      cipher: aes-256-gcm
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: SG_2156
       type: ss
       server: 103.36.91.32
@@ -6661,9 +6913,51 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: JP_2158
+      type: ss
+      server: 52.195.174.171
+      port: 51205
+      uuid: ""
+      alterId: 0
+      cipher: aes-256-gcm
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: JP_2159
+      type: vmess
+      server: 52.196.223.28
+      port: 19682
+      uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: tls.95.node-for-bigairport.win
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: CN_2164
       type: ssr
-      server: 103.219.103.21
+      server: 103.216.253.102
       port: 19970
       uuid: ""
       alterId: 0
@@ -6684,7 +6978,7 @@ proxies:
       udp: false
     - name: CN_2165
       type: ssr
-      server: 103.219.103.21
+      server: 103.216.253.102
       port: 2212
       uuid: ""
       alterId: 0
@@ -7377,7 +7671,7 @@ proxies:
       udp: false
     - name: US_3297
       type: vmess
-      server: 104.21.75.193
+      server: 172.67.180.227
       port: 443
       uuid: 4993f14e-5f9b-4249-dc43-99f4fdea84be
       alterId: 0
@@ -7650,7 +7944,7 @@ proxies:
       udp: false
     - name: US_3319
       type: vmess
-      server: 172.237.145.27
+      server: 172.233.221.214
       port: 443
       uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
       alterId: 0
@@ -7671,7 +7965,7 @@ proxies:
       udp: false
     - name: US_3323
       type: vmess
-      server: 172.234.199.15
+      server: 172.237.145.27
       port: 443
       uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
       alterId: 0
@@ -7881,7 +8175,7 @@ proxies:
       udp: false
     - name: US_3442
       type: vmess
-      server: 172.237.145.27
+      server: 172.233.221.214
       port: 443
       uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
       alterId: 0
@@ -8532,7 +8826,7 @@ proxies:
       udp: false
     - name: US_3537
       type: vmess
-      server: 172.233.221.214
+      server: 172.234.199.15
       port: 443
       uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
       alterId: 0
@@ -8712,6 +9006,27 @@ proxies:
         path: /
         headers:
             Host: www.46554484.xyz
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_3585
+      type: vmess
+      server: 104.21.64.1
+      port: 443
+      uuid: fa1897db-1925-4c86-a495-939a959af900
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: jpvbshohcgc.com
       password: ""
       protocol: ""
       obfs: ""
@@ -9034,6 +9349,27 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: US_3652
+      type: vmess
+      server: 172.67.186.118
+      port: 443
+      uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: 3.clarity168.com
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: US_3658
       type: vmess
       server: 192.74.241.174
@@ -9090,6 +9426,48 @@ proxies:
         path: /
         headers:
             Host: ""
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_3662
+      type: vmess
+      server: 104.21.48.1
+      port: 443
+      uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /linkws/afrhms16v.bestxray.buzz
+        headers:
+            Host: yelan.thelastronin.cloudns.org
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_3663
+      type: vmess
+      server: 104.21.59.107
+      port: 443
+      uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /linkws/linja05.hwcar.sbs
+        headers:
+            Host: yelan.thelastronin.cloudns.org
       password: ""
       protocol: ""
       obfs: ""
@@ -9727,6 +10105,27 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
+    - name: US_3749
+      type: vmess
+      server: 104.20.47.114
+      port: 80
+      uuid: be9cf152-7cf1-46f9-88ed-a55b343c927b
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: luodi.5468936.xyz
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
     - name: JP_3771
       type: vmess
       server: 172.233.92.155
@@ -9741,6 +10140,27 @@ proxies:
         path: /
         headers:
             Host: 172.233.92.155
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_3783
+      type: vmess
+      server: 104.26.15.16
+      port: 443
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: telegram----cassiusvpn----11.timive8509.workers.dev
       password: ""
       protocol: ""
       obfs: ""
@@ -11556,7 +11976,7 @@ proxies:
       udp: false
     - name: US_3993
       type: vmess
-      server: 172.67.147.168
+      server: 104.21.41.148
       port: 80
       uuid: d3a24be8-c847-4c7f-ba32-8dd6e79e52b2
       alterId: 0
@@ -11682,7 +12102,7 @@ proxies:
       udp: false
     - name: US_4005
       type: vmess
-      server: 104.21.48.1
+      server: 104.21.64.1
       port: 443
       uuid: b15ee8ec-0b0e-4ce2-b35c-f4be265ba217
       alterId: 0
@@ -11766,7 +12186,7 @@ proxies:
       udp: false
     - name: US_4015
       type: vmess
-      server: 104.18.41.208
+      server: 172.64.146.48
       port: 443
       uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa
       alterId: 0
@@ -11787,7 +12207,7 @@ proxies:
       udp: false
     - name: US_4017
       type: vmess
-      server: 104.21.7.50
+      server: 172.67.135.195
       port: 443
       uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
       alterId: 0
@@ -18486,7 +18906,7 @@ proxies:
       udp: true
     - name: US_4704
       type: vless
-      server: 162.159.44.236
+      server: 172.64.35.236
       port: 443
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       alterId: 0
@@ -18570,7 +18990,7 @@ proxies:
       udp: true
     - name: US_4708
       type: vless
-      server: 172.64.35.227
+      server: 162.159.44.227
       port: 443
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       alterId: 0
@@ -18738,7 +19158,7 @@ proxies:
       udp: true
     - name: US_4716
       type: vless
-      server: 172.64.33.128
+      server: 108.162.193.128
       port: 443
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       alterId: 0
@@ -18864,7 +19284,7 @@ proxies:
       udp: true
     - name: US_4722
       type: vless
-      server: 173.245.59.201
+      server: 108.162.193.201
       port: 443
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       alterId: 0
@@ -19263,7 +19683,7 @@ proxies:
       udp: true
     - name: US_4741
       type: vless
-      server: 108.162.195.82
+      server: 162.159.44.82
       port: 443
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       alterId: 0
@@ -19284,7 +19704,7 @@ proxies:
       udp: true
     - name: US_4742
       type: vless
-      server: 104.18.84.122
+      server: 104.18.86.39
       port: 443
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       alterId: 0
@@ -19431,7 +19851,7 @@ proxies:
       udp: true
     - name: US_4749
       type: vless
-      server: 173.245.59.144
+      server: 172.64.33.144
       port: 443
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       alterId: 0
@@ -20040,7 +20460,7 @@ proxies:
       udp: true
     - name: US_4778
       type: vless
-      server: 172.64.229.161
+      server: 172.64.229.195
       port: 443
       uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
       alterId: 0
@@ -20920,7 +21340,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: BG_4820
+    - name: BG_4821
       type: vmess
       server: 147.78.140.171
       port: 8880
@@ -20941,7 +21361,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: RU_4821
+    - name: RU_4822
       type: vmess
       server: 45.8.211.171
       port: 8880
@@ -20962,7 +21382,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: LT_4823
+    - name: LT_4824
       type: vmess
       server: 89.116.180.171
       port: 8880
@@ -20983,7 +21403,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: RO_4824
+    - name: RO_4825
       type: vmess
       server: 45.85.119.171
       port: 8880
@@ -21004,7 +21424,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: DE_4825
+    - name: DE_4826
       type: vmess
       server: 31.185.108.171
       port: 8880
@@ -21025,7 +21445,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: RU_4826
+    - name: RU_4827
       type: vmess
       server: 185.148.107.171
       port: 8880
@@ -21046,7 +21466,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_4827
+    - name: US_4828
       type: vmess
       server: 192.0.63.171
       port: 8880
@@ -21067,7 +21487,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: NL_4828
+    - name: NL_4829
       type: vmess
       server: 45.131.6.171
       port: 8880
@@ -21088,7 +21508,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: IR_4829
+    - name: IR_4830
       type: vmess
       server: 37.202.247.4
       port: 443
@@ -21109,7 +21529,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: US_4830
+    - name: US_4831
       type: vmess
       server: 66.81.247.171
       port: 8880
@@ -21130,7 +21550,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: HK_4833
+    - name: HK_4834
       type: vless
       server: 154.64.247.141
       port: 8843
@@ -21151,7 +21571,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: DE_4834
+    - name: DE_4835
       type: vless
       server: 45.145.42.229
       port: 4002
@@ -21172,7 +21592,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: KR_4835
+    - name: KR_4836
       type: vless
       server: 61.76.23.133
       port: 12375
@@ -21193,7 +21613,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: KR_4836
+    - name: KR_4837
       type: vless
       server: 221.145.146.223
       port: 50000
@@ -21214,7 +21634,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: KR_4837
+    - name: KR_4838
       type: vless
       server: 121.155.240.168
       port: 50000
@@ -21235,7 +21655,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: KR_4838
+    - name: KR_4839
       type: vless
       server: 221.158.11.177
       port: 50009
@@ -21256,7 +21676,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: HK_4840
+    - name: HK_4841
       type: vless
       server: 154.218.15.250
       port: 2083
@@ -21277,7 +21697,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: PL_4841
+    - name: PL_4842
       type: vless
       server: 45.144.48.81
       port: 2053
@@ -21298,9 +21718,9 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: US_4842
+    - name: US_4843
       type: vless
-      server: 172.64.35.168
+      server: 108.162.195.168
       port: 443
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       alterId: 0
@@ -21319,7 +21739,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: SG_4843
+    - name: SG_4844
       type: vless
       server: 140.245.48.42
       port: 443
@@ -21340,7 +21760,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: US_4844
+    - name: US_4845
       type: vless
       server: 108.165.152.131
       port: 443
@@ -21361,7 +21781,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: CA_4845
+    - name: CA_4846
       type: vless
       server: 140.238.158.238
       port: 443
@@ -21382,7 +21802,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: US_4883
+    - name: US_4884
       type: vmess
       server: 104.26.12.140
       port: 2086
@@ -21403,112 +21823,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: false
-    - name: CN_4888
-      type: ss
-      server: 111.45.28.226
-      port: 23764
-      uuid: ""
-      alterId: 0
-      cipher: chacha20-ietf-poly1305
-      tls: false
-      skip-cert-verify: false
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: 9a5de7b7-d31d-4320-88c2-8d62acd843bc
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: GB_4889
-      type: vless
-      server: 91.193.58.202
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /"
-        headers:
-            Host: cs.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4890
-      type: vless
-      server: 155.46.167.7
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: GB_4891
-      type: vless
-      server: 104.239.72.87
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: JP_4892
-      type: hysteria2
-      server: 52.195.224.117
-      port: 24169
-      uuid: ""
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: true
-      network: ""
-      ws-opts:
-        path: ""
-        headers:
-            Host: ""
-      password: t10uaklYsxNEBV8743URwa2y8k
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4893
+    - name: US_4888
       type: vless
       server: 141.193.27.29
       port: 8880
@@ -21529,406 +21844,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: KZ_4894
-      type: vless
-      server: 31.43.179.251
-      port: 8880
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /Telegram
-        headers:
-            Host: cf.d3z.net
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: CR_4898
-      type: vless
-      server: 190.93.246.3
-      port: 8880
-      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /Telegram
-        headers:
-            Host: bitget1.asdasd.click
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: LT_4899
-      type: vless
-      server: 88.216.69.251
-      port: 8880
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-        headers:
-            Host: cf.d3z.net
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: NL_4900
-      type: vless
-      server: 45.131.6.177
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: IN_4901
-      type: vless
-      server: 103.245.228.156
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /TelegramU0001F1E8U0001F1F3 @WangCai2
-        headers:
-            Host: kjgx.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4902
-      type: vless
-      server: 66.81.247.29
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /
-        headers:
-            Host: hk.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: ES_4903
-      type: vless
-      server: 185.251.81.3
-      port: 8880
-      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /TelegramU0001F1E8U0001F1F3
-        headers:
-            Host: bitget1.asdasd.click
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: CN_4904
-      type: vmess
-      server: 36.151.194.29
-      port: 30808
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      alterId: 2
-      cipher: auto
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /oooo
-        headers:
-            Host: v8.heduian.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4905
-      type: vless
-      server: 172.66.158.93
-      port: 443
-      uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-      alterId: 0
-      cipher: ""
-      tls: true
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /Free-CF-Proxy-AE10?-VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY-
-        headers:
-            Host: freevpn.ndeso.web.id
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4906
-      type: vless
-      server: 104.18.156.119
-      port: 443
-      uuid: 5da52d2d-1ab8-48d0-8421-8354fd6ce7d3
-      alterId: 0
-      cipher: ""
-      tls: true
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /@Rayan_Config
-        headers:
-            Host: rayan-config-05.rayan-ii.dns-dynamic.net
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: JP_4907
-      type: vless
-      server: 156.238.18.205
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: Telegram@freecodes/?ed=2560
-        headers:
-            Host: kjgx.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4908
-      type: vless
-      server: 104.20.26.164
-      port: 443
-      uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-      alterId: 0
-      cipher: ""
-      tls: true
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /Free-CF-Proxy-NL562
-        headers:
-            Host: freexxx.ndeso.xyz
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: EE_4909
-      type: vless
-      server: 45.80.110.168
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: Telegram@freecodes/?ed=2560
-        headers:
-            Host: kjgx.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: RU_4910
-      type: vless
-      server: 46.254.92.98
-      port: 8880
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: Telegram@freecodes/?ed=2560
-        headers:
-            Host: cf.d3z.net
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: RU_4911
-      type: vless
-      server: 45.67.215.177
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /Telegram@freecodes/?ed=2560
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4912
-      type: vless
-      server: 135.84.74.177
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4913
-      type: vless
-      server: 199.34.230.251
-      port: 8880
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /
-        headers:
-            Host: cf.d3z.net
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4914
-      type: vless
-      server: 45.159.219.63
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-        headers:
-            Host: jp.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: AE_4915
-      type: vless
-      server: 103.245.229.7
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: RU_4916
+    - name: RU_4889
       type: vless
       server: 176.124.223.7
       port: 8880
@@ -21949,154 +21865,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: US_4917
-      type: vless
-      server: 195.13.44.7
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4918
-      type: vless
-      server: 155.46.167.177
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: RU_4919
-      type: vless
-      server: 185.148.107.156
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: kjgx.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4920
-      type: vless
-      server: 159.112.235.87
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: AE_4921
-      type: vless
-      server: 181.214.1.177
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: IN_4922
-      type: vless
-      server: 103.245.228.29
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /TelegramU0001F1E8U0001F1F3
-        headers:
-            Host: hk.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: RU_4923
-      type: vless
-      server: 46.254.92.213
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /
-        headers:
-            Host: jp.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4924
+    - name: US_4890
       type: vless
       server: 103.116.7.156
       port: 8880
@@ -22117,364 +21886,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: ZA_4925
-      type: vless
-      server: 102.177.176.87
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: RU_4926
-      type: vless
-      server: 46.254.92.156
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: kjgx.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4927
-      type: vless
-      server: 195.13.45.7
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: AU_4928
-      type: vless
-      server: 103.169.142.63
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-        headers:
-            Host: jp.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: JP_4929
-      type: vless
-      server: 154.197.80.87
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: KZ_4930
-      type: vless
-      server: 194.76.18.156
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: kjgx.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: SI_4931
-      type: vless
-      server: 92.53.190.213
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /
-        headers:
-            Host: jp.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4932
-      type: vless
-      server: 154.211.8.87
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4933
-      type: vless
-      server: 159.242.242.251
-      port: 8880
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-        headers:
-            Host: cf.d3z.net
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: LT_4934
-      type: vless
-      server: 86.38.214.87
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4935
-      type: vless
-      server: 66.81.247.87
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: DE_4936
-      type: vless
-      server: 140.99.233.143
-      port: 8880
-      uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-        headers:
-            Host: yg.bantony199.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4937
-      type: vless
-      server: 168.100.6.177
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: LU_4938
-      type: vless
-      server: 188.42.89.177
-      port: 8880
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/"
-        headers:
-            Host: ip.langmanshanxi.top
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4939
-      type: vless
-      server: 168.100.6.247
-      port: 8880
-      uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-        headers:
-            Host: ex.sue.x10.mx
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: ES_4940
-      type: vless
-      server: 185.251.83.213
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: /
-        headers:
-            Host: jp.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4941
-      type: vless
-      server: 104.129.166.63
-      port: 8880
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      alterId: 0
-      cipher: ""
-      tls: false
-      skip-cert-verify: false
-      network: ws
-      ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-        headers:
-            Host: sg.laoyoutiao.link
-      password: ""
-      protocol: ""
-      obfs: ""
-      protocol-param: ""
-      obfs-param: ""
-      obfs-password: ""
-      udp: true
-    - name: US_4942
+    - name: US_4891
       type: vless
       server: 184.174.80.87
       port: 8880
@@ -22495,7 +21907,7 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: ES_4943
+    - name: ES_4892
       type: vless
       server: 185.251.81.177
       port: 8880
@@ -22516,9 +21928,240 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: US_4944
+    - name: CR_4893
       type: vless
-      server: 167.68.11.177
+      server: 190.93.246.246
+      port: 8443
+      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+      alterId: 0
+      cipher: ""
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: bitget1.asdasd.click
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: RU_4894
+      type: vless
+      server: 45.142.120.3
+      port: 8880
+      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: bitget1.asdasd.click
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4895
+      type: vless
+      server: 104.18.156.119
+      port: 443
+      uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
+      alterId: 0
+      cipher: ""
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /@Rayan_Config
+        headers:
+            Host: rayan-config-telegram-a05.rayan.dpdns.org
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: JP_4896
+      type: vless
+      server: 156.238.18.172
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+        headers:
+            Host: sg.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: JP_4897
+      type: vless
+      server: 156.238.18.207
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: "/Telegram\U0001F1E8\U0001F1F3@MxlShare@WangCai2/?ed=2560"
+        headers:
+            Host: yd.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4898
+      type: vless
+      server: 172.66.133.107
+      port: 443
+      uuid: 286a5f83-f8e6-47b4-a47e-5f7a6bec71fc
+      alterId: 0
+      cipher: ""
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /@Rayan_Config
+        headers:
+            Host: rayan-confic-11.rayan-iv.dns-dynamic.net
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: CR_4899
+      type: vless
+      server: 190.93.245.251
+      port: 8880
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /Telegram
+        headers:
+            Host: cf.d3z.net
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: CR_4900
+      type: vless
+      server: 190.93.246.156
+      port: 2083
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      alterId: 0
+      cipher: ""
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /تعداد
+        headers:
+            Host: jaegbsem36.cfd
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4901
+      type: vless
+      server: 172.64.95.171
+      port: 443
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      alterId: 0
+      cipher: ""
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /snippets
+        headers:
+            Host: test.saas.cname.123153.xyz
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4902
+      type: vless
+      server: 104.18.15.201
+      port: 443
+      uuid: 5da52d2d-1ab8-48d0-8421-8354fd6ce7d3
+      alterId: 0
+      cipher: ""
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /@Rayan_Config
+        headers:
+            Host: rayan-config-06.rayan-ii.dns-dynamic.net
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4903
+      type: vless
+      server: 172.67.220.32
+      port: 443
+      uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+      alterId: 0
+      cipher: ""
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /O9jlBCbIm3xr1D40NK
+        headers:
+            Host: xXCvVBNhJ.999836.XYz
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: AM_4904
+      type: vless
+      server: 185.162.230.177
       port: 8880
       uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
       alterId: 0
@@ -22527,7 +22170,7 @@ proxies:
       skip-cert-verify: false
       network: ws
       ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/"
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
         headers:
             Host: ip.langmanshanxi.top
       password: ""
@@ -22537,20 +22180,20 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
-    - name: IN_4945
+    - name: GB_4905
       type: vless
-      server: 103.245.228.143
+      server: 109.176.239.3
       port: 8880
-      uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
       alterId: 0
       cipher: ""
       tls: false
       skip-cert-verify: false
       network: ws
       ws-opts:
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+        path: /Telegram
         headers:
-            Host: yg.bantony199.top
+            Host: bitget1.asdasd.click
       password: ""
       protocol: ""
       obfs: ""
@@ -22558,6 +22201,699 @@ proxies:
       obfs-param: ""
       obfs-password: ""
       udp: true
+    - name: LT_4906
+      type: vless
+      server: 89.116.180.186
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: JO_4907
+      type: vless
+      server: 62.72.166.177
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: CH_4908
+      type: vless
+      server: 185.18.250.3
+      port: 8880
+      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: bitget1.asdasd.click
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: LT_4909
+      type: vless
+      server: 89.116.180.156
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: kjgx.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: IN_4910
+      type: vless
+      server: 103.245.228.188
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: RU_4911
+      type: vless
+      server: 45.8.211.177
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: LT_4912
+      type: vless
+      server: 86.38.214.168
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /Telegram@WangCai2/?ed=2560
+        headers:
+            Host: kjgx.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: SI_4913
+      type: vless
+      server: 92.53.188.213
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /?ed=2560
+        headers:
+            Host: jp.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4914
+      type: vless
+      server: 108.165.216.63
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: jp.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: RU_4915
+      type: vless
+      server: 185.148.107.87
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4916
+      type: vless
+      server: 66.235.200.186
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: RU_4917
+      type: vless
+      server: 5.182.84.63
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /Telegram
+        headers:
+            Host: jp.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4918
+      type: vless
+      server: 45.159.219.186
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: SI_4919
+      type: vless
+      server: 92.53.188.177
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4920
+      type: vless
+      server: 45.159.218.63
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: jp.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4921
+      type: vless
+      server: 161.145.150.177
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4922
+      type: vless
+      server: 45.159.217.186
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4923
+      type: vless
+      server: 184.174.80.3
+      port: 8880
+      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3
+        headers:
+            Host: bitget1.asdasd.click
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4924
+      type: vless
+      server: 45.159.219.177
+      port: 8880
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+        headers:
+            Host: ip.langmanshanxi.top
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4925
+      type: vless
+      server: 199.181.197.213
+      port: 8880
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /?ed=2560
+        headers:
+            Host: jp.laoyoutiao.link
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: true
+    - name: US_4935
+      type: trojan
+      server: 104.21.42.42
+      port: 443
+      uuid: ""
+      alterId: 0
+      cipher: ""
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /aioproxybot/129.150.49.58-18650
+        headers:
+            Host: aio.zipzap.biz.id
+      password: f282b878-8711-45a1-8c69-5564172123c1
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_4936
+      type: vmess
+      server: 172.67.191.174
+      port: 80
+      uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /f6taOMcOSZb9TPR
+        headers:
+            Host: nnnnnnnnnnnnnn.222769.xyz
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_4939
+      type: vmess
+      server: 172.67.191.174
+      port: 80
+      uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /VaaSEfNLHdW3I98dxLkez
+        headers:
+            Host: ooooooooop.222769.xyz
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_4940
+      type: vmess
+      server: 199.181.197.60
+      port: 443
+      uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /us.kkp.me.eu.org/aa
+        headers:
+            Host: farid.1.berozha.ir
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_4941
+      type: vmess
+      server: 104.21.84.58
+      port: 443
+      uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
+        headers:
+            Host: tttttttttgggghhhnmk.iran2035.dpdns.org
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: CY_4942
+      type: vmess
+      server: 195.85.59.157
+      port: 80
+      uuid: b0a60a1a-fb2a-4d93-b0a3-6ea50d7a1dea
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /profile/telegram@ssrsub
+        headers:
+            Host: cdn-node-oss-99.paofu.de
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_4943
+      type: vmess
+      server: 104.21.77.79
+      port: 443
+      uuid: b75c9731-408d-4aa6-8ae9-3857205113a1
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /nvjx6j7kbDQIQMZvbeVA9
+        headers:
+            Host: klo.986986.shop
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: RU_4944
+      type: vmess
+      server: 45.136.245.177
+      port: 23160
+      uuid: 9fc98124-c1cf-4bc8-b142-96b8eebfad0e
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /
+        headers:
+            Host: ""
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: SG_4945
+      type: ss
+      server: 128.199.164.171
+      port: 56668
+      uuid: ""
+      alterId: 0
+      cipher: chacha20-ietf-poly1305
+      tls: false
+      skip-cert-verify: false
+      network: ""
+      ws-opts:
+        path: ""
+        headers:
+            Host: ""
+      password: wHEcezPWLS3XPDat8UKkYY
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_4946
+      type: vmess
+      server: 104.18.156.119
+      port: 443
+      uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /us.kkp.me.eu.org/aa
+        headers:
+            Host: admin.kasrax.ir
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_4947
+      type: vmess
+      server: 104.21.88.226
+      port: 443
+      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /6We3U9Df1WGxgFnoFPw1
+        headers:
+            Host: qqqqqqqqqqqqaaaa.www890604.dpdns.org
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: CY_4948
+      type: vmess
+      server: 195.85.59.95
+      port: 80
+      uuid: b0a60a1a-fb2a-4d93-b0a3-6ea50d7a1dea
+      alterId: 0
+      cipher: auto
+      tls: false
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /profile/telegram@ssrsub
+        headers:
+            Host: cdn-node-oss-99.paofu.de
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
+    - name: US_4949
+      type: vmess
+      server: 172.67.187.28
+      port: 443
+      uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+      alterId: 0
+      cipher: auto
+      tls: true
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
+        headers:
+            Host: ddddddddddfrrrrrrrry.iran2035.dpdns.org
+      password: ""
+      protocol: ""
+      obfs: ""
+      protocol-param: ""
+      obfs-param: ""
+      obfs-password: ""
+      udp: false
 proxy-groups:
     - name: GROUP_CN_TEST
       type: url-test
@@ -22622,6 +22958,8 @@ proxy-groups:
         - CN_2019
         - CN_2080
         - CN_2147
+        - HK_2148
+        - HK_2155
         - CN_2164
         - CN_2165
         - CN_2226
@@ -22667,10 +23005,8 @@ proxy-groups:
         - HK_4687
         - HK_4689
         - HK_4692
-        - HK_4833
-        - HK_4840
-        - CN_4888
-        - CN_4904
+        - HK_4834
+        - HK_4841
       url: http://www.apple.com/library/test/success.html
       interval: 120
       timeout: 1500
@@ -22762,15 +23098,17 @@ proxy-groups:
         - AM_4756
         - DE_4772
         - DE_4798
-        - BG_4820
-        - DE_4825
-        - DE_4834
-        - CA_4845
-        - CR_4898
-        - AE_4915
-        - AE_4921
-        - AU_4928
-        - DE_4936
+        - BG_4821
+        - DE_4826
+        - DE_4835
+        - CA_4846
+        - CR_4893
+        - CR_4899
+        - CR_4900
+        - AM_4904
+        - CH_4908
+        - CY_4942
+        - CY_4948
       url: http://www.apple.com/library/test/success.html
       interval: 120
       timeout: 0
@@ -22784,6 +23122,7 @@ proxy-groups:
         - EE_486
         - GB_564
         - FR_869
+        - GB_872
         - FI_911
         - FR_928
         - FR_1492
@@ -22821,12 +23160,8 @@ proxy-groups:
         - FR_4791
         - FR_4804
         - FI_4811
-        - GB_4889
-        - GB_4891
-        - ES_4903
-        - EE_4909
-        - ES_4940
-        - ES_4943
+        - ES_4892
+        - GB_4905
       url: http://www.apple.com/library/test/success.html
       interval: 120
       timeout: 1500
@@ -22864,6 +23199,8 @@ proxy-groups:
         - JP_1749
         - JP_1918
         - ID_1975
+        - JP_2158
+        - JP_2159
         - JP_3649
         - IN_3672
         - KZ_3681
@@ -22895,23 +23232,19 @@ proxy-groups:
         - KR_4805
         - KR_4808
         - JP_4810
-        - LT_4823
-        - IR_4829
-        - KR_4835
+        - LT_4824
+        - IR_4830
         - KR_4836
         - KR_4837
         - KR_4838
-        - JP_4892
-        - KZ_4894
-        - LT_4899
-        - IN_4901
-        - JP_4907
-        - IN_4922
-        - JP_4929
-        - KZ_4930
-        - LT_4934
-        - LU_4938
-        - IN_4945
+        - KR_4839
+        - JP_4896
+        - JP_4897
+        - LT_4906
+        - JO_4907
+        - LT_4909
+        - IN_4910
+        - LT_4912
       url: http://www.apple.com/library/test/success.html
       interval: 120
       timeout: 1500
@@ -22924,7 +23257,6 @@ proxy-groups:
         - NL_861
         - NL_1015
         - MY_1242
-        - MY_1243
         - MY_1253
         - MN_1388
         - MY_1451
@@ -22936,8 +23268,8 @@ proxy-groups:
         - MY_1576
         - PL_1591
         - PL_1681
+        - NL_1963
         - MY_2113
-        - MY_2116
         - MY_2117
         - NL_2146
         - MY_2358
@@ -22956,9 +23288,8 @@ proxy-groups:
         - NL_4755
         - NL_4759
         - NL_4761
-        - NL_4828
-        - PL_4841
-        - NL_4900
+        - NL_4829
+        - PL_4842
       url: http://www.apple.com/library/test/success.html
       interval: 120
       timeout: 1500
@@ -22991,12 +23322,16 @@ proxy-groups:
         - SG_1443
         - TW_1484
         - TW_1516
+        - TW_1533
+        - TW_1540
         - TW_1566
         - TW_1568
         - TW_1580
         - TW_1611
+        - TW_1620
         - TW_1624
-        - TW_1638
+        - TW_1626
+        - TW_2078
         - SG_2104
         - SG_2156
         - SG_2304
@@ -23034,17 +23369,19 @@ proxy-groups:
         - SE_4794
         - SE_4795
         - SE_4801
-        - RU_4821
-        - RO_4824
-        - RU_4826
-        - SG_4843
-        - RU_4910
+        - RU_4822
+        - RO_4825
+        - RU_4827
+        - SG_4844
+        - RU_4889
+        - RU_4894
         - RU_4911
-        - RU_4916
-        - RU_4919
-        - RU_4923
-        - RU_4926
-        - SI_4931
+        - SI_4913
+        - RU_4915
+        - RU_4917
+        - SI_4919
+        - RU_4944
+        - SG_4945
       url: http://www.apple.com/library/test/success.html
       interval: 120
       timeout: 1500
@@ -23055,11 +23392,12 @@ proxy-groups:
         - US_37
         - US_38
         - US_39
-        - US_60
+        - US_62
         - US_64
         - US_72
+        - US_241
+        - US_243
         - US_254
-        - US_256
         - US_268
         - US_349
         - US_352
@@ -23095,20 +23433,26 @@ proxy-groups:
         - UA_553
         - US_567
         - US_568
+        - US_573
+        - US_598
         - US_678
         - US_680
         - US_737
         - US_748
+        - US_768
         - US_775
         - US_784
-        - US_801
+        - US_785
+        - US_791
+        - US_795
+        - US_796
+        - US_797
         - US_822
         - US_856
         - US_860
         - US_862
-        - US_865
+        - US_863
         - US_871
-        - US_872
         - US_873
         - US_886
         - US_899
@@ -23121,10 +23465,11 @@ proxy-groups:
         - US_1008
         - US_1009
         - US_1010
+        - US_1030
         - US_1049
         - US_1052
+        - US_1055
         - US_1057
-        - US_1058
         - US_1071
         - US_1072
         - US_1087
@@ -23139,7 +23484,6 @@ proxy-groups:
         - US_1194
         - US_1214
         - US_1229
-        - US_1244
         - US_1255
         - US_1265
         - US_1273
@@ -23160,19 +23504,18 @@ proxy-groups:
         - US_1452
         - VN_1469
         - US_1495
-        - US_1511
         - US_1515
         - US_1522
         - US_1551
         - US_1596
-        - US_1637
+        - US_1618
         - US_1666
+        - US_1679
         - US_1730
         - US_1892
+        - US_1912
         - US_1922
-        - US_1963
         - US_1965
-        - US_1979
         - US_2064
         - US_2213
         - US_2563
@@ -23244,6 +23587,7 @@ proxy-groups:
         - US_3556
         - US_3568
         - US_3572
+        - US_3585
         - US_3591
         - US_3602
         - US_3603
@@ -23254,8 +23598,11 @@ proxy-groups:
         - US_3624
         - US_3633
         - US_3634
+        - US_3652
         - US_3658
         - US_3661
+        - US_3662
+        - US_3663
         - US_3670
         - US_3673
         - US_3674
@@ -23272,6 +23619,8 @@ proxy-groups:
         - US_3731
         - US_3737
         - US_3746
+        - US_3749
+        - US_3783
         - US_3788
         - US_3883
         - US_3885
@@ -23647,33 +23996,37 @@ proxy-groups:
         - US_4817
         - US_4818
         - US_4819
-        - US_4827
-        - US_4830
-        - US_4842
-        - US_4844
-        - US_4883
+        - US_4828
+        - US_4831
+        - US_4843
+        - US_4845
+        - US_4884
+        - US_4888
         - US_4890
-        - US_4893
+        - US_4891
+        - US_4895
+        - US_4898
+        - US_4901
         - US_4902
-        - US_4905
-        - US_4906
-        - US_4908
-        - US_4912
-        - US_4913
+        - US_4903
         - US_4914
-        - US_4917
+        - US_4916
         - US_4918
         - US_4920
+        - US_4921
+        - US_4922
+        - US_4923
         - US_4924
-        - US_4927
-        - US_4932
-        - US_4933
+        - US_4925
         - US_4935
-        - US_4937
+        - US_4936
         - US_4939
+        - US_4940
         - US_4941
-        - US_4942
-        - US_4944
+        - US_4943
+        - US_4946
+        - US_4947
+        - US_4949
       url: http://www.apple.com/library/test/success.html
       interval: 120
       timeout: 1500
@@ -23684,7 +24037,6 @@ proxy-groups:
         - ZA_565
         - ZA_566
         - ZA_774
-        - ZA_4925
       url: http://www.apple.com/library/test/success.html
       interval: 120
       timeout: 1500
